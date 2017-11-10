@@ -51,3 +51,29 @@ function getMeat(runningTotal,text1) {
 	document.getElementById("showText").innerHTML=text1;
 	document.getElementById("totalPrice").innerHTML = "</h3>Total: <strong>$"+runningTotal+".00"+"</strong></h3>";
 };
+
+function getVeggies(runningTotal,text1) {
+	var veggieTotal = 0;
+	var selectedveggies = [];
+	var veggieArray = document.getElementsByClassName("veggies");
+	for (var h = 0; h < veggieArray.length; h++) {
+		if (veggieArray[h].checked) {
+			selectedveggies.push(veggieArray[h].value);
+			console.log("selected veggie item: ("+veggieArray[h].value+")");
+			text1 = text1+veggieArray[h].value+"<br>";
+		}
+	}
+	var veggieCount = selectedveggies.length;
+	if (veggieCount > 1) {
+		veggieTotal = (veggieCount - 1);
+	} else {
+		veggieTotal = 0;
+	}
+	runningTotal = (runningTotal + veggieTotal);
+	console.log("total selected veggie items: "+veggieCount);
+	console.log(veggieCount+" veggie - 1 free veggie = "+"$"+veggieTotal+".00");
+	console.log("veggie text1: "+text1);
+	console.log("Purchase Total: "+"$"+runningTotal+".00");
+	document.getElementById("showText").innerHTML=text1;
+	document.getElementById("totalPrice").innerHTML = "</h3>Total: <strong>$"+runningTotal+".00"+"</strong></h3>";
+};
