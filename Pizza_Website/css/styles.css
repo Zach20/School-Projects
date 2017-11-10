@@ -14,13 +14,6 @@
 	position: relative;
 	left:70px;
 }
-		
-#totalPrice {
-	width:200px;
-	height:190px;
-	margin:0 auto;
-	float:right;
-}
 
 .left {
 	width:200px;
@@ -68,6 +61,13 @@
 	bottom:880px;
 }
 
+#totalPrice {
+	width:200px;
+	height:190px;
+	margin:0 auto;
+	float:right;
+}
+
 #showText {
 	width:200px;
 	height:190px;
@@ -76,10 +76,12 @@
 }
 
 #cart {
-	top:0;
 	margin:0px auto;
 	width:400px;
 	height:200px;
+	position:relative;
+	left: 100px;
+	bottom: 900px;
 }
 
 #btnOrder {
