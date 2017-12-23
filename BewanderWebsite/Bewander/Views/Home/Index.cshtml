@@ -1,0 +1,349 @@
+﻿<!--End <div class="Container" from _Layout.cshtml-->
+</div>
+<div>
+    @using Microsoft.AspNet.Identity
+
+    <div class="bckHome">
+        <header id="header-home">
+            <!--            <h1 class="header-home-title">bewander</h1>-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 bewanderLogo">
+                        <img src="/Images/Home/logo.png" id="logoimage" class="img-fluid" alt="Responsive image" width="80%">
+                    </div>
+                    <div class="col-12">
+                        <!--                        <h1 class="header-home-title">A community of travelers, <br>sharing the best experiences &amp; places.</h1>-->
+                        <h1 class="header-home-title">Join us and <span class="typer" data-delay="150" data-words="wander,explore,review" data-colors="#6DDBDB"></span><span class="cursor" data-owner="first-typer"></span></h1>
+
+                    </div>
+                    <div class="col-12 header-home-btn">
+                        @if (!Request.IsAuthenticated)
+                        {
+                            <a href='@Url.Action("Login", "Account")' class="bttn btn-ghost hidden-xs-down">Sign In</a>
+                        }
+                        else
+                        {
+                            <a href='@Url.Action("ProfilePage", "Users", new { userID = User.Identity.GetUserId() }, null)' class="bttn btn-ghost hidden-xs-down">Sign Up</a>
+                        }
+                        @*<p><button type="button" id="learnBtn" class="btn btn-success scroll-to-learnMore hidden-sm-up">Learn more</button></p>
+                            @if (!Request.IsAuthenticated)
+                            {
+                                <p><a href='@Url.Action("Register", "Account")' class="btn btn-success hidden-sm-up">Sign Up</a></p>
+                            }
+                            else
+                            {
+                                <p><a href='@Url.Action("ProfilePage", "Users", new { userID = User.Identity.GetUserId() }, null)' class="btn btn-success hidden-sm-up">Sign Up</a></p>
+                            }*@
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <section>
+            <div class="container learnMore" id="learnMore">
+                <div class="row">
+
+                    <div class="col-12">
+                        <h1 class="community">Our Community</h1>
+                    </div>
+
+                    <div class="col-12 text-center">
+                        <p class="long-copy">A community of travelers, sharing the best experiences &amp; places.</p>
+                    </div>
+
+                    <div class="row bewander-cards">
+                        <div class="col-12 col-md-4 bar text-center">
+                            <!-- Card -->
+                            <article class="card animated fadeInLeft">
+                                <img class="card-img-top img-responsive" src="/Images/Home/signUp.png" alt="Sign In" />
+                                <div class="card-block">
+                                    <h4 class="card-title">Sign Up</h4>
+                                    <p class="card-text">Sign up and see what your fellow wanderers are saying before you take off on your next adventure! Read reviews, find hidden gems, search for locals and let Bewander help you experience a city like never before!</p>
+                                    @if (!Request.IsAuthenticated)
+                                    {
+                                        <a href='@Url.Action("Login", "Account")' class="btn btn-outline-success">Start today</a>
+                                    }
+                                    else
+                                    {
+                                        <a href='@Url.Action("ProfilePage", "Users", new { userID = User.Identity.GetUserId() }, null)' class="btn btn-outline-success">Start now</a>
+                                    }
+
+                                </div>
+                            </article><!-- .end Card -->
+                        </div>
+
+                        <div class="col-12 col-md-4 bar text-center">
+                            <!-- Card -->
+                            <article class="card animated fadeInLeft">
+                                <img class="card-img-top img-responsive" src="/Images/Home/travelWorld.png" alt="Travel the World" />
+                                <div class="card-block">
+                                    <h4 class="card-title">Travel</h4>
+                                    <p class="card-text">Go beyond the photographs online or in magazines, and explore our big, beautiful world! See the things you've always wanted to see, and some you didn't know you needed to. Have Fun, Meet Locals, Create Memories.</p>
+                                    <a class="btn btn-outline-success" href='@Url.Action("Index", "Reviews")'>Start traveling</a>
+                                </div>
+                            </article><!-- .end Card -->
+                        </div>
+
+                        <div class="col-12 col-md-4 bar text-center">
+                            <!-- Card -->
+                            <article class="card animated fadeInLeft">
+                                <img class="card-img-top img-responsive" src="/Images/Home/review.png" alt="Review" />
+                                <div class="card-block">
+                                    <h4 class="card-title">Review</h4>
+                                    <p class="card-text">Get the scoop on where to eat like a local in Lisbon. Find the secret spot in Croatia for perfect, uncrowded paradise views. Discover the best chocolate in Belgium. Share your experiences with your fellow Bewanders!</p>
+                                    <a class="btn btn-outline-success" href='@Url.Action("Create", "Reviews")'>Discover places</a>
+                                </div>
+                            </article><!-- .end Card -->
+                        </div>
+                    </div><!--/row-->
+
+                </div>
+            </div>
+        </section>
+
+
+        <section id="explore">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="seeWorld">Explore Hidden Places</h1>
+                    </div>
+                </div>
+                <!-- Browser imgs -->
+                <section class="section-meals hidden-sm-down">
+                    <ul class="meals-showcase clearfix">
+                        <li>
+                            <figure class="meal-photo">
+                                <img src="/Images/Home/food.png" alt="Korean bibimbap with egg and vegetables">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure class="meal-photo">
+                                <img src="/Images/Home/compass.png" alt="Simple italian pizza with cherry tomatoes">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure class="meal-photo">
+                                <img src="/Images/Home/insidePlane.png" alt="Chicken breast steak with vegetables">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure class="meal-photo">
+                                <img src="/Images/Home/china.png" alt="Autumn pumpkin soup">
+                            </figure>
+                        </li>
+                    </ul>
+                    <ul class="meals-showcase clearfix">
+                        <li>
+                            <figure class="meal-photo">
+                                <img src="/Images/Home/food2.png" alt="Paleo beef steak with vegetables">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure class="meal-photo">
+                                <img src="/Images/Home/personView5.png" alt="Healthy baguette with egg and vegetables">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure class="meal-photo">
+                                <img src="/Images/Home/groupCoffee.png" alt="Burger with cheddar and bacon">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure class="meal-photo">
+                                <img src="/Images/Home/map.png" alt="Granola with cherries and strawberries">
+                            </figure>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- Mobile imgs -->
+                @*<section class="hidden-md-up">
+                    <div class="row">
+                        <div class="col-12 meal-photo">
+                            <img src="/Images/Home/food.png" alt="..." class="img-thumbnail">
+                        </div>
+                        <div class="col-12 meal-photo">
+                            <img src="/Images/Home/insidePlane.png" alt="..." class="img-thumbnail">
+                        </div>
+                        <div class="col-12 meal-photo">
+                            <img src="/Images/Home/china.png" alt="..." class="img-thumbnail">
+                        </div>
+                        <div class="col-12 meal-photo">
+                            <img src="/Images/Home/map.jpg" alt="..." class="img-thumbnail">
+                        </div>
+                        <div class="col-12 meal-photo">
+                            <img src="/Images/Home/personView3.png" alt="..." class="img-thumbnail">
+                        </div>
+                    </div>
+                </section>*@
+            </div>
+        </section>
+
+
+
+        <section id="whereBewander">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="whereBewander-title">Where will you wander next?</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        @if (!Request.IsAuthenticated)
+                        {
+                            <p><a href='@Url.Action("Login", "Account")' class="btn btn-success">Start today</a></p>
+                        }
+                        else
+                        {
+                            <p><a href='@Url.Action("ProfilePage", "Users", new { userID = User.Identity.GetUserId() }, null)' class="btn btn-success">Start today</a></p>
+                        }
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--
+    <section id="HomeIndex">
+
+        <div class="banner-container">
+            <script type="text/javascript" src="@Url.Content("/Scripts/crawler.js")">
+                @* Text and/or Image Crawler Script v1.53 (c)2009-2011 John Davenport Scheuer
+                as first seen in http://www.dynamicdrive.com/forums/
+                username: jscheuer1 - This Notice Must Remain for Legal Use
+                *@
+            </script>
+
+            <div class="marquee" id="mycrawler">
+                <img src="~/Images/Global/banner.png">
+            </div>
+            <script type="text/javascript">
+                marqueeInit({
+                    uniqueid: 'mycrawler',
+                    style: {
+                        'width': 'auto',
+                        'background-color': '#454545' //img border
+                    },
+                    inc: 5, //speed
+                    mouse: 'cursor driven',
+                    moveatleast: 2,
+                    neutral: 150,
+                    perist: true,
+                    savedirection: true
+                });
+            </script>
+        </div>
+
+        @*    <div id="slideshow" class="container-fluid">                         *@
+        @*        <img class="img-cover" src="~/Images/Home/Barcelona-ES.png">     *@
+        @*        <div class="img-caption">                                        *@
+        @*            <img class="" src="~/Images/Global/logo-with-sides.png" />   *@
+
+        @*Tanvir (20/12/2016): Linked Meet locals from around the world to meet a local page*@
+        @*            <h3 class="img-rounded">@Html.ActionLink("Meet Locals from Around the World", "Index", "Reviews")</h3> *@
+
+        <h3 class="img-rounded">Connect. Wander. Review.</h3>
+        @*<p class="img-rounded">Bewander is a fresh social media website that was created to connect travelers to the best way to see the world on whatever budget.</p>*@
+        @*        </div> *@
+        @*    </div> *@
+
+        @*<div class="container-fluid mission">
+            <div class="container-fluid search">
+                <form class="navbar-form " role="search">
+                    <div class="form-group" id="search-bar">
+                        <input type="text" class="form-control" placeholder="Search for people or places around the world" onkeyup="Search(this)">
+                        <ul id="search-results"></ul>
+                    </div>
+                </form>
+            </div>*@**@*@
+            <div class="row" id="homediv" style="width:80%;margin:auto;padding-top:25px;">
+                <div class="col-sm-4 text-center mission-div">
+                    @if (!Request.IsAuthenticated)
+                    {
+                        <a href='@Url.Action("Register", "Account")'>
+                            <section class="CF1">
+                                <h3>Sign Up</h3>
+                                <img id="login" src="/../../Images/Home/blank.png" />
+                                <article>
+
+                                    Sign up and see what your fellow wanderers are saying before you take off on your next adventure! Read reviews, find hidden gems, search for locals and let Bewander help you experience a city like you deserve!
+                                </article>
+                            </section>
+                        </a>
+                    }
+                    else
+                    {
+                        <a href='@Url.Action("ProfilePage", "Users", new { userID = User.Identity.GetUserId() }, null)'>
+                            <section class="CF1">
+                                <h3>See Profile</h3>
+                                <img id="login" src="/../../Images/Home/blank.png" />
+                                <article>
+                                    See what your fellow wanderers are saying before you take off on your next adventure! Read reviews, find hidden gems, search for locals and let Bewander help you experience a city like you deserve!
+                                </article>
+                            </section>
+                        </a>
+
+                    }
+                </div>
+                <div class="col-sm-4 text-center mission-div">
+                    <a href='@Url.Action("Index", "Reviews")'>
+                        <section class="CF2">
+                            <h3>Travel</h3>
+                            <img id="airplane" src="/../../Images/Home/blank.png" />
+                            <article>
+                                Go beyond the photographs online or in magazines, and explore our big, beautiful world! See the things you’ve always wanted to see, and some you didn’t know you needed to. Meet locals. Create memories. Go on an adventure!
+                            </article>
+                        </section>
+                    </a>
+                </div>
+
+                <div class="col-sm-4 text-center mission-div">
+                    <a href='@Url.Action("Create", "Reviews")'>
+                        <section>
+                            <h3>Review</h3>
+                            <img class="" src="~/Images/Home/ReviewsIcon.png" />
+                            <article>
+                                Get the scoop on where to eat like a local in Lisbon. Find the secret spot in Croatia for perfect, uncrowded paradise views. Discover the best chocolate in Belgium. Share your experiences with your fellow travelers on Bewander!
+                            </article>
+                        </section>
+                    </a>
+                </div>
+            </div>
+
+    </section>*@-->
+</div>
+
+<script src="~/Scripts/typer.js"></script>
+<script src="~/Scripts/jquery.waypoints.min.js"></script>
+<script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
+<script>
+    $("#learnBtn").click(function () {
+        $('html, body').animate({
+            scrollTop: $("#learnMore").offset().top
+        }, 2000);
+    });
+    window.sr = ScrollReveal({ reset: true });
+</script>

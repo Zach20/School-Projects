@@ -1,0 +1,16 @@
+﻿@model IEnumerable<Bewander.ViewModels.RelationshipViewModel>
+
+
+<div id="music" class="tab-pane" role="tabpanel">
+    <div class="row">
+        <div class="col-sm-12 col-lg-10 col-lg-offset-1">
+            <h3>Friends List</h3>
+            <ul id="friend-list">
+            @foreach (var item in Model)
+            {
+                <li onclick="ViewProfile('@item.UserID')"><a><img src="@item.ProfilePicture" />@item.FirstName @item.LastName</a></li>
+            }
+            </ul>
+        </div>
+    </div>
+</div>

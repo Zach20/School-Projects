@@ -1,0 +1,99 @@
+﻿@model Bewander.Models.CombinedLRViewModel
+@{
+    ViewBag.Title = "Register";
+}
+
+<h2 id="registerTitle">@ViewBag.Title.</h2>
+<div class="row">
+    @using (Html.BeginForm("Register", "Account", FormMethod.Post,
+                                        new { @class = "form-horizontal col-md-6 w-100", role = "form", style = "padding:0px;", @id = "register-form" }))
+    {
+        @Html.AntiForgeryToken()
+        <h4>Create a new account.</h4>
+            <hr />
+
+     <!-- PlaceID (hidden) -->
+            @Html.HiddenFor(model => model.RegisterViewModel.PlaceID)
+
+    <!-- PlaceName (hidden)-->
+            @Html.HiddenFor(model => model.RegisterViewModel.PlaceName)
+
+    <!-- Lat (hidden) -->
+            @Html.HiddenFor(model => model.RegisterViewModel.Lat)
+
+    <!-- Lng (hidden)-->
+            @Html.HiddenFor(model => model.RegisterViewModel.Lng)
+
+            @Html.ValidationSummary("", new { @class = "text-danger" })
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.RegisterViewModel.Email, new { @class = "col-md-3 control-label" })
+                <div class="col-md-9">
+                    @Html.TextBoxFor(m => m.RegisterViewModel.Email, new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.RegisterViewModel.Password, new { @class = "col-md-3 control-label" })
+                <div class="col-md-9">
+                    @Html.PasswordFor(m => m.RegisterViewModel.Password, new { @class = "form-control" })
+                </div>
+                <div class="col-md-9 col-md-offset-3">
+                    <p id="password-info">Must have at least 6 characters, an uppercase, <br />number and special character (e.g., 'Pass1!')</p>
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.RegisterViewModel.ConfirmPassword, new { @class = "col-md-3 control-label" })
+                <div class="col-md-9">
+                    @Html.PasswordFor(m => m.RegisterViewModel.ConfirmPassword, new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.RegisterViewModel.FirstName, new { @class = "col-md-3 control-label" })
+                <div class="col-md-9">
+                    @Html.TextBoxFor(m => m.RegisterViewModel.FirstName, new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.RegisterViewModel.LastName, new { @class = "col-md-3 control-label" })
+                <div class="col-md-9">
+                    @Html.TextBoxFor(m => m.RegisterViewModel.LastName, new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.RegisterViewModel.PlaceID, new { @class = "col-md-3 control-label" })
+                <div class="col-md-9">
+                    @Html.Editor("Search", new { htmlAttributes = new { @class = "form-control", id = "autocomplete", onFocus = "geolocate()", type = "text" } })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.RegisterViewModel.DOB, new { @class = "col-md-3 control-label" })
+                <div class="col-md-9">
+                    @Html.EditorFor(m => m.RegisterViewModel.DOB, new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-9">
+                    <p>@Html.CheckBoxFor(m => m.RegisterViewModel.ToSChecked, new { htmlAttributes = new { @class = "form-control" } }) I have read and agree to the <a href="http://bewander.com/Home/TOS">Terms of Service</a> and <a href="http://bewander.com/Home/Privacy">Privacy Policy.</a></p>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-3 col-md-9">
+                    <input type="submit" class="btn btn-default" value="Register" id="register-btn" />
+                    <!--<a role="button" id="validate-register-form" class="btn btn-default" style="margin-top:10px">Register</a>--> @*Sorry Nick, I'm going to do this the lazy way since only 7% of end-users read a Terms of Service or Privacy Policy agreement.*@
+
+                </div>
+            </div>
+
+
+        <!--<img src="~/Images/Home/BigSur-USA.png" class="img-responsive col-md-6 pull-right" id="registerImg" style="padding:0px;" alt="Big Sur">-->
+
+    }
+</div>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+<script src="~/Scripts/Custom/GoogleAutoCompleteCitiesRegister.js"></script>
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAuQaBzbJrduma-UhUFoWNyLWfJFoR3vac&libraries=places&callback=initAutocomplete" async defer></script>

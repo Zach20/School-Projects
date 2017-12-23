@@ -1,0 +1,18 @@
+﻿body {
+}
+
+#validate-register-form {
+    background-color:white;
+    position:relative;
+    margin-bottom: 2cm;
+    
+}
+
+@media(min-width:767) {
+    .vertical-align {
+            display: flex;
+            align-items: center;
+            position:relative;
+            margin-bottom: 2cm;
+        }
+}

@@ -1,0 +1,30 @@
+﻿@model Bewander.ViewModels.ChatboxViewModel
+@using Microsoft.AspNet.Identity
+
+<!--Chat: Conversation Classes-->
+<div class="chat-convo-container" id="chat-convo-@Model.RelationshipID">
+    <div class="chat-convo-header" ondblclick="HideChatConvo('chat-convo-@Model.RelationshipID')">
+        <h4 class="name-header">@Model.TargetUser.Name</h4>
+        @if ((int)Model.relationshipStatus == 4)
+        {
+            <i class="fa fa-user-plus add-user-friend" onclick="AddFriend('@Model.TargetUser.UserID')"></i>
+        }
+        <i class="fa fa-close close-icon" onclick="RemoveElement(@Model.RelationshipID)"></i>
+    </div>
+    <ul class="conversation" id="conversation-@Model.RelationshipID">
+        @foreach (var message in Model.Messages)
+        {
+            if (message.UserID == User.Identity.GetUserId())
+            {
+                <li class="current-user-message" style="width: auto;">@message.Content</li>
+                <li class="date-time"><sub>sent at @message.DateTime</sub></li>
+            }
+            else
+            {
+                <li style="width: auto;">@message.Content</li>
+            }
+        }
+    </ul>
+    @Html.Editor("chat-user-input-" + Model.RelationshipID, new { htmlAttributes = new { @class = "chat-user-input", placeholder = "Message...", relID = Model.RelationshipID } })
+</div>
+<h4 class="target-user-tab" id="chat-convo-@Model.RelationshipID-tab" onclick="ShowChatConvo('chat-convo-@Model.RelationshipID')">@Model.TargetUser.Name</h4>

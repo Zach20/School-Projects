@@ -1,0 +1,123 @@
+﻿@model Bewander.Models.ExternalLoginConfirmationViewModel
+@{
+    ViewBag.Title = "Register";
+}
+<h2 id="externalLogin">@ViewBag.Title.</h2>
+<h3>Associate your @ViewBag.LoginProvider account.</h3>
+
+@*@using (Html.BeginForm("ExternalLoginConfirmation", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))*@
+@using (Html.BeginForm("ExternalLoginConfirmation", "Account", FormMethod.Post,
+                                    new { @class = "form-horizontal col-md-6 w-100", role = "form", style = "padding:0px;", @id = "register-form" }))
+{
+    @Html.AntiForgeryToken()
+
+    <h4>Association Form</h4>
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <p class="text-info">
+        You've successfully authenticated with <strong>@ViewBag.LoginProvider</strong>.
+        Please enter a user name for this site below and click the Register button to finish
+        logging in.
+    </p>
+      <!-- PlaceID (hidden) -->
+    @Html.HiddenFor(model => model.PlaceID)
+
+    <!-- PlaceName (hidden)-->
+    @Html.HiddenFor(model => model.PlaceName)
+
+    <!-- Lat (hidden) -->
+    @Html.HiddenFor(model => model.Lat)
+
+    <!-- Lng (hidden)-->
+    @Html.HiddenFor(model => model.Lng)
+
+    @Html.ValidationSummary("", new { @class = "text-danger" })
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Email, new { @class = "col-md-3 control-label" })
+        <div class="col-md-9">
+            @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+        </div>
+    </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.Password, new { @class = "col-md-3 control-label" })
+            <div class="col-md-9">
+                @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+            </div>
+            <div class="col-md-9 col-md-offset-3">
+                <p id="password-info">Must have at least 6 characters, an uppercase, <br />number and special character (e.g., 'Pass1!')</p>
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.ConfirmPassword, new { @class = "col-md-3 control-label" })
+            <div class="col-md-9">
+                @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.FirstName, new { @class = "col-md-3 control-label" })
+            <div class="col-md-9">
+                @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.LastName, new { @class = "col-md-3 control-label" })
+            <div class="col-md-9">
+                @Html.TextBoxFor(m => m.LastName, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.PlaceID, new { @class = "col-md-3 control-label" })
+            <div class="col-md-9">
+                @Html.Editor("Search", new { htmlAttributes = new { @class = "form-control", id = "autocomplete", onFocus = "geolocate()", type = "text" } })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.DOB, new { @class = "col-md-3 control-label" })
+            <div class="col-md-9">
+                @Html.EditorFor(m => m.DOB, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-3 col-md-9">
+                <!--<input type="submit" class="btn btn-default" value="Register" id="register" disabled />-->
+                <a role="button" id="validate-register-form" class="btn btn-default" style="margin-top:10px">Register</a>
+
+            </div>
+        </div>
+    @*<div class="form-group">
+        @Html.LabelFor(m => m.UserName, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.UserName, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.UserName, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Email, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+        </div>
+    </div>*@
+    <!--Send user to policy form to register-->
+    @*<div class="form-group">
+        <div class="col-md-offset-3 col-md-9">
+            <input type="submit" class="btn btn-default" value="Register"/>
+            <a role="button" id="validate-register-form" class="btn btn-default" style="margin-top:10px">Register</a>
+            <button type="button" class="btn btn-default" onclick="location.href='@Url.Action("Register", "Account")'">Register</button>
+              
+
+        </div>
+    </div>*@
+
+        @Html.Partial("_PolicyModalPartial")
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+<script src="~/Scripts/Custom/GoogleAutoCompleteCitiesRegister.js"></script>
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDiGxbdln-h3F7Mt14LhLpSqEVUhwip9BI&libraries=places&callback=initAutocomplete" async defer></script>

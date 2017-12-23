@@ -1,0 +1,110 @@
+﻿@model Bewander.ViewModels.AboutViewModel
+
+<div id="about" class="tab-pane" role="tabpanel">
+    @*<div class="row" style="padding-bottom:10px;">*@
+    @*<div class="col-sm-12 about-image">
+
+
+            <img id="prof-img" class="about-image" src="~/Images/@Model.ProfilePicturePath" alt="@Model.ProfilePictureName" />
+
+        </div>*@
+
+    <div class=" h-100 d-flex justify-content-center" id="about-intro">
+        <div class="jumbotron my-auto">
+            <h2> @Model.FirstName @Model.LastName</h2>
+
+            @*<ul class="container about-about">*@
+
+
+            <!-- A button under the user image taking them to edit their profile. -->
+
+            @if ((string)(Session["Reviews"]) == "self")
+            {
+                <button id="add-more" type="button" class="btn btn-success center-block">@Html.ActionLink("Add More About Yourself", "EditProfile", "Users", new { id = "add-more-hyperlink" })</button>
+
+            }
+
+            <br />
+
+            <div class="container-fluid col-lg-12 text-center" id="about-stats">
+                <h3 id="hometown" onclick="ViewPlace('@Model.HomeTown.PlaceID')" class="about-clickable">@Model.HomeTown.FormattedAddress</h3>
+                <h5 class="text-center">@Model.About</h5>
+                <h4 class="about-descriptor" style="color:black"><u">Birthday</u></h4>
+                <h5 class="about-value">@Model.Birthday</h5>
+                <h4 class="about-descriptor" style="color:black"><u>Member Since</u></h4>
+                <h5 class="about-value">@Model.MemberSince</h5>
+
+            </div>
+            @*</ul>*@
+
+
+
+
+
+
+
+            <div class="past-info row text-center">
+                <div class="col-sm-4">
+                    <h4 class="about-descriptor" style="color:black"><u>Past Local</u></h4>
+                    @if (Model.PastLocals.Count > 1)
+            {
+                foreach (var item in Model.PastLocals)
+                {
+                            <h5 onclick="ViewPlace('@item.PlaceID')" class="about-value about-clickable">@item.FormattedAddress</h5>
+                        }
+                    }
+                </div>
+                <div class="col-sm-4">
+                    <h4 class="about-descriptor" style="color:black"><u>Last Traveled</u></h4>
+                    <h5 onclick="ViewPlace('@Model.LastTraveled.PlaceID')" class="about-value about-clickable">@Model.LastTraveled.FormattedAddress</h5>
+
+                </div>
+                <div class="col-sm-4">
+                    <h4 class="about-descriptor" style="color:black"><u>Favorite Place</u></h4>
+                    @if (Model.FavoritePlaces.Count != 0)
+            {
+                foreach (var item in Model.FavoritePlaces)
+                {
+                            <h5 onclick="ViewPlace('@item.PlaceID')" class="about-value about-clickable">@item.FormattedAddress</h5>
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div> 
+           @*</div>*@
+          @*<div class="past-info row text-center" >
+                 <div class="container about-list col-sm-4">
+
+                 </div>
+                 <div class="col-sm-4">
+                 </div>
+              <div class="container about-list col-sm-4">
+
+              </div>
+          </div>*@
+    @*<div class="past-info row text-center about-stats-large" >*@
+        @*<div class="col-sm-4">
+            <h3 class="about-descriptor">Age</h3>
+        </div>
+        <div class="col-sm-4">
+            <h3 class="about-descriptor">Birthday</h3>
+        </div>*@
+        @*<div class="col-sm-4">
+            <h3 class="about-descriptor">Member Since</h3>
+        </div>
+    </div>*@
+    @*<div class="past-info row text-center about-stats-large">
+        <div class="col-sm-4">
+            <h4 class="about-value">@Model.Age</h4>
+        </div>
+        <div class="col-sm-4">
+            <h4 class="about-value">@Model.Birthday</h4>
+        </div>
+        <div class="col-sm-4">
+            <h4 class="about-value">@Model.MemberSince</h4>
+        </div>
+    </div>*@
+  

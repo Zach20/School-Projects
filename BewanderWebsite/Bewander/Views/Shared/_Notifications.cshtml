@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Bewander.ViewModels.NotificationsViewModel>
+@using System.Text.RegularExpressions
+@using Microsoft.AspNet.Identity
+
+<li id="notifications-nav-icon" rel="toggle" role="button" class="navbar-item-container navbar-icon-container dropdown">
+		@*Messages envelope icon is controlled using bootstrap.js dropdown- Corey D*@
+		@*The Messages envelope icon is always on the nav bar- Corey D*@
+	<a class="dropdown-toggle nav-dropdown-toggle" data-toggle="dropdown" role="button">
+		<i class="fa fa-exclamation navbar-icon"></i>
+		@*If there are 0 notifications, we don't need the icon with the notification count...*@
+		@if (Model.Where(i => i.isread == false).Count() != 0)
+		{ <div id="notifications-notification" class="navbar-notification">@Model.Count()</div> }
+	</a>
+	<ul id="notification-list" class="dropdown-menu nav-list nav-dropdown-list">
+		<li><h4 class="nav-dropdown-header notifications-dropdown-header"> Notifications </h4></li>
+
+		@foreach (var item in Model)
+		{
+			if (item.isread == false)
+			{
+				<li class="notification-list-item" notiID="@item.MessageID"><span onclick="DismissNotification(@item.MessageID)">@item.Content</span></li>
+				<hr class="notification-divider" />
+			}
+		}
+		@if (Model.Where(i => i.isread == false).Count() == 0)
+		{
+			<li><div class="no-nav-dropdown-items">No notifications to review!</div></li>
+		}
+	</ul>
+</li>
+

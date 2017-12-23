@@ -1,0 +1,28 @@
+﻿@model IEnumerable<Bewander.ViewModels.SearchViewModel>
+
+@{
+    if (Model != null)
+    {
+        foreach (var item in Model)
+        {
+            if (item.FirstName != null)
+            {
+                <li class="search-list-item" onclick="ViewProfile('@item.UserID')"><img src="../Images/@item.ProfilePicture" /><font>@item.FirstName @item.LastName</font></li>
+            }
+            else
+            {
+                <li class="search-list-item" onclick="ViewPlace('@item.PlaceID')"><a><img src="~/Images/Global/Icon.gif" /><h5>@item.PlaceName</h5></a></li>
+            }
+        }
+    }
+    else
+    {
+        <li class="search-list-item">Please 
+        @Html.ActionLink("Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" }) 
+        or    
+        @Html.ActionLink("Register", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" }) 
+        to search</li>
+    }
+}
+
+

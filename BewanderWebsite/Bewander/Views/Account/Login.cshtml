@@ -1,0 +1,392 @@
+﻿@using Bewander.Models
+@model CombinedLRViewModel
+@{
+    ViewBag.Title = "Log in";
+}
+
+
+<div class="form  new-login">
+
+	<ul class="tab-group">
+		<li class="tab active"><a href="#login">Log In</a></li>
+		<li class="tab "><a href="#signup">Sign Up</a></li>
+		
+	</ul>
+
+	<div class="tab-content">
+		
+
+	<div id="login">
+	<h1>Welcome Back!</h1>
+
+	@using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { role = "form" }))
+	{
+		@Html.AntiForgeryToken()
+
+		@Html.ValidationSummary(true, "", new { @class = "text-danger" })
+		<form>
+			<div class="sign-in-htm">
+				<p></p>
+				<div class="group field-wrap">
+					@Html.TextBoxFor(m => m.LoginViewModel.Email, new { @class = "input", @placeholder = "Enter your email address" })
+					<br />
+					<p>@Html.ValidationMessageFor(m => m.LoginViewModel.Email, "", new { @class = "text-danger" })</p>
+				</div>
+				<div class="group field-wrap">
+					@Html.PasswordFor(m => m.LoginViewModel.Password, new { @class = "input", @placeholder = "Enter your password" })
+					@Html.ValidationMessageFor(m => m.LoginViewModel.Password, "", new { @class = "text-danger" })
+				</div>
+				
+				<div class="group field-wrap">
+					<div class="check">
+						@Html.CheckBoxFor(m => m.LoginViewModel.RememberMe, htmlAttributes: new { @checked = true })
+					</div>
+							<p class="text-color"><span class="icon"></span>Keep me Signed in</p>
+
+							
+				 </div>
+						<div class="group field-wrap">
+							<input type="submit" class="button" value="Sign In">
+					</div>
+						<div class="hr"></div>
+						<div class="foot-lnk">
+							@Html.ActionLink("Forgot your password?", "ForgotPassword")
+							
+						</div>
+					</div>
+		</form>
+		}
+
+								
+			
+	</div>
+
+
+		<div id="signup">
+			@*<h1>Sign Up for Free</h1>*@
+
+
+			@using (Html.BeginForm("Register", "Account", FormMethod.Post,
+																new { role = "form", @id = "register-form" }))
+			{
+				@Html.AntiForgeryToken()
+
+				@Html.ValidationSummary(true, "", new { @class = "text-danger" })
+			<!-- PlaceID (hidden) -->
+				@Html.HiddenFor(model => model.RegisterViewModel.PlaceID)
+					<!-- PlaceName (hidden)-->
+				@Html.HiddenFor(model => model.RegisterViewModel.PlaceName)
+					<!-- Lat (hidden) -->
+				@Html.HiddenFor(model => model.RegisterViewModel.Lat)
+					<!-- Lng (hidden)-->
+				@Html.HiddenFor(model => model.RegisterViewModel.Lng)
+				@Html.ValidationSummary("", new { @class = "text-danger" })
+
+				<form>
+					<div class="sign-up-htm">
+
+						<p></p>
+						<div class="group field-wrap">
+							@Html.TextBoxFor(m => m.RegisterViewModel.FirstName, new { @class = "input", @placeholder = "First Name" })
+							
+												</div>
+												<div class="group field-wrap">
+													@Html.TextBoxFor(m => m.RegisterViewModel.LastName, new { @class = "input", @placeholder = "Last Name" })
+													
+												</div>
+												<div class="group field-wrap">
+													@Html.TextBoxFor(m => m.RegisterViewModel.DOB, new { @class = "input", @placeholder = "Birth Date (mm/dd/yyyy)" })
+													
+												</div>
+												<div class="group field-wrap">
+													@Html.Editor("Search", new { htmlAttributes = new { @class = "input", id = "autocomplete", onFocus = "geolocate()", type = "text" } })
+													
+												</div>
+												<div class="group field-wrap">
+													@Html.TextBoxFor(m => m.RegisterViewModel.Email, new { @class = "input", @placeholder = "Email Address" })
+													
+												</div>
+												<div class="group field-wrap">
+													@Html.PasswordFor(m => m.RegisterViewModel.Password, new { @class = "input", @placeholder = "Password" })
+													
+												</div>
+												<div class="group field-wrap">
+													@Html.PasswordFor(m => m.RegisterViewModel.ConfirmPassword, new { @class = "input", @placeholder = "Confirm Password" })
+													
+												</div>
+												<div class="group field-wrap ">
+													<div class="signup-check">
+														@Html.CheckBoxFor(m => m.RegisterViewModel.ToSChecked, new { htmlAttributes = new { @class = "form-control" } })
+													</div>
+
+														<p class="text-color"> I have read and agree to the <a href="http://bewander.com/Home/TOS">Terms of Service</a> and <a href="http://bewander.com/Home/Privacy">Privacy Policy.</a></p>
+
+												</div>
+												<div class="group field-wrap">
+													<input type="submit" class="button" value="Sign Up">
+												</div>
+
+												@*<div class="foot-lnk text-color">
+													<label for="tab-1">Already a Member?</label>
+												</div>*@
+											</div>
+										</form>
+									}
+
+										@*<form action="/" method="post">
+
+											<div class="top-row">
+												<div class="field-wrap">
+													<label>
+														First Name<span class="req">*</span>
+													</label>
+													<input type="text" required autocomplete="off" placeholder="" />
+												</div>
+
+												<div class="field-wrap">
+													<label>
+														Last Name<span class="req">*</span>
+													</label>
+													<input type="text" required autocomplete="off" />
+												</div>
+											</div>
+											<div class="field-wrap">
+												<label>
+													Email Address<span class="req">*</span>
+												</label>
+												<input type="email" required autocomplete="off" />
+											</div>
+
+											<div class="field-wrap">
+												<label>
+													Set A Password<span class="req">*</span>
+												</label>
+												<input type="password" required autocomplete="off" />
+											</div>
+
+											<button type="submit" class="button button-block" />Get Started</button>
+
+										</form>*@
+									</div>
+								</div><!-- tab-content -->
+
+							</div> <!-- /form -->
+
+
+
+
+								@*<div class="row loginCards" id="login">
+										<div class="login-wrap">
+											<div class="login-html">
+												<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab text-color">Sign In</label>
+												<input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab text-color">Sign Up</label>
+
+
+												<div class="login-form">
+
+
+
+									@using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { role = "form" }))
+									{
+										@Html.AntiForgeryToken()
+
+										@Html.ValidationSummary(true, "", new { @class = "text-danger" })
+										<form>
+											<div class="sign-in-htm">
+												<p></p>
+												<div class="group">
+													@Html.TextBoxFor(m => m.LoginViewModel.Email, new { @class = "input", @placeholder = "Enter your email address" })
+													<br />
+													<p>@Html.ValidationMessageFor(m => m.LoginViewModel.Email, "", new { @class = "text-danger" })</p>
+												</div>
+												<div class="group">
+													@Html.PasswordFor(m => m.LoginViewModel.Password, new { @class = "input", @placeholder = "Enter your password" })
+													@Html.ValidationMessageFor(m => m.LoginViewModel.Password, "", new { @class = "text-danger" })
+												</div>
+												@*<div class="group">
+													<label for="user" class="label">Username</label>
+													<input id="user" type="text" class="input">
+												</div>
+												<div class="group">
+													<label for="pass" class="label">Password</label>
+													<input id="pass" type="password" class="input" data-type="password">
+												</div>*@
+							@*@*<div class="group">
+									@Html.CheckBoxFor(m => m.LoginViewModel.RememberMe, htmlAttributes: new { @checked = true })
+									<label for="check" class="text-color">@*<span class="icon"></span>Keep me Signed in</label>
+
+									@*<input id="check" type="checkbox" class="check" checked>
+										<label for="check"><span class="icon"></span> Keep me Signed in</label>
+								</div>
+								<div class="group">
+									<input type="submit" class="button" value="Sign In">
+								</div>
+								<div class="hr"></div>
+								<div class="foot-lnk">
+									@Html.ActionLink("Forgot your password?", "ForgotPassword")
+									@*<a href="#forgot">Forgot Password?</a>
+								</div>
+							</div>
+							</form>
+									}
+
+									@using (Html.BeginForm("Register", "Account", FormMethod.Post,
+																							new { role = "form", @id = "register-form" }))
+									{
+										@Html.AntiForgeryToken()
+
+										@Html.ValidationSummary(true, "", new { @class = "text-danger" })
+										<!-- PlaceID (hidden) -->
+										@Html.HiddenFor(model => model.RegisterViewModel.PlaceID)
+												<!-- PlaceName (hidden)-->
+										@Html.HiddenFor(model => model.RegisterViewModel.PlaceName)
+												<!-- Lat (hidden) -->
+										@Html.HiddenFor(model => model.RegisterViewModel.Lat)
+												<!-- Lng (hidden)-->
+										@Html.HiddenFor(model => model.RegisterViewModel.Lng)
+										@Html.ValidationSummary("", new { @class = "text-danger" })
+
+										<form>
+											<div class="sign-up-htm">
+
+												<p></p>
+												<div class="group">
+													@Html.TextBoxFor(m => m.RegisterViewModel.FirstName, new { @class = "input", @placeholder = "First Name" })
+													@*<label for="user" class="label">Username</label>
+														<input id="user" type="text" class="input">
+												</div>
+												<div class="group">
+													@Html.TextBoxFor(m => m.RegisterViewModel.LastName, new { @class = "input", @placeholder = "Last Name" })
+													@*<label for="pass" class="label">Password</label>
+														<input id="pass" type="password" class="input" data-type="password">
+												</div>
+												<div class="group">
+													@Html.TextBoxFor(m => m.RegisterViewModel.DOB, new { @class = "input", @placeholder = "Birth Date (mm/dd/yyyy)" })
+													@*<label for="pass" class="label">Repeat Password</label>
+														<input id="pass" type="password" class="input" data-type="password">
+												</div>
+												<div class="group">
+													@Html.Editor("Search", new { htmlAttributes = new { @class = "input", id = "autocomplete", onFocus = "geolocate()", type = "text" } })
+													@*<label for="pass" class="label">Email Address</label>
+														<input id="pass" type="text" class="input">
+												</div>
+												<div class="group">
+													@Html.TextBoxFor(m => m.RegisterViewModel.Email, new { @class = "input", @placeholder = "Email Address" })
+													@*<label for="pass" class="label">Email Address</label>
+														<input id="pass" type="text" class="input">
+												</div>
+												<div class="group">
+													@Html.PasswordFor(m => m.RegisterViewModel.Password, new { @class = "input", @placeholder = "Password" })
+													@*<label for="pass" class="label">Email Address</label>
+														<input id="pass" type="text" class="input">
+												</div>
+												<div class="group">
+													@Html.PasswordFor(m => m.RegisterViewModel.ConfirmPassword, new { @class = "input", @placeholder = "Confirm Password" })
+													@*<label for="pass" class="label">Email Address</label>
+														<input id="pass" type="text" class="input">
+												</div>
+												<div class="group">
+													<p class="text-color">@Html.CheckBoxFor(m => m.RegisterViewModel.ToSChecked, new { htmlAttributes = new { @class = "form-control" } }) I have read and agree to the <br /><a href="http://bewander.com/Home/TOS">Terms of Service</a> and <a href="http://bewander.com/Home/Privacy">Privacy Policy.</a></p>
+
+												</div>
+												<div class="group">
+													<input type="submit" class="button" value="Sign Up">
+												</div>
+
+												<div class="foot-lnk text-color">
+													<label for="tab-1">Already a Member?</label>
+												</div>
+											</div>
+										</form>
+									}
+
+							</div>
+									</div>
+								</div>
+								</div>*@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							<script src="~/Scripts/Custom/GoogleAutoCompleteCitiesRegister.js"></script>
+
+
+							<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAuQaBzbJrduma-UhUFoWNyLWfJFoR3vac&libraries=places&callback=initAutocomplete" async defer></script>
+
+							@section Scripts {
+								@Scripts.Render("~/bundles/jqueryval")
+							}
+							<script>
+
+								$('.form').find('input, textarea').on('keyup blur focus', function (e) {
+
+									var $this = $(this),
+										label = $this.prev('label');
+
+									if (e.type === 'keyup') {
+										if ($this.val() === '') {
+											label.removeClass('active highlight');
+										} else {
+											label.addClass('active highlight');
+										}
+									} else if (e.type === 'blur') {
+										if ($this.val() === '') {
+											label.removeClass('active highlight');
+										} else {
+											label.removeClass('highlight');
+										}
+									} else if (e.type === 'focus') {
+
+										if ($this.val() === '') {
+											label.removeClass('highlight');
+										}
+										else if ($this.val() !== '') {
+											label.addClass('highlight');
+										}
+									}
+
+								});
+
+								$('.tab a').on('click', function (e) {
+
+									e.preventDefault();
+
+									$(this).parent().addClass('active');
+									$(this).parent().siblings().removeClass('active');
+
+									target = $(this).attr('href');
+
+									$('.tab-content > div').not(target).hide();
+
+									$(target).fadeIn(600);
+
+								});
+							</script>

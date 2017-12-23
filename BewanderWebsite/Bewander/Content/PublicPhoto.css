@@ -1,0 +1,40 @@
+﻿body {
+}
+.publicImages{
+    /*height:100%;
+    width:100%;
+    position:static;
+    padding-bottom:10px;
+    padding-top:10px;
+    border-radius:5px;*/
+    
+    height: 32em;
+    width: 60em;
+    margin:2em,2em,2em,2em;
+    margin-bottom:2em;
+    padding-bottom:2em;
+    padding-top:2em;
+}
+
+#Public-Images{
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+#heading{
+    color:#fff;
+    padding-left:20px;
+    padding-right:20px;
+
+}
+#subheading{
+    color:#fff;
+    padding-left:30px;
+    padding-right:30px;
+}
+#modalcontents{
+    background-image: url('../../Images/WallPaperImages/10007.jpg');
+    position:center;
+    height:40em;
+}
+
+  

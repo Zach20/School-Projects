@@ -1,0 +1,26 @@
+﻿@model Bewander.ViewModels.PlaceViewModel
+
+
+<!--Plave Details-->
+<div class="">
+    <h3>Info</h3>
+    <div class="panel panel-default" style="background-color: rgb(71,71,71);border: 2px solid #62b18b; border-radius: 10px;">
+        <div class="panel-body">
+            <p style="color: white;">@Html.DisplayFor(model => model.FormattedAddress)</p>
+            <p>
+                <a style="color:#62b18b;" href="@Model.Website" target="_blank">
+                    <span class="glyphicon glyphicon-globe"></span> website
+                </a>
+            </p>
+        </div>
+    </div>
+
+    @{
+        Html.RenderAction("_Photos", "Reviews", Model.PlaceID);
+    }
+</div>
+
+
+
+
+

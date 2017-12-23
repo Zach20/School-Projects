@@ -1,0 +1,48 @@
+﻿@model IEnumerable<Bewander.ViewModels.RelationshipViewModel>
+
+<li id="friend-icon" rel="toggle" role="button" class="navbar-item-container navbar-icon-container dropdown"> @*Friend list icon is controlled using bootstrap.js dropdown- Corey D*@
+    <a class="dropdown-toggle nav-dropdown-toggle" role="button"> @*The friend list icon is always on the nav bar- Corey D*@
+        <i class="fa fa-group navbar-icon"></i>
+    </a>
+    <ul id="navbar-friend-list" class="dropdown-menu nav-list scrollable-menu nav-dropdown-list" role="button">
+        <li><h5 class="nav-dropdown-header">Wanderers @Model.Count()</h5>
+        @if (Model.Count() != 0)
+        {
+            foreach (var item in Model)
+            {
+                    <li class="friend-request-item" relID="@item.RelationshipID">
+                        <img src="../Images/@item.ProfilePicture" />
+                        <a onclick="ViewProfile('@item.UserID')" class="wanderer-name">@item.FirstName @item.LastName</a>
+                        <div class="friend-btn-container">
+                            <a class="friend-request-btn" onclick="SelectUser('@item.RelationshipID','@item.UserID')">Chat</a>
+                            <a class="friend-request-btn" onclick="ViewProfile('@item.UserID')">Profile</a>
+                        </div>
+                    </li>
+            }
+        } else {
+            <li><div class="no-nav-dropdown-items">Currently you have not connected with any wanderers, let's add some.</div></li>
+        }
+        <li><h5 class="nav-dropdown-header">Search for fellow Wanderers</h5>
+        <li>
+            <form role="friendSearch">
+                <div id="friendSearch-bar" style="position:inherit; z-index:999; align-content:center; padding-top:3px;">
+                    <input type="text" class="form-control" id= "friend-Search" placeholder="Search Wanderers" onkeyup="friendSearch(this)">
+                    <ul id="friendSearch-results"></ul>
+                </div>
+            </form>
+        </li>
+        <!-- Adds the "Suggested Friends" partial view to the wanders icon dropdown in the navbar. --> 
+        <br />
+        <li><h5 style="border: none; margin-top:-20px; padding-bottom: 45px;">@{Html.RenderAction("_SuggestedFriends", "Users"); }</h5></li>
+    </ul>
+</li>
+
+
+
+
+
+
+
+
+
+

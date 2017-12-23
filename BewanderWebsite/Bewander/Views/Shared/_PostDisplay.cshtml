@@ -1,0 +1,38 @@
+﻿@model Bewander.ViewModels.NewsFeedViewModel
+<div class="col-sm-4" id="success-post-travelogue-container">
+    <div class="card card-outline-success card-success-post mb-3 post-card post-success-newsfeed">
+        <div class="travelogue-image-container">
+            @if (Model.PostedPicture != null)
+            {
+                <img class="travelogue-caption-image" src="../Images/@Model.PostedPicture" />
+            } else {
+                <div class="no-image-container">
+                    <div class="no-image-found"> No Image Found </div>
+                </div> 
+            }              
+        </div>
+        <div class="card-block travelogue-caption-text">
+            @if (Model.Caption != null)
+            {
+                <div class="form-group">
+                    @Model.Caption
+                </div>
+            }
+        </div>
+        <div class="card-footer text-muted">
+            <div class="creator-of-travelogue-info"> 
+                <div class="text-center" style="margin-bottom: 5px;">
+                    Created @Model.DatePosted by,  
+                </div>
+                <div class="text-center">
+                    <img class="creator-of-travelogue-image" src="../Images/@Model.ProfilePicture" /> 
+                     <strong>@Model.FirstName @Model.LastName </strong>
+                </div>
+            </div>
+            <div class="post-interactions-container">
+                @Html.Action("_PostInteractions", "Posts", new { postID = Model.PostID })
+            </div>                
+        </div> 
+    </div>
+</div>
+

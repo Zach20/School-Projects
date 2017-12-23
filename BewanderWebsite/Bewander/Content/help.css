@@ -1,0 +1,30 @@
+﻿
+body {
+    max-width: 100%;
+   
+    
+}
+
+.helpTitle {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    letter-spacing: 1px;
+    margin-top: 130px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.helpText {
+    color: white;
+}
+
+#helpPage {
+    /*    background-image: url(/img/personView.jpg);*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/Images/Home/helpBck.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+}
+

@@ -1,0 +1,304 @@
+#personalHeader {
+    height: 40vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/Images/Home/stone.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.personme {
+    height: 200px !important;
+    width: auto;
+    margin-top: 5vh;
+}
+
+.profilepagePhoto {
+    text-align: center;
+    height: 40vh;
+}
+
+.thumbnail {
+    background: #000 !important;
+}
+
+.img-thumbnail {
+    background-color: black;
+    border: 0px solid #ddd;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css");
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font: 14px/1 'Open Sans', sans-serif;
+    color: #555;
+    background: #eee;
+}
+
+h1 {
+    padding: 50px 0;
+    font-weight: 400;
+    text-align: center;
+}
+
+p {
+    margin: 0 0 20px;
+    line-height: 1.5;
+}
+
+main {
+    min-width: 320px;
+    /*    max-width: 800px;*/
+    padding: 50px;
+    margin: 0 auto;
+    background: #fff;
+    text-align: center;
+}
+
+/*section {
+    display: none;
+    padding: 20px 0 0;
+    border-top: 1px solid #ddd;
+}
+
+input {
+    display: none;
+}
+
+label {
+    display: inline-block;
+    margin: 0 0 -1px;
+    padding: 15px 25px;
+    font-weight: 600;
+    text-align: center;
+    color: #bbb;
+    border: 1px solid transparent;
+}
+
+label:before {
+    font-family: fontawesome;
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+label[for*='1']:before {
+    content: '\f005';
+}
+
+label[for*='2']:before {
+    content: '\f044';
+}
+
+label[for*='3']:before {
+    content: '\f03e';
+}
+
+label[for*='4']:before {
+    content: '\f0c0';
+}
+
+label[for*='5']:before {
+    content: '\f2bc';
+}
+
+label:hover {
+    color: #888;
+    cursor: pointer;
+}
+
+input:checked+label {
+    color: #555;
+    border: 1px solid #ddd;
+    border-top: 2px solid #7AB69F;
+    border-bottom: 1px solid #fff;
+}
+
+#tab1:checked~#content1,
+#tab2:checked~#content2,
+#tab3:checked~#content3,
+#tab4:checked~#content4,
+#tab5:checked~#content5{
+    display: block;
+}
+
+@media screen and (max-width: 650px) {
+    label {
+        font-size: 0;
+    }
+    label:before {
+        margin: 0;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    label {
+        padding: 15px;
+    }
+}*/
+
+.newReviewButton {
+    margin-bottom: 20px;
+}
+
+.paddingMoney {
+    padding-top: -20px !important;
+    margin-top: -20px !important;
+}
+
+a {
+    -webkit-transition: .25s all;
+    transition: .25s all;
+}
+
+.card {
+    border-color;
+    overflow: visible;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    -webkit-transition: .25s box-shadow;
+    transition: .25s box-shadow;
+    
+}
+
+.card:focus,
+.card:hover {
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+.card-inverse .card-img-overlay {
+    background-color: rgba(51, 51, 51, 0.85);
+    border-color: rgba(51, 51, 51, 0.85);
+}
+
+.likePostRightBtn {
+    margin-right: 5px;
+}
+
+.likePostLeftBtn {
+    margin-left: 5px;
+}
+
+.profilePhotosPosts {
+    margin-bottom: 15px;
+}
+
+.fellowWanderers {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.fellowWanderers::after {
+    display: block;
+    height: 2px;
+    background-color: #7AB69F;
+    content: " ";
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.fellowWanderProfileBox {
+    margin-bottom: 50px;
+}
+
+.fellowWanderProfileName {
+    text-align: center;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    word-spacing: 2px;
+    text-align: center;
+    letter-spacing: .5px;
+}
+
+
+a:focus,
+a:hover {
+    text-decoration: none;
+}
+
+.fellowWanderProfilePic {
+    object-fit: cover !important;
+    height: 300px !important;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.fellowWanderProfilePic1 {
+    object-fit: cover !important;
+    height: 200px !important;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.flip-container:hover .flipper {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+}
+
+.flipper {
+    -webkit-transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 0.6s;
+    -moz-transform-style: preserve-3d;
+    position: relative;
+    -webkit-transition-delay: 0.5s;
+    /* Safari 4.0 - 8.0 */
+    transition: .35s ease-in-out 0s;
+}
+
+.flipper:hover {
+    transition: .35s ease-in-out 0.3s;
+}
+
+
+.aboutMeName {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    word-spacing: 2px;  
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.aboutMeName::after {
+    display: block;
+    height: 2px;
+    background-color: #7AB69F;
+    content: " ";
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.firstInfoRow h5 {
+    color: #00d885
+}
+
+.aboutSummary {
+    float: left;
+    color: black;
+    padding-top: 50px;
+}
+
+.aboutText {
+    padding-top: 10px;
+    text-align: left;
+    line-height: 1.7em;
+    font-size: 17px
+}

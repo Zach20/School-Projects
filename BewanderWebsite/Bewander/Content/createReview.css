@@ -1,0 +1,174 @@
+ /* This belongs in _createReview.scss and needs to be added to respective classes,
+ currently compiling of scss is borken so put the changes in this css file */
+ #CreateReview {
+  min-height: 585px;
+}
+
+#create-review-btn {
+  padding: 6px 40px;
+}
+
+#review-location {
+  margin-top: 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+#review-location-name {
+  vertical-align: middle;
+}
+
+#imageField .input-file + label {
+  width: 100%;
+  padding: 8px 13px;
+  color: #B2DBB2;
+}
+
+.hide-before-location-selection {
+  display: none;
+}
+
+.create-review-arrow {
+  position: relative;
+}
+
+.desktop-review-arrow {
+  animation: rightToLeft 1s ease-in-out 0s 9 alternate;
+}
+
+.tablet-review-arrow {
+  display: none;
+}
+
+@keyframes rightToLeft {
+  from {left: 15px;}
+  to {left: 0;}
+}
+
+#CreateReview #stars-container div {
+  font-size: 30px !important;
+  text-align: left;
+}
+
+#CreateReview #stars-container {
+  margin: 0;
+}
+
+#rating-container {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+#starMessage {
+  margin: 0;
+  padding-top: 2px;
+  font-weight: bold;
+}
+
+.review-input-container {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.review-input-container .input-validation-error {
+  border: 1px solid #a94442;
+  box-shadow: none !important
+}
+
+#pac-container {
+  position: relative;
+}
+
+#pac-inputReview {
+  left: 0px !important;
+  top: 0px !important;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border: 1px solid #999;
+  border-top: none;
+  border-left: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#map-distance-tab {
+  position: absolute;
+  right: 15px;
+  margin-top: 0;
+  left: inherit;
+  top: 0px;
+  min-height: 35px;
+}
+
+#map-distance-tab .radiusDDL {
+  padding: 2px;
+  margin-top: -3px;
+}
+
+#map-distance-tab input {
+  margin-top: 1px;
+}
+
+.review-input-error {
+  position: absolute;
+  left: 5px;
+  margin-top: 2px;
+  font-size: 12px;
+}
+
+.rating-question {
+  display: inline-block;
+  padding-top: 2px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 990px) {
+  .desktop-review-arrow {
+    display: none !important;
+  }
+
+  .tablet-review-arrow {
+    display: inline-block;
+    animation: bottomToTop 1s ease-in-out 0s 9 alternate;
+  }
+
+  @keyframes bottomToTop {
+    from {top: 10px;}
+    to {top: 0px;}
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  #create-review-btn {
+    margin-top: 10px;
+  }
+
+  #CreateReview #stars-container {
+    margin-top: 10px;
+  }
+
+  #CreateReview #stars-container div {
+    text-align: center;
+  }
+  
+  #starMessage {
+    padding-top: 6px;
+  }
+
+  .center-on-mobile {
+    text-align: center !important;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  #pac-inputReview {
+    width: 100% !important;
+  }
+
+  #map-distance-tab {
+    top: 43px;
+  }
+}
+
+/* END OF REMOVE AFTER FIGURE OUT COMPILE */

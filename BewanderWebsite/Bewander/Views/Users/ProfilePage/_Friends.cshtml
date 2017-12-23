@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Bewander.ViewModels.RelationshipViewModel>
+
+
+<div class="tab-pane" id="wanderers" role="tabpanel">
+	<div class="row">
+		<div class="col-12">
+			<h1 class="fellowWanderers">Fellow Wanderers</h1>
+		</div>
+	</div>
+	<div class="row">
+		@foreach (var item in Model)
+		{
+        <div class="col-12 col-sm-4">
+            <a href="#">
+                <div class="flip-container">
+                    <div class="flipper">
+                        <div class="card fellowWanderProfileBox">
+                            <img onclick="ViewProfile('@item.UserID')" class="card-img-top fellowWanderProfilePic" src="../Images/@item.ProfilePicture" alt="Card image cap">
+                            <div class="card-block">
+                                <h4 class="card-title fellowWanderProfileName">@item.FirstName @item.LastName</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <div class="friend-btn-profile">
+                <div class="friend-btn-container">
+                    <a onclick="SelectUser('@item.RelationshipID','@item.UserID')">Chat</a>
+                    <a onclick="ViewProfile('@item.UserID')">Profile</a>
+                </div>
+            </div>
+        </div>
+			
+		}
+	</div>
+	</div>
+		
+
+

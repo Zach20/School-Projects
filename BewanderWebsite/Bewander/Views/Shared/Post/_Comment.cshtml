@@ -1,0 +1,101 @@
+﻿@model Bewander.ViewModels.PostCommentsViewModel
+
+@if (Model.Error != null) {
+    <h3>Error getting comments, we apologize for the inconvenience.</h3>
+} else {
+    <ul class="comment-post">
+        @foreach (var comment in Model.Comments.OrderByDescending(i => i.DatePosted))
+        {
+            <li class="comment-container" id="post-comment-@comment.PostId-@comment.Id">
+                <div class="comment-info user-comment-info-container">
+                    <img id="comment-avi" class="img-thumbnail img-responsive img-circle" 
+                    style="margin:auto; display:inline-block; background-size:cover; 
+                    background-position: 50% 50%; max-height:3em; max-width:3em; 
+                    min-height:3em; min-width:3em; margin-left: 10px; margin-right: 10px;" src="~/Images/@comment.UserProfilePic" />
+                    <span class="comment-user-full-name">@comment.UserFullName </span>
+                </div>
+                <div class="comment-info comment-section"> 
+                    @comment.Content
+                </div>
+                @if (comment.Likes != null) {
+                    <div class="inline-block comment-info comment-icon comment-likes" id="comment-likes-@comment.Id">
+                        <span class="number-of-comment-likes" id="comment-likes-count-@comment.PostId-@comment.Id">
+                            @if (comment.Likes.Count() != 0) {
+                                @comment.Likes.Count()
+                            }
+                        </span>
+                        @if( comment.CurrentUserLiked == true ) {
+                            <span class="unlike-post" id="comment-like-@comment.PostId-@comment.Id" onclick="HandleLikeComment('@comment.PostId', '@comment.Id')"><i class="fa fa-thumbs-o-up"></i></span>
+                        } else {
+                            <span class="like-post" id="comment-like-@comment.PostId-@comment.Id" onclick="HandleLikeComment('@comment.PostId','@comment.Id')"><i class="fa fa-thumbs-o-up"></i></span>
+                        }
+                    </div>    
+                } 
+                @if (comment.CurrentUserCreatedComment == true) {
+                    <div class="inline-block comment-info comment-icon comment-delete">
+                         <span id="comment-delete-@comment.Id" onclick="DeleteComment('@comment.PostId', '@comment.Id')">
+                             <i class="fa fa-trash-o"></i>
+                        </span>
+                    </div>    
+                } 
+            </li>
+        }
+    </ul>
+}
+
+<script>
+    function HandleLikeComment(postId, commentId) {
+        var $commentLike = $('#comment-like-'+postId+'-'+commentId);
+        var likeComment = $commentLike.hasClass('like-post');
+        var commentCall = likeComment ? 'LikeComment' : 'UnLikeComment' ;
+        $.post( "/Posts/" + commentCall, { PostId: Number(postId), CommentId: Number(commentId) })
+        .done(function( data ) {
+            if (data.Error && data.Error.Code && data.Error.Code == 310) {
+                $commentLike.removeClass('like-post');
+                $commentLike.addClass('unlike-post');
+            } else if (data.Success) {
+                if (likeComment) {
+                    $commentLike.removeClass('like-post');
+                    $commentLike.addClass('unlike-post');
+                } else {
+                    $commentLike.removeClass('unlike-post'); 
+                    $commentLike.addClass('like-post');
+                }
+                var $likesCount = $('#comment-likes-count-'+postId+'-'+commentId);
+                if(data.NumberOfLikes && data.NumberOfLikes > 0) {
+                    $likesCount.text(data.NumberOfLikes);
+                } else {
+                    $likesCount.text('');
+                }
+
+            } else {
+                alert('An error occured while trying to save the comment, sorry for the inconenience.');
+            }
+        })
+        .fail(function(data) {
+            alert('An error occured while trying to save the comment, sorry for the inconenience.');
+        });
+    }
+
+    function DeleteComment(postId, commentId) {
+        var confirmation = window.confirm('Are you sure you want to delete this comment?');
+        if (!confirmation) return;
+        $.post( "/Posts/DeleteComment", { PostId: Number(postId), CommentId: Number(commentId) })
+        .done(function( data ) {
+            if (data.Success) {
+                alert('Comment was successfully deleted.');
+                $('#post-comment-'+postId+'-'+commentId).remove();
+            } else {
+                alert('An error occured while trying to remove the comment, sorry for the inconenience.');
+            }
+        })
+        .fail(function(data) {
+            alert('An error occured while trying to save the comment, sorry for the inconenience.');
+        });
+    }       
+
+    function UnlikeComment(id) {
+        console.log(id);
+    }
+
+</script>

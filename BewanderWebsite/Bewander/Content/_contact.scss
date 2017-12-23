@@ -1,0 +1,40 @@
+﻿#ContactDivWrapper {
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    //margin: auto;
+    //padding-right: 33px;
+    //background-size: cover;
+    min-height: 650px;
+    //position: relative;
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, white, #71AB94); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, white, #71AB94); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, white, #71AB94); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, white, #71AB94); /* Standard syntax */   
+}
+
+.contactForm {
+    background: rgba(200,200,200, .4);
+    box-shadow: .5em .5em .5em rgba(0, 0, 0, .2);
+    border: double 3px #666666;
+    //width: 50%;
+    //display: block;
+    //margin: auto;
+    margin-top: 5%;
+    //position: relative;
+}
+
+.text-center {
+    font-weight: 400;
+}
+
+.img-circle {
+    width: 90%;
+}
+
+//space between email and image
+.email-addrs {
+    padding-top: 20px;
+}

@@ -1,0 +1,243 @@
+/*--- Newsfeed ---*/
+#newsfeed-container {
+    padding: 3px;
+    // Tanvir(20/12/2016) Changed the margin at the top. Comment section was to close to the top
+    margin-top: 100px; 
+}
+
+// User Post
+#user-post-container {
+    border: 1px solid #d1d1d1;
+    background-color: #CD5C5C;
+    margin-bottom: 20px;
+    // Nikki (1/3/2017) Added padding to the post container; was touching navbar before.
+    margin-top: 40px;
+}
+
+#user-post-container .form-group {
+    margin:0;
+    box-shadow: none;
+}
+
+#user-post-container .form-control {
+    box-shadow: none;
+}
+
+#user-post-container .input-file + label {
+    background-color: unset;
+    color: #000;
+    font-size: 14px;
+    font-weight: 100;
+    margin-bottom: 0;
+    border-right: 1px solid #d1d1d1;
+    // Nikki (1/3/2017) Repositioned the add-a-photo button; it looked weird in the center.
+    float: left;
+}
+
+#user-post-container .input-file + label:hover {
+    background-color: #ebebeb;
+}
+
+#post-textarea {
+    resize: none;
+    width: 100%;
+    max-width: unset;
+    border: none;
+    border-top: 1px solid #d1d1d1;
+    border-radius: unset;
+}
+
+#post-textarea:focus {
+    outline: none;
+}
+
+#post-image-preview {
+    display: none;
+    width: 100%;
+    max-height: 400px;
+    padding: 10px;
+    object-fit: cover; // photo fills the smallest concrete object size keeping aspect ratio
+}
+
+#post-footer {
+    border-top: 1px solid #d1d1d1;
+}
+
+#user-newsfeed-btn {
+    float: right;
+    border-radius: unset;
+    border: none;
+    border-left: 1px solid #d1d1d1;
+    padding: 6px 15px;
+}
+
+// Newsfeed List
+.newsfeed-item {
+    background-color: #62B18B;
+    border: 1px solid #d1d1d1;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+#newsfeed-item-header {
+    display: flex;
+    padding: 5px;
+    margin: 0;
+    img {
+        object-fit:cover;
+    }
+}
+
+#newsfeed-item-header .col-sm-5 {
+    padding-left: 15px;
+}
+
+#newsfeed-item-header img {
+    width: 60px;
+    height: 50px;
+}
+
+#newsfeed-item-header h4 {
+    margin: 0px;
+}
+
+.post-content {
+    border-top: 1px solid #d1d1d1;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+.post-content p {
+    padding: 9px 9px 0 9px;
+    font-size: 14px;
+}
+
+.post-content img {
+    max-width:80%;
+    max-height:80%;
+    padding: 10px 10px 10px 10px;
+    object-fit:cover;
+}
+
+.newsfeed-item-footer {
+    display: flex;
+    border-bottom: 1px solid #d1d1d1;  
+}
+
+.post-icons {
+    padding: 7px;
+    list-style-type: none;
+    display: flex;
+    margin-bottom: 0;
+}
+
+.post-icons li {
+    margin: 0 5px;
+}
+
+.post-icons i:hover {
+    cursor:pointer;
+}
+
+//Like icon when not clicked
+.like-post:hover {
+    color: #62B18B
+}
+
+//Like icon when clicked
+.unlike-post {
+    color: #62B18B;
+}
+
+.unlike-post:hover {
+    color: #000;
+}
+
+.post-likes {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+/* Tanvir(20/12/2016) Flag icon turns red on hover*/
+
+#flaged:hover {
+    color: #FE0002; 
+}
+
+.newsfeed-item-interactions {
+    padding: 7px;
+}
+
+.newsfeed-item-interactions i {
+    background-color: #d1d1d1;
+    border: 1px solid #d1d1d1;
+    border-radius: 50%;
+    padding: 2px 0 0 3px;
+    width: 20px;
+    height: 20px;
+}
+
+.newsfeed-item-interactions i:hover {
+    background-color: #62B18B;
+    border: 1px solid #62B18B;
+    cursor: pointer;
+}
+
+.newsfeed-item-interactions a {
+    float: right;
+}
+
+.likes-list {
+    display: none !important;
+    position: absolute;
+    margin-top: 1px;
+    list-style-type: none;
+    padding-left: 5px;
+    width: 180px;
+    border: 1px solid #000;
+    background-color: #d1d1d1;
+    z-index: 1;
+}
+
+.likes-list a {
+    float: none;
+}
+
+.thumbs-up-count:hover ~ ul {
+    display: block !important;
+}
+
+.modal-content{
+    text-align:left;
+}
+
+@media only screen and (min-width: 768px) {
+    #user-post-container, #deleteRevTitle, #editTitle {
+        margin-top: 80px;
+    }
+    #right-panel {
+        margin-top: 40px;
+    }
+ 
+
+}
+
+@media only screen and (min-width: 480px) {
+    #user-post-container, #deleteRevTitle, #editTitle {
+        margin-top: 80px;
+    }
+    #right-panel {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (min-width: 320px) {
+    #user-post-container, #deleteRevTitle, #editTitle {
+        margin-top: 80px;
+    }
+    #right-panel {
+        margin-top: 15px;
+    }
+
+}
+    }

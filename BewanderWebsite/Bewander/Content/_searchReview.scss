@@ -1,0 +1,433 @@
+/*---Reviews/Index---*/
+$tablet: "(min-width: 768px)";
+$desktopMed: "(min-width: 992px)";
+$desktopLg: "(min-width: 1200px)";
+
+/* Embedded mapbox iframe and mapbox.js container */
+.container-map {
+    padding-bottom: 5em;
+}
+
+.custom-container {
+    width: 100%;
+    margin: -1px auto;
+    max-width: 1150px;
+    
+    .row {
+        margin: 0;
+        padding-top: 0px; /* Removed padding because there was too much now that there's padding-top added to all body content. SC */
+    }
+
+    h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+    @media #{$tablet} {
+        padding: 0 10px;
+
+        h2 {
+            font-size: 30px;
+        }
+
+        .row{
+            padding-top: 0px;
+        }
+    }
+}
+
+#map-area {
+    margin-bottom: 20px;
+    width: 100%;
+    @media #{$tablet} {
+        margin-bottom: 0px;
+    }
+}
+
+#map-distance-tab {
+    position: initial;
+    display: flex;
+    left: 327px; //301
+    top:0px;
+    z-index: 1000;
+    font-size: 16px;
+    background-color: #91D0B2;
+    color: #fff;
+    padding: 7px 0;
+    padding-right: 14px;
+    border: 1px solid #999;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    
+    input {
+        margin-left: 15px;
+        margin-top: 5px;
+        margin-right: 3px;
+        line-height: 1.5px;
+    }
+
+    i {
+        position: absolute;
+        right: -26px;
+        top:0;
+        background-color: #d1d1d1;
+        padding: 8px;
+        display: none;
+    }
+
+    // Smaller screens, the map-ditance-tab covers the whole map on top 
+    @media #{$desktopMed} {
+        position: absolute;
+    }
+}
+
+/* Dropdown list input */
+.radiusDDL {
+    background-color:#fff;
+    color:#000;
+    border: none;
+    box-shadow: 2px 2px 2px black;
+    text-align: center;
+    width:60px;
+    padding:2%;
+    margin-left: 5px;
+}
+
+/* Mapbox.js div*/
+#map {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    border: 1px solid #999;
+    box-shadow: -1px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.controls {
+    margin-top: 10px;
+    border: 1px solid transparent;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 32px;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#pac-inputReview {
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    left:10px !important;
+    top: 10px !important;
+    z-index: 1000 !important;
+    width:50%;
+    margin: auto;
+    color: black;
+
+    &:focus {
+        border-color: #4d90fe;
+    }
+}
+
+#pac-input {
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    left:10px !important;
+    top: 10px !important;
+    z-index: 1000 !important;
+    width:50%;
+    margin: auto;
+
+    &:focus {
+        border-color: #4d90fe;
+    }
+}
+
+.pac-container {
+    font-family: Roboto;
+}
+
+#type-selector {
+    color: #000;
+    background-color: #4d90fe;
+    padding: 5px 11px 0px 11px;
+
+    label {
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+    }
+}
+
+/*---Search Results List---*/
+#right-panel {
+    display:none;
+    position: absolute;
+    right: 15px;
+    top: 15%;
+    line-height: 30px;
+    padding: 0;
+    width: 200px;
+    border: 1px solid #999;
+    background: #fff;
+    z-index: 5;
+    box-shadow: -1px 2px 5px rgba(0, 0, 0, 0.2);
+
+    select, input {
+        font-size: 15px;
+    }
+
+    select {
+        width: 100%;
+    }
+
+    i {
+        position: absolute;
+        right: 12px;
+        top:8px;
+        font-size: 20px;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .fa-chevron-down {
+        display: none;
+    }
+
+    h3 {
+        background-color: #91D0B2;
+        color: #fff;
+        margin: 0;
+        padding: 5px;
+    }
+
+    #places {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        max-height: 280px;
+        border-radius: unset;
+        position: unset;
+        border:unset;
+        box-shadow: unset;
+        background-clip: unset;
+        float: unset;
+    }
+
+    li {
+        background-color: #f1f1f1;
+        padding: 5px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    li:nth-child(odd) {
+        background-color: #fcfcfc;
+    }
+
+    li:hover {
+        cursor: pointer;
+    }
+
+}
+
+
+/*--- List of local Users ---*/
+#local-user-container {
+    width: 100%;
+    margin: auto;
+    max-width: 300px;
+//  overflow-y:scroll;
+
+    #locals-header {
+        display: flex;
+    }
+
+    h3 {
+        border: 1px solid #999;
+        padding: 5px 0;
+        margin: 0;
+        background-color: #91D0B2;
+        color: #fff;
+        width: 100%;
+        text-align: center;
+    }
+
+    @media #{$tablet} {
+        max-width: unset;
+    }
+
+
+}
+
+#local-user-list {
+    border: 1px solid #d1d1d1;
+    border-top: none;
+    width: 100%;
+    list-style: none;
+    padding: 0px;
+    height: 462px;
+    overflow-y: scroll;
+    display: none;
+    box-shadow: -1px 2px 5px rgba(0, 0, 0, 0.2);
+    
+
+
+    img {
+        width: 71px;
+        height: auto;
+    }
+
+    li {
+        background-color: #fff;
+    }
+
+    li:nth-child(odd) {
+        background-color:#d1d1d1;
+    }
+
+    li:hover {
+        cursor: pointer;
+        background-color:#e9e0cf;
+    }
+
+    li:last-child {
+        border-bottom: none;
+    }
+
+    .search-send {
+        padding:0px;
+        margin-right:5px;
+        
+    }
+
+    .search-send:hover {
+        color:#4d90fe;
+    }
+}
+
+#feature-cities-container {
+    width: 100%;
+    height: 100%;
+
+    #feature-cities.row, #feature-cities.container-fluid {
+        margin: 0px;
+        margin-bottom: 150px;
+        padding: 0;
+        padding-bottom: 25px;
+        box-shadow: 0 -35px 35px -35px #333;
+    }
+
+    .container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #feature-cities {
+        width: 100%;
+        position: relative;
+        box-shadow: 2px 5px 5px rgba(0,0,0,.4);
+        background-color: rgba(255,255,255,.5);
+        margin-bottom: 100px;
+        top: 25px;
+
+        .row {
+            padding-top: 0px;
+        }
+
+        h4 {
+            font-size: 32px;
+            width: 30%;
+            margin: auto;
+            text-align: center;
+            font-family: bold;
+        }
+
+        h4:hover {
+            cursor: default;
+        }
+
+        div {
+            cursor: pointer;
+            padding-top: 2%;
+        }
+
+        article {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            border-radius: 5px;
+        }
+
+        img {
+            margin-left: auto;
+            margin-right: auto;
+            object-fit: cover;
+            -webkit-transition: transform 1s, display 1s; /* For Safari 3.1 to 6.0 */
+            transition: transform 5s, opacity 3s, background 3s;
+            box-shadow: 0px 3px 3px 3px #444;
+            width: 95%;
+            border-radius: 5px;
+        }
+
+        article:hover > img {
+            transform: scale(1.5);
+            opacity: 1;
+        }
+
+        .img-caption {
+            position: absolute;
+            background: rgba(0,0,0,.8);
+            color: #98c8ba;
+            padding: 5%;
+            border-radius: 6px;
+            top: 40%;
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+            width: 60%;
+            text-align: center;
+        }
+
+        article > .img-caption {
+            visibility: hidden;
+            opacity: 0;
+            transition: visibility 0.5s, opacity 1s linear;
+        }
+
+        article:hover > .img-caption {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .img-caption:hover > #feature-cities.img-circle {
+            transform: inherit;
+        }
+    }
+}
+@media only screen and (min-width: 768px) {
+    #searchTitle {
+        margin-top: 80px;
+    }
+    }
+
+@media only screen and (min-width: 480px) {
+    #searchTitle {
+        margin-top: 80px;
+    }
+    }
+
+@media only screen and (min-width: 320px) {
+    #searchTitle {
+        margin-top: 80px;
+    }
+    }

@@ -1,0 +1,30 @@
+﻿
+
+<div class="modal fade" id="policy-modal">
+    <div class="modal-dialog policy-modal" style="margin-bottom:75px">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="col-sm-6 panel panel-default">
+                    <div class="panel-heading text-center">
+                        <h3>Terms of Service</h3>
+                    </div>
+                    <div class="panel-body policy-box tosBox">
+                        @Html.Partial("_ToSPartial")
+                    </div>
+                </div>
+                <div class="col-sm-6 panel panel-default">
+                    <div class="panel-heading text-center">
+                        <h3>Privacy Policy</h3>
+                    </div>
+                    <div class="panel-body policy-box tosBox">
+                        @Html.Partial("_PrivacyPolicyPartial")
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer text-right">
+                <h3>I agree to the Terms of Service and the Privacy Policy.  <a role="button" id="confirm-register-button" class="btn btn-default" style="margin-top:10px">Register</a></h3>
+
+            </div>
+        </div>
+    </div>
+</div>

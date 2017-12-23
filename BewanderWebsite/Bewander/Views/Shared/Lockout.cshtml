@@ -1,0 +1,75 @@
+﻿@model Bewander.ViewModels.ContactViewModel
+
+@{
+    ViewBag.Title = "Locked Out";
+}
+
+<hgroup style="padding-top:75px;">
+    <h1 class="text-danger">Sorry, your account has been locked. Please contact us at:</h1>
+    <h2 class="text-danger"><a href="mailto:support@bewander.com">support@bewander.com</a></h2>
+</hgroup>
+<br /><br />
+<h3 class="text-danger">Why does this happen?</h3>
+<p>Users are locked out of their accounts when our system detects suspicious activity linked to the account. This includes excessive login attempts,
+    and unrecognized devices being used to login to your account.</p><br />
+<div class="col-xs-8 col-sm-7 contactForm">
+    @using (Html.BeginForm("Contact", "Home", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+    {
+        <div class="form-group">
+            @Html.ValidationSummary("", new { @class = "text-danger" })
+            @Html.LabelFor(m => m.FirstName, new { @class = "col-md-2 control-label" })
+            <div class="col-md-6 control-label">
+                @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.FirstName) @*Add styling to show only if it fails validation see http://ryanbutler.org/ASPMVCForm/Index4*@
+            </div>
+        </div>
+            <div class="form-group">
+                @*@Html.ValidationSummary(true)*@
+                @Html.LabelFor(m => m.LastName, new { @class = "col-md-2 control-label" })
+                <div class="col-md-6 control-label">
+                    @Html.TextBoxFor(m => m.LastName, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.LastName) @*Add styling to show only if missing*@
+                </div>
+            </div>
+            <div class="form-group">
+                @*@Html.ValidationSummary(true)*@
+                @Html.LabelFor(m => m.Email, new { @class = "col-md-2 control-label" })
+                <div class="col-md-8">
+                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.Email) @*Add styling to show only if missing*@
+                </div>
+            </div>
+            @* <!--Message if invalid email address is entered-->
+                    <div class="form-group has-error">
+                    <label class="col-xs-2 control-label" for="inputError">Email</label>
+                    <div class="col-xs-10">
+                        <input type="email" id="inputError" class="form-control" placeholder="Input with error">
+                        <span class="help-block">Please enter a valid email address</span>
+                    </div>
+                </div>*@
+            <div class="form-group">
+                @*@Html.ValidationSummary(true)*@
+                @Html.LabelFor(m => m.Subject, new { @class = "col-md-2 control-label" })
+                <div class="col-md-10 control-label">
+                    @Html.TextBoxFor(m => m.Subject, new { @class = "form-control" })
+                    @*@Html.ValidationMessageFor(model => model.Subject) Add styling to show only if missing*@
+                </div>
+            </div>
+            <div class="form-group">
+                @*@Html.ValidationSummary("", new { @class = "text-danger" })*@
+                @Html.ValidationSummary(true)
+                @Html.LabelFor(m => m.Message, new { @class = "col-md-2 control-label" })
+                <div class="col-md-10 control-label">
+                    @Html.TextAreaFor(m => m.Message, new { @class = "form-control" })
+                    @*@Html.ValidationMessageFor(model => model.Message)*@ @*Add styling to show only if missing*@
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="row col-md-offset-2 col-md-10">
+                    <input type="submit" id="submitMessageButton" class="btn btn-default" value="Submit Message" />
+                    <input type="reset" class="btn btn-default" value="Reset" onclick="this.form.reset()" />
+                </div>
+            </div>
+    }
+</div>

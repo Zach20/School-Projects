@@ -1,0 +1,121 @@
+/*---Users/EditProfile---*/
+
+.input-file {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.input-file + label {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    cursor: pointer;
+    padding: 6px 13px;
+    border-radius: 4px;
+}
+
+.input-file:focus + label,
+.input-file + label:hover {
+    background-color: #62B18B;
+}
+
+.input-file:focus + label {
+	outline: 1px dotted #000;
+	outline: -webkit-focus-ring-color auto 5px;
+}
+
+#autoCompleteInput {
+    display: none;
+}
+
+//! Color scheme changed to match theme color for website
+.edit-profile-parent-container{
+    padding: 5px;
+    //width:540px;
+    //position:static;
+    top:10px;
+    left:10px;
+    margin-bottom:50px;
+    background-color:rgba(6, 168, 151, 0.95);
+    //color:#fff;
+}
+
+.edit-profile-container{
+    padding: 25px;
+    width:520px;
+    position:relative;
+    float:left;
+    top:100px;
+    /*left:10%;*/
+    margin-bottom:50px;
+    background-color:rgba(134, 168, 151, 0.65);
+    color:#fff;
+
+    #pastLocal0Input, #favoritePlace0Input{
+        margin-bottom:-10px;
+    }
+    
+    .text-box{
+        background-color:rgba(159, 201, 181,0.6);
+        color:inherit;
+    }
+
+    .chkbx{
+        padding-top:5px;
+    }
+}
+
+//Container to View Posted Photos to Add&Delete
+.photoConfirmation{
+    padding: 25px;
+    width:500px;
+    position:relative;
+    float:right;
+    top:100px;
+    left:5%;
+    margin-bottom:50px;
+    background-color:rgba(134, 168, 151, 0.65);
+    color:#fff;
+    display:table;
+    img {
+        width:540px;
+        object-fit:cover;
+        display:table-cell;
+        vertical-align: middle;
+    }
+}
+
+
+#bg-img{
+    /*margin-top:-20px;
+    margin-left:-100px;
+    object-fit:cover;
+    width:100%;
+    height: auto;
+    position:fixed;*/
+
+    //! Image re-styled so scaling works on different size screens
+    object-fit: cover;
+    width: 100%;
+    height: 600px;
+    height: 100%;
+    position: fixed;
+    left: 0%;
+}
+
+/*
+.edit-group i {
+    position: absolute;
+    left: 260px;
+}*/
+
+@media (min-width: 768px){
+
+}
+

@@ -1,0 +1,25 @@
+﻿@model IEnumerable<Bewander.ViewModels.SearchViewModel>
+
+@{
+    foreach (var item in Model)
+    {
+        if (item.FirstName != null && item.PlaceName != null)
+        {
+            <li class="search-list-item" onclick="ViewProfile('@item.UserID')"><img src="../Images/@item.ProfilePicture" /><font>@item.FirstName @item.LastName</font> &bull; <font>@item.PlaceName</font> &bull; <i class="glyphicon glyphicon-envelope h3 search-send" onclick="SelectUser('-1', '@item.UserID')"></i></li>
+        }
+        else if (item.FirstName != null)
+        {
+            <li class="search-list-item" onclick="ViewProfile('@item.UserID')"><img src="../Images/@item.ProfilePicture" /><font>@item.FirstName @item.LastName</font> &bull; <i class="glyphicon glyphicon-envelope h3 search-send" onclick="SelectUser('-1', '@item.UserID')"></i></li>
+        }
+        else
+        {
+            <li class="search-list-item" onclick="ViewPlace('@item.PlaceID')"><a><img src="~/Images/Global/Icon.gif" /><h5>@item.PlaceName</h5></a></li>
+        }
+    }
+  }
+
+<script>
+    $("i").click(function (e) {
+        e.stopPropagation();
+    })
+</script>

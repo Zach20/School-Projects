@@ -1,0 +1,43 @@
+﻿@model Bewander.ViewModels.ImageViewModel
+@using Microsoft.AspNet.Identity
+@helper photos()
+{
+int i = 0;
+foreach (var item in Model.Images)
+{
+
+    if (item.FileType != Bewander.Models.FileType.RentedCoverPhoto)
+    {
+    <div class="user-photo-container">
+        <a href="@Url.Action("MakeProfilePicture", "Images", new { id = item.ID, type = "cover" })">
+            <img src="~/Images/@item.UserID/@item.Path" class="user-photos" alt="@item.FileName" />
+        </a>
+    </div>
+    }
+    i++;
+}
+
+string wallPaperNum;
+for (i = 10000; i< 10010; i++)
+{
+    wallPaperNum = i + ".jpg";
+
+        <div class="user-photo-container">
+            <a href="@Url.Action("CheckoutWallpaper", "Images", new { filePath = wallPaperNum, UserID = Model.UserID })">
+                <img src="~/Images/WallPaperImages/@wallPaperNum" class="user-photos" alt="Default Wallpaper #@i" />
+            </a>
+        </div>
+}
+
+}<!--End Helper-->
+
+
+<div class="modal fade and carousel slide album-modal" id="paperbox">
+    <div class="modal-dialog">
+        @*<div class="modal-content" id="paperbox-body">*@
+            <div class="modal-body">
+                @photos()
+            </div><!-- /.modal-body -->
+        @*</div>*@<!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->

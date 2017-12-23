@@ -1,0 +1,86 @@
+﻿@model Bewander.ViewModels.MessageNotificationViewModel
+@using Microsoft.AspNet.Identity
+
+
+<li id="messages-nav-icon" rel="toggle" role="button" class="navbar-item-container navbar-icon-container dropdown" onclick="removeMsgIcon()">
+    @*Messages envelope icon is controlled using bootstrap.js dropdown- Corey D*@
+    <a class="dropdown-toggle nav-dropdown-toggle" data-toggle="dropdown" role="button">
+        @*The Messages envelope icon is always on the nav bar- Corey D*@
+        <i class="fa fa-commenting-o navbar-icon"></i>
+        @if (Model.Messages.Count() != 0)
+        {
+            <div id="messages-notification" class="navbar-notification">@Model.Messages.Count()</div>
+        }
+    </a>
+
+    <ul id="message-list" class="dropdown-menu nav-list nav-dropdown-list">
+        <li><h5 class="nav-dropdown-header messages-dropdown-header">Messages</h5></li>
+        @if (Model.Messages.Count() != 0)
+    {
+        foreach (var item in Model.Messages.OrderByDescending(i => i.DateTime))
+        {
+            <li class="message-item" relID="@item.RelationshipID" onclick="SelectUser('@item.RelationshipID')">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img src=@Model.getProfilePic(item) onclick="ViewProfile()" />
+                    </div>
+                    <div class="col-sm-9">
+                        <div>
+                            @if (@item.DateTime.Day == DateTime.Today.Day)
+                        {
+                            String time = @item.DateTime.ToString("hh:mm tt");
+
+                            <p class="text-left message-user-info">
+                                <strong>@Model.getSenderName(item)</strong>
+                                <span class="message-time">@time</span>
+                            </p>
+                    }
+                    else
+                    {
+                        String time = @item.DateTime.ToString("MM/dd/yyyy");
+
+                        <p class="text-left message-user-info">
+                            <strong>@Model.getSenderName(item)</strong>
+                            <span class="message-time">@time</span>
+                        </p>
+                }
+                        </div>
+
+                        <p class="text-left text-limit message-content">@item.Content </p>
+                    </div>
+                </div>
+            </li>
+            <hr class="message-divider" />
+    }
+
+}
+else
+{
+    <li><div class="no-nav-dropdown-items">You currently have no messages</div></li>
+}
+        <!-- Three  more items in the messages dropdown menu -->
+        @*<li><h5>@Html.ActionLink("Inbox", "Inbox", "Users", new { userID = User.Identity.GetUserId()}, null)</h5></li>*@
+
+        <li><h5 class="nav-dropdown-header">Search for fellow Wanderers</h5>
+        <li>
+            <form role="friendSearch">
+                <div id="friendSearch-bar1" style="position:inherit; z-index:999; align-content:center; padding-top:3px;">
+                    <input type="text" class="form-control" id="friend-Search1" placeholder="Search Wanderers" onkeyup="friendSearch(this)">
+                    <ul id="friendSearch-results1"></ul>
+                </div>
+            </form>
+        </li>
+
+    </ul>
+</li>
+
+
+<script>
+    function removeMsgIcon() {
+        var element = document.getElementById("messages-notification");
+        if (element) { // if no notifications are found then this does not exist
+            element.remove();
+        }
+    }
+</script>
+

@@ -1,0 +1,191 @@
+﻿@model Bewander.ViewModels.PostInteractionViewModel
+
+<!--  <link href="~/Content/comment.css" rel="stylesheet" />  -->
+
+<div class="newsfeed-item-footer">
+
+   
+
+        <ul class="post-icons">
+            @if (!Model.Likes.ContainsKey(Model.UserID))
+            {
+                <li class="like-post" onclick="LikePost('@Model.PostID', this)"><i class="fa fa-thumbs-o-up fa-2x"></i></li>
+            }
+            else
+            {
+                <li class="unlike-post" onclick="UnlikePost('@Model.PostID', this)"><i class="fa fa-thumbs-o-up fa-2x"></i></li>
+            }
+            @*<li onclick ="UnlikePost('@Model.PostID', this)" class="fa fa-thumbs-o-down fa-2x"></li>*@
+
+
+        <li id="@Model.PostID-likes-count">@Model.Likes.Count()<span class="thumbs-up-count"> Likes</span>
+            <ul id="@Model.PostID-likes-list" class="likes-list">
+                @foreach (var item in Model.Likes)
+                {
+                    <li>@item.Value</li>
+                }
+            </ul>
+        </li>
+
+    <li><i class="fa fa-comment-o fa-2x" data-toggle="modal" data-target="#commentModal-@Model.PostID"></i></li>
+
+    <li id="flagged" data-toggle="modal" data-target="#flagModal"><i class="fa fa-flag-o fa-2x"></i></li>
+    @if (Model.PostUserid == Model.UserID)
+    {
+        <li id="removeID" data-id=@Model.PostID data-toggle="modal" data-target="#RemoveModal" class="remove"><i class="fa fa-trash-o fa-2x"></i></li>
+    }
+
+    </ul>
+
+    <div class="modal fade" id="flagModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content" id="flag-form">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">What's the matter?</h4>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+
+                        <input type="text" name="PostID" value="@(Model.PostID)" style="display:none" />
+                        <input type="radio" name="flagValue" value="1">This is offensive.<br>
+                        <input type="radio" name="flagValue" value="2">This is spam.<br>
+                        <input type="radio" name="flagValue" value="3">Other
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    @using (Html.BeginForm())
+                    {
+                        @Html.AntiForgeryToken()
+                        <button type="button" id="submitBtn" class="btn btn-default" onclick="Flag(@Model.PostID,this)">Submit</button>
+                    }
+                    <button type="button" id="closeBtn" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="modal fade" id="submitModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content" id="submit-message">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Thank You</h4>
+                </div>
+                <div class="modal-body">
+                    <h2>Thank you for your report. An admin has been notified and will handle the post accordingly.</h2>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal" data-target="#submitModal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</div>
+<div class="modal fade" id="RemoveModal" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content" id="removeID">
+            <div class="modal-header">
+                
+                <h4 class="modal-title">Are you sure you want to delete post?</h4>
+            </div>
+            <div class="modal-body">
+			
+				<button onclick="addId();" type="submit" class="remove-post btn btn-primary btn-sm newsfeedPartialBtn">Delete</button>
+               
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default newsfeedPartialBtn" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="modal container fade comment-modal-container" id="commentModal-@Model.PostID" role="dialog">
+	<div class="modal-dialog">   
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Comments</h4>
+            </div>
+            <div class="model-body">
+                <div id="current-comments-@Model.PostID">
+                    @Html.Action("GetAllComments", new { Id = Model.PostID })
+                </div>
+                <div class="form-group" style="display: block; max-width: 400px; margin: 10px auto 10px;">
+                    <input class="form-control" id="new-post-comment-@Model.PostID" onkeypress="commentEntered('@Model.PostID')"
+                    type="text" style="margin-bottom: 0px" placeholder="Your comments" />
+                    <div class="no-comment-error" id="no-comment-error-@Model.PostID" style="color: red; display: inline-block;" >
+                    
+                    </div>  
+                </div>
+                <div class="form-group" style="position: relative; margin-bottom: 10px;">
+                    <button class="btn btn-default" onclick="addComment('@Model.PostID')" style="margin-bottom: 10px; padding: 10px 60px;">Add</button>
+ 
+                </div>
+   
+            </div>
+        </div>
+	</div>
+</div> 
+
+
+
+
+<script>
+	var passedId;
+	$(document).on("click", ".remove", function () {
+		passedID = $(this).data('id');
+
+	});
+
+
+	function addId() {
+
+		var target = '/Posts/RemovePost/'
+		$.post(target + passedID, function () {
+			location.replace("/Users");
+		});
+		$('#RemoveModal').modal('hide');
+
+    }
+
+    function addComment(id) {
+        var comment = $('#new-post-comment-' + id).val();
+        if (comment) {
+            $.post( "/Posts/AddComment", { Id: Number(id), UserComment: comment })
+            .done(function( data ) {
+                $("#current-comments-" + id).html(data);
+                $('#new-post-comment-' + id).val('')
+            })
+            .fail(function(data) {
+                $("#current-comments-" + id).html(data);
+                $('#new-post-comment-' + id).val('');
+            });
+        } else {
+            $('#no-comment-error-'+ id).text('Value is required').show();
+        }
+    }
+
+    function commentEntered(id) {
+        $('#no-comment-error-'+ id).hide();
+    }
+
+
+    function Flag(ID, element) {
+        FlagPost(ID, element); 
+        FlagNotification(ID, element);
+    }
+</script>
+
+

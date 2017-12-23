@@ -1,0 +1,183 @@
+/*---Reviews/Create---*/
+$tablet: "(min-width: 768px)";
+$desktopMed: "(min-width: 992px)";
+$desktopLg: "(min-width: 1200px)";
+
+#bImage{
+   object-fit: cover;
+   width: 100%;
+   height: 600px;
+   height: 100%;
+   position: page;
+   position: fixed;
+   background-size:auto;
+   //padding-Right: 100px
+}
+body{
+    padding-bottom: 0px
+}
+
+.review-container {
+  margin-top: 20px;  
+  padding: 10px;
+}
+
+#infowindow-content {
+    display: none;
+}
+
+#review-locatoin {
+    margin-top: 0;
+}
+
+#review-location-icon {
+    display: none;
+}
+
+#CreateReview {
+    margin-top: 0px; /*Reduced margin so the Write a Review form is more centered on screen-Corey D */
+    h2 {
+        margin-top: 0px; //Removed margin because now there's padding-top added to all body content. -SC
+        color:aliceblue
+    }
+
+    
+    #review-locatoin {
+        margin-top: 0;
+    }
+
+    #review-location-icon {
+        display: none;
+    }
+    
+
+    #create-review-form {
+        border-radius: 0px;
+        padding: 10px;
+        height: 100%;
+        width: 100%;
+        //! Changed background-color and color to coordinate with Edit Profile page
+        background-color: rgba(134, 168, 151, 0.65);
+        color:#FFF;
+
+
+        .form-control {
+            background-color:rgba(159, 201, 181, 0.6);
+            color: #FFF;
+        }
+
+        //! Styles dropdowns 
+        #btn {
+            background-color: #fff;
+            color: black;
+        }
+
+        .col-xs-4 {
+            z-index: 1;
+        }
+
+        .unset-max-width {
+            max-width: unset;
+        }
+
+        #create-review-btn {
+            margin-top: 12px;
+        }
+
+        @media #{$tablet} {
+            margin: 20px auto;
+            padding: 15px;
+
+            #Body {
+                height: 100px;
+            }
+
+            .row {
+                margin-top: unset;
+                padding: 0 10px;
+            }
+
+            .col-sm-3 {
+                margin: unset;
+                padding: 0 5px;
+            }
+
+            #create-review-btn {
+                width: 100%;
+                margin: unset;
+            }
+
+        }// Tablet
+
+        @media #{$desktopMed} {
+            width: 70%;
+
+            #Body {
+                height: 130px;
+            }
+            #CreateReview {
+                margin-top:75px; 
+            }
+        }// DesktopMed
+
+        @media #{$desktopLg} {
+            width: 60%;
+        }// DesktopLg
+
+    }// .create-review-form
+
+
+    #stars-container {
+        margin-bottom:10px;
+
+        #msg2 {
+            width: 250px;
+            margin: 0 0 0 30px;
+        }
+
+        div {
+            padding: 0;
+            font-size: 2.5em;
+            color: rgb(252, 237, 100);
+        }
+
+        .stars div:nth-child(1){
+            position: absolute;
+            width: 50%;
+            height: 100%;
+            top: 0;
+        }
+
+        .stars div:nth-child(2) {
+            position: absolute;
+            width: 50%;
+            height: 100%;
+            right:0;
+            top: 0;
+        }
+
+        @media #{$tablet} {
+            div {
+                font-size: 5em;
+            }
+        } // Tablet
+
+        @media #{$desktopMed} {
+            div {
+                font-size: 6em;
+            }
+        } // DesktopMed
+
+        @media #{$desktopLg} {
+            div {
+                font-size: 4em;
+            }
+        }
+    }
+
+}
+#revConfirmed{
+    color: #0040ff;
+    text-emphasis: sesame;
+}
+

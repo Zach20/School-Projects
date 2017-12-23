@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewBag.Title = "FAQ";
+}
+
+<h2 id="faqTitle">Frequently Asked Questions</h2>
+<br />
+
+<button class="accordion"><b>Q:</b> What is Bewander?</button>
+<div>
+    <p><b>A:</b>  Bewander is a fresh social media website that was created to connect travelers to the best way to see the world on whatever budget. It strives to be a trusted source of reviews created by like-minded travelers and help travelers network while abroad. When you go somewhere new, you tend to ask your friends what they thought if they’ve been here. That’s what Bewander is. A place for you to get traveling advice you can rely on - without a vested interest.</p>
+
+</div>
+
+<button class="accordion"><b>Q:</b> How do I create an account?</button>
+<div>
+    <p><b>A:</b> Click on the “Register” button on the Navigation Bar.</p>
+</div>
+
+<button class="accordion"><b>Q:</b> How do I create a review?</button>
+<div>
+    <p><b>A:</b> Click on the “Review” button on the Navigation bar.</p>
+</div>
+
+<button class="accordion"><b>Q:</b> Once I write a review, where does it post?</button>
+<div>
+    <p><b>A:</b> Reviews become public upon creation. You can see all your reviews on your Profile Page, as well as within the “Search” database.</p>
+</div>
+
+<button class="accordion"><b>Q:</b> What happens if I don’t see any reviews for a specific place or thing?</button>
+<div>
+    <p><b>A:</b> Then you get to be the content pioneer! Click the “Review” button on the Navigation bar to get started.</p>
+</div>
+
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].onclick = function () {
+            this.classList.toggle("active");
+            this.nextElementSibling.classList.toggle("show");
+        }
+    }
+</script>

@@ -1,0 +1,91 @@
+﻿@model IEnumerable<Bewander.ViewModels.ReviewViewModel>
+
+@{
+    ViewBag.Title = "PublicImages";
+}
+
+<h2 style="text-align:center;"> Travel Photos </h2><br />
+<ul style="list-style:none"  class="col-lg-12">
+    @{    foreach (var item in Model)
+        {
+           
+            <div class="col-sm-4">
+                <div id="Public-Images" class="card" >
+                    <li>
+                        <div class="col-lg-12">
+                            <img class="publicImages img-thumbnail user-photos" src="~/Images/@item.ReviewPicturePath" alt="Posted_Picture" />                            
+                        </div>                      
+                        <div class="card-footer">     
+                                @if (!Request.IsAuthenticated)
+                                {
+                                    <i class="like-post fa fa-thumbs-o-up fa-2x" data-toggle="modal" data-target="#modal1"></i>
+                                }
+                                @if (Request.IsAuthenticated)
+                                {
+                                    if (item.ImageLiked == false)
+                                    {
+                                        <i class="like-post fa fa-thumbs-o-up fa-2x" id="@item.ImageID" onclick="LikeImage(@item.ImageID, this)"></i>
+                                    }
+                                    else
+                                    {
+                                        <i class="unlike-post fa fa-thumbs-o-up fa-2x" id="@item.ImageID" onclick="UnlikeImage(@item.ImageID, this)"></i>
+                                    }
+                                }
+                                <p class="TravelPhotosTitle">@item.ImageLikeCount Likes - @item.PlaceName </p>
+                        </div>
+                    </li>
+                </div>
+            </div>
+         }
+    }
+</ul>
+
+@if (!Request.IsAuthenticated)
+{
+	<div class="modal fade Contact" id="modal1" data-open-onload="true" data-open-delay="10000" tabindex="-1" role="dialog">
+		<div class="modal-dialog modal-lg" role="document">
+			<div id="modalcontents" class="modal-content">
+				<button type="button" class="close" data-dismiss="modal" aria-label="close"><span aria-hidden="true">&times;</span></button>
+				<h2 class="heading text-center">
+					<br />
+					<span id="heading">Sign up and see what your fellow wanderers are saying before you take off on your next adventure!</span><br /><br />
+				</h2>
+				<div class="row">
+					<div class="col-12">
+						<p><a href='@Url.Action("Login", "Account")' class="btn bt-lg btn-success">Start today</a></p>
+					</div>
+				</div>
+
+				<h2 class="heading text-center">
+					<br />
+					<span id="subheading" class="sub-heading"> Read reviews, find hidden gems, search for locals and let Bewander help you experience a city like never before</span>
+				</h2>
+			</div>
+		</div>
+	</div>
+}
+<br/>
+<br/>
+
+
+
+<script>
+$(window).on("load", function () {
+    $('#closemodal').click(function () {
+        $('#modalwindow').modal('hide');
+    });
+
+    $(".loader-backdrop").fadeOut();               // Open Modal on Load or after delay
+    if ($(".modal.fade.Contact").length && ($(".modal.fade.Contact").attr("data-open-onload")) == "true") {
+        setTimeout(function () {
+            $(".modal.fade.Contact").modal();
+        }, $(".modal.fade.Contact").attr("data-open-delay"));
+    }
+});
+// Hide on close
+$('#closemodal').click(function () {
+    $('#modalwindow').modal('hide');
+    });
+
+
+</script>

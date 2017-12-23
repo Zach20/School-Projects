@@ -1,0 +1,243 @@
+﻿@using Microsoft.AspNet.Identity
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title Bewander</title>
+    
+    <link href="~/Content/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300|Raleway:300" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image" href="~/Images/Global/icon.gif" />
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/greensock")
+    @Scripts.Render("~/bundles/jquery")
+    <script src="~/Scripts/Custom/PublicImageLikeUnlike.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    @*<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=places"></script>*@
+    @RenderSection("autocomplete", false)
+    @RenderSection("Page", false)
+    <script src="~/Scripts/Custom/GoogleAnalytics.js"></script>
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href='@Url.Action("Index", "Home")' class="navbar-brand-container">
+                    <img src="~/Images/Global/logo.png" class="navbar-brand" />
+                </a>
+            </div>
+
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    @*<li>@Html.ActionLink("Write a Review", "Create", "Reviews")</li>*@
+                    <li class="navbar-item-container">@Html.ActionLink("Meet a Local", "Index", "Reviews")</li>
+                    <li class="navbar-item-container">@Html.ActionLink("Travel Photos", "PublicImages", "Posts")</li>
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+
+
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+
+        <div class="row" id="chat-tabs-container"></div>
+
+
+        @*<div class="container-fluid footer-container">
+                <div class="footer-distributed">
+
+                    <div class="footer-right">
+
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+
+                    </div>
+
+                    <div class="footer-left">
+
+                        <p class="footer-links">
+                            <a href='@Url.Action("Contact", "Home")'>Contact</a>
+                            ·
+                            <a href='@Url.Action("Help", "Home")'>Help</a>
+                            ·
+                            <a href='@Url.Action("FAQ", "Home")'>FAQ</a>
+                            ·
+                            <a href='@Url.Action("Privacy", "Home")'>Privacy</a>
+                            ·
+                            <a href='@Url.Action("TOS", "Home")'>Terms of Service</a>
+                        </p>
+
+                        <p>Bewander &copy; 2017</p>
+                    </div>
+
+                </div>
+            </div>*@
+
+ <footer>
+            <font>&copy; @DateTime.Now.Year - Bewander</font> &nbsp;
+            @Html.ActionLink("Contact", "Contact", "Home", new { style = "color:#62B18B;" }) &nbsp;
+            @Html.ActionLink("Help", "Help", "Home", new { style = "color:#62B18B;" })  &nbsp;
+            @Html.ActionLink("FAQ", "FAQ", "Home", new { style = "color:#62B18B;" }) &nbsp;
+            @Html.ActionLink("Privacy", "Privacy", "Home", new { style = "color:#62B18B;" }) &nbsp;
+            @Html.ActionLink("Terms of Service", "TOS", "Home", new { style = "color:#62B18B;" })
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/searchbar")
+    @if (Request.IsAuthenticated)
+    {
+        <script>
+
+            document.addEventListener("keydown", keyDownTextField, false);
+
+            function keyDownTextField(e) {
+                var keyCode = e.keyCode;
+                if (keyCode == 13) {
+                    friendSearch(this);
+                }
+            }
+
+			//$(window).click(function (e) {
+			//	alert(e.target.id); // gives the element's ID
+			//	alert(e.target.className); // gives the elements class(es)
+			//});
+
+		////$("#friend-Search").bind('keyup', function (event) {
+		////	if (event.keyCode == 13) {
+		////		event.preventDefault();
+		////		//$("#buttonSrch").click();
+		////		//search(this.value);
+		////	}
+		//});
+
+        </script>
+        <script src="~/Scripts/Custom/FriendSearchBar.js"></script>
+    }
+    @Scripts.Render("~/bundles/signalrJQuery")
+    @Scripts.Render("~/bundles/signalR")
+    <script src="~/signalR/hubs"></script>
+    <script src="~/Scripts/Custom/Chat.js"></script>
+    <script src="~/Scripts/Custom/Register.js"></script>
+
+    @RenderSection("scripts", required: false)
+
+
+
+    <script>
+
+            $("#friend-Search").bind('keyup', function (event) {
+                if (event.keyCode == 13) {
+                    event.preventDefault();
+                    //$("#buttonSrch").click();
+                    //search(this.value);
+                }
+            });
+
+    </script>
+
+    @if (Request.IsAuthenticated)
+    {
+        <script>
+            // Hub Connection
+            $(function () {
+                // Declare a proxy to reference the hub.
+                var AppHub = $.connection.AppHub;
+                var userID = "@User.Identity.GetUserId()";
+
+                // Create a function that the hub can call to broadcast messages.
+                AppHub.client.receiveMessage = function (message, relationshipID, senderUserID) {
+                    // Html encode display name and message.
+                    var encodedMsg = $('<div />').text(message).html();
+                    // Add the message to the conversation.
+                    var ulElement = document.getElementById("conversation-" + relationshipID);
+                    console.log(ulElement);
+                    if (ulElement == null) {
+                        // GET: Messages with target user
+                        $.ajax({
+                            type: "GET",
+                            url: "/Home/_ChatBox?relationshipID=" + relationshipID,
+                            error: function (html) {
+                                $("#chat-tabs-container").html("").show();
+                                return;
+                            },
+                            success: function (html) {
+                                $("#chat-tabs-container").html("").show();
+                                $("#chat-tabs-container").html(html).show();
+                                var ulElement = document.getElementById("conversation-" + relationshipID);
+                                ulElement.scrollTop = ulElement.scrollHeight - ulElement.clientHeight;
+                            }
+                        });
+                    } else {
+                        var li = document.createElement("li");
+                        li.innerHTML = encodedMsg;
+
+                        if (userID == senderUserID) {
+                            li.className = "current-user-message";
+                        }
+
+                        ulElement.appendChild(li)
+                        ulElement.scrollTop = ulElement.scrollHeight - ulElement.clientHeight;
+                    }
+
+
+                };
+
+                // Start the connection.
+                $.connection.hub.start().done(function () {
+                    // Connection has started
+                    // $('#hub-test').append('<h4>Chat connection established.</h4>');
+                    // Add user to userConnLookupTable
+                    AppHub.server.registerConn();
+
+                });
+
+                //Display list of current users received from the hub
+                AppHub.client.displayListOfConnected = function (connectedUsers) {
+                    $('#chat-user-list').empty();
+                    for (var i = 0; i < connectedUsers.length; i++) {
+                        console.log(connectedUsers[i].RelationshipID);
+                        $('#chat-user-list').append('<li onclick="SelectUser(' + connectedUsers[i].RelationshipID + ')" id="' + connectedUsers[i].ConnectionID + '"> ' + connectedUsers[i].Name + '</li>');
+                    }
+                };
+
+                window.setInterval(RefreshList, 2000);
+
+                function RefreshList() {
+                    AppHub.server.registerConn(userID);
+                    AppHub.server.sendListOfConnected(userID);
+                }
+
+                window.setInterval(SendMes, 0);
+                function SendMes() {
+                    var inputArray = document.getElementsByClassName("chat-user-input");
+                    var element = document.activeElement;
+                    var message = element.value;
+                    var activeChatBox = element.getAttribute('relID');
+                    element.onkeydown = function (event) {
+                        if (event.keyCode == 13) {
+                            // Send Message
+                            AppHub.server.sendMessage(message, activeChatBox, '@User.Identity.GetUserId()');
+                            // Clear user-input
+                            element.value = '';
+                        }
+                    }
+                }
+
+            });
+        </script>
+    }
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Bewander.ViewModels.NewsFeedViewModel>
+
+@foreach (var item in Model)
+{
+	
+		<div class="col-sm-4" id="travelogue-saved-container">
+			 <div class="card card-outline-success mb-3 post-card">
+					<div class="travelogue-image-container">
+							@if (item.PostedPicture != null)
+							{
+									<img class="travelogue-caption-image" src="../Images/@item.PostedPicture" />
+							} else {
+									<div class="no-image-container">
+											<div class="no-image-found"> No Image Found </div>
+									</div> 
+							}              
+					</div>
+					<div class="card-block travelogue-caption-text">
+            @if (item.Caption != null)
+            {
+                <div class="form-group">
+                   @item.Caption
+                </div>
+            }
+        	</div>
+					<div class="card-footer text-muted">
+							<div class="date-travelogue-info"> 
+								@item.DatePosted 
+							</div>
+							<div class="post-interactions-container">
+									@Html.Action("_PostInteractions", "Posts", new { postID = item.PostID })
+							</div>                
+					</div> 
+    		</div>
+		</div>
+
+	
+	}
+

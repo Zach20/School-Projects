@@ -1,0 +1,235 @@
+﻿@*@model Bewander.Models.User
+@{
+    ViewBag.Title = "Chat";
+
+}
+
+<script>
+    $(function () {
+        // Declare a proxy to reference the hub.
+        var ChatHub = $.connection.ChatHub;
+        var userName = "@Model.FirstName" + " @Model.LastName";
+        var userID = "@Model.UserID";
+
+        $.connection.hub.start(function () {
+            // Connection has started
+            $('#hub-test').html('Connected');
+            // Add user to userConnLookupTable
+            ChatHub.server.registerConnId(userID, userName);
+            console.log("Register: " + userName + " " + userID);
+        });
+    });
+</script>*@
+
+
+@model Bewander.Models.User
+@{
+    ViewBag.Title = "Chat";
+
+}
+
+<div class="row">
+    <div class="col-sm-12 text-center" id="chat-header">
+        <h2>Connect</h2>
+    </div>
+</div>
+
+<!--Chat: Conversation Classes-->
+<div class="chat-convo-container">
+    <div class="chat-convo-header">
+        <h4 class="name-header">Jordan Real</h4>
+        <i class="fa fa-close close-icon"></i>
+    </div>
+    <ul class="conversation"></ul>
+    @Html.Editor("chat-user-input", new { htmlAttributes = new { @class = "chat-user-input", placeholder = "Message..." } })
+</div>
+@*<h4 class="target-user-tab" onclick="ShowChatConvo()"></h4>*@
+
+
+
+
+
+
+
+<div id="chat-container">
+    <div id="chat-user-list-container">
+        <ul id="chat-user-list"></ul>
+    </div>
+</div>
+
+
+@section scripts {
+    <script src="/Scripts/jquery.signalR-2.2.0.js"></script>
+    <script src="/signalr/hubs"></script>
+}
+<!--Toogle Chat-->
+<script>
+    function ToggleChatConvo(id) {
+        var element = document.getElementById(id);
+        var id = element.getAttribute("id");
+        element.style.display = "none";
+
+        var tab = document.getElementById("tab-" + id);
+        tab.style.display = "block";
+    }
+
+    function ShowChatConvo(id) {
+        var chatConvoContainer = document.getElementById(id);
+        chatConvoContainer.style.display = "block";
+
+        var tab = document.getElementById("tab-" + id);
+        tab.style.display = "none";
+    }
+</script>
+
+<!--Select User from List-->
+<script>
+    function SelectUser(listItem) {
+        var id = listItem.getAttribute("connid");
+        var count = listItem.getAttribute("count");
+        var chatID = document.getElementById(id);
+        var chatContainer = document.getElementById("chat-container");
+
+        if (chatID == null) {
+            // Create container (div)
+            var container = document.createElement("div");
+            container.setAttribute("class", "chat-convo-container");
+            container.setAttribute("id", id);
+            container.setAttribute("count", count);
+            container.style.display = "block";
+
+            // Create header (div)
+            var header = document.createElement("div");
+            header.setAttribute("class", "chat-convo-header");
+            header.setAttribute("onclick", "ToggleChatConvo('"+ id +"')");
+            $(container).append(header);
+
+            // Create name for header (h4)
+            var headerName = document.createElement("h4");
+            headerName.setAttribute("class", "name-header");
+            headerName.innerText = listItem.innerText;
+            $(header).append(headerName);
+
+            // Create exit icon for header (i)
+            var exitIcon = document.createElement("i");
+            exitIcon.setAttribute("class", "fa fa-close close-icon");
+            exitIcon.setAttribute("onclick", "RemoveElement('"+ id +"')");
+            $(header).append(exitIcon);
+
+            // Create empty UL for conversation (ul)
+            var conversation = document.createElement("ul");
+            conversation.setAttribute("class", "conversation");
+            conversation.setAttribute("id", "conversation-" + count);
+            $(container).append(conversation);
+
+            // Create chat input (input)
+            var chatInput = document.createElement("input");
+            chatInput.setAttribute("class", "chat-user-input text-box single-line");
+            chatInput.setAttribute("id", "chat-user-input-" + count);
+            chatInput.setAttribute("connid", id);
+            chatInput.setAttribute("placeholder", "Message...");
+            chatInput.setAttribute("type", "text");
+            $(container).append(chatInput);
+
+            // Create convo tab (h4)
+            var tab = document.createElement("h4");
+            tab.setAttribute("class", "target-user-tab");
+            tab.setAttribute("id", "tab-" + id);
+            tab.setAttribute("onclick", "ShowChatConvo('" + id + "')");
+            tab.setAttribute("style", "display:none;");
+            tab.innerText = listItem.innerText;
+            $(chatContainer).append(tab);
+
+            //container.appendChild()
+            $("#chat-container").append(container);
+        }
+        //var chatConvoContainer = document.getElementById("chat-conversation-container");
+        //chatConvoContainer.style.display = "block";
+        //var listValue = listItem.getAttribute("value");
+        //var innerText = listItem.innerText;
+        //var target = document.getElementById("target-user");
+        //var targetTab = document.getElementById("target-user-tab");
+        //target.innerText = innerText;
+        //target.setAttribute("userid", listValue);
+        //targetTab.innerText = innerText;
+        //document.getElementById("conversation-tab").style.display = "none";
+    }
+
+    function RemoveElement(id) {
+        var elem = document.getElementById(id);
+        elem.parentNode.removeChild(elem);
+    }
+</script>
+
+@*<script type="text/javascript">
+        $(function () {
+            // Declare a proxy to reference the hub.
+            var notifications = $.connection.ChatHub;
+            var userName = "@Model.FirstName" + " @Model.LastName";
+            var userID = "@Model.UserID";
+            var connIDList = [];
+
+            // Create a function that the hub can call to broadcast messages.
+            notifications.client.receiveMessage = function (message, count) {
+                // Html encode display name and message.
+                var encodedMsg = $('<div />').text(message).html();
+                // Add the message to the conversation.
+                $('#conversation-' + count).append('<li>' + encodedMsg + '</li>');
+            };
+
+            // Send message when user hits enter
+            //document.getElementById('chat-user-input').onkeydown = function (event) {
+            //    if (event.keyCode == 13) {
+            //        var target = document.getElementById("target-user");
+            //        var userID = target.getAttribute("userid");
+            //        console.log(userID);
+            //        notifications.server.sendMessage($('#chat-user-input').val(), userID);
+            //        console.log("individual: send message");
+            //        // Clear user-input
+            //        $('#chat-user-input').val('').focus();
+            //    }
+            //}
+
+            // Start the connection.
+            $.connection.hub.start().done(function () {
+                // Connection has started
+                $('#chat-header').append('<h4>Chat connection established.</h4>');
+                // Add user to userConnLookupTable
+                notifications.server.registerConnId(userID, userName);
+                console.log("Register: " + userName + " " + userID);
+            });
+
+            //Display list of current users received from the hub
+            notifications.client.displayListOfConnected = function (connectedUsers) {
+                $('#chat-user-list').empty();
+                $.each(connectedUsers, function (index, value) {
+                    //$('#chat-user-list').append('<li onclick="SelectUser(this)" value=' + value.UserID + ' connID=' + value.ConnectionID + '>' + value.Name + '</li>');
+                    $('#chat-user-list').append('<li onclick="SelectUser(this)" connID=' + value.ConnectionID + ' count=' + value.Count + '>' + value.Name + '</li>');
+                    connIDList.push(value.ConnectionID);
+                    console.log("User List Add: " + value.Name + " " + value.ConnectionID);
+                });
+            };
+
+            window.setInterval(SendMes, 0);
+
+            function SendMes() {
+                for (var i = 0; i < connIDList.length; i++) {
+                    var targetUser = document.getElementById('chat-user-input-' + i);
+                    var targetID = targetUser.getAttribute("connid");
+                    var message = targetUser.value;
+                    console.log(message);
+                    document.getElementById('chat-user-input-' + i).onkeydown = function (event) {
+                        if (event.keyCode == 13) {
+                            //var targetUser = document.getElementById('chat-user-input-' + i);
+                            console.log("2nd: " + message);
+                            //var targetID = targetUser.getAttribute("connid");
+                            notifications.server.sendMessage(message, targetID);
+
+                            // Clear user-input
+                            targetUser.value = '';
+                        }
+                    };
+                }
+            };
+        });
+</script>*@

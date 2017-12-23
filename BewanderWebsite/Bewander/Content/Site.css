@@ -1,0 +1,1283 @@
+﻿html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    /*background-color: black !important;*/
+}
+
+/******************************************************/
+/*HomePage css*/
+
+
+.bckHome {
+    background-color: black !important;
+}
+
+
+
+/* Fix nav items going off position on mobile */
+.navbar-nav .nav-item + .nav-item {
+    margin-left: 0;
+}
+
+.navbar {
+    width: 100% !important;
+    background-color: rgba(149, 149, 149, 0.77);
+    margin: 0;
+}
+
+.navbar-brand {
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+}
+
+.navbar-nav a {
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif !important;
+    color: #B2DBB2 !important;
+}
+
+.navbar-nav a:hover {
+    color: white !important;
+    -webkit-transition: color 0.2s;
+}
+
+
+
+
+#header-home {
+    /*    background-image: url(/img/personView.jpg);*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Images/Home/personView.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.header-home-title {
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    /*    text-transform: uppercase;*/
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: white;
+    font-size: 50px;
+    /*    word-spacing: 4px;*/
+    letter-spacing: 1px;
+}
+#BLUE {
+    color: red;
+}
+
+.bewanderLogo {
+    text-align: center;
+}
+
+.header-home-btn {
+    text-align: left;
+}
+
+.bttn:link,
+.bttn:visited {
+    display: inline-block;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #B2DBB2;
+    border: 1px solid #B2DBB2;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #B2DBB2;
+    color: #B2DBB2;
+}
+
+.bttn:hover,
+.bttn:active {
+    background-color: #7AB69F;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #7AB69F;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #7AB69F;
+    color: #fff;
+}
+
+.community {
+    margin-top: 70px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.community::after {
+    display: block;
+    height: 2px;
+    background-color: #7AB69F;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.long-copy {
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+.card-block {
+	background-color: #fffef9;
+    /*height: 18em;*/
+}
+}
+.card-title {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+.card-text {
+	line-height: 1.5;
+	margin-bottom: 15px;
+}
+
+.card img{
+    max-width:100%;
+}
+
+.note h6{
+    padding-top: 4%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 150%;
+    color: black;
+    text-align: center;
+
+}
+
+/*------Card Overlays ----*/
+
+a {
+    -webkit-transition: .25s all;
+    transition: .25s all;
+}
+.card {
+    /*overflow: hidden;*/
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.16), 0 12px 20px 0 rgba(0, 0, 0, 0.12);
+    -webkit-transition: .25s box-shadow;
+    transition: .25s box-shadow;
+}
+.card:focus, .card:hover {
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.38), 0 4px 15px 0 rgba(0, 0, 0, 0.35);
+}
+.card-inverse .card-img-overlay {
+    background-color: rgba(51, 51, 51, 0.85);
+    border-color: rgba(51, 51, 51, 0.85);
+}
+
+.bewander-cards {
+    margin-bottom: 70px;
+}
+
+#explore {
+    margin-bottom: 70px;
+}
+
+
+.seeWorld {
+    margin-top: 70px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.seeWorld::after {
+    display: block;
+    height: 2px;
+    background-color: #7AB69F;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.section-meals {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 0;
+}
+
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.meal-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.meal-photo img:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+}
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+#whereBewander {
+    background-image: url(/Images/Home/motorcycleDesert.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+
+
+.whereBewander-title {
+    font-family: 'Raleway', sans-serif;
+    /*    text-transform: uppercase;*/
+    padding-top: 180px;
+    padding-bottom: 30px;
+    color: white;
+    font-size: 50px;
+    /*    word-spacing: 4px;*/
+    letter-spacing: 1px;
+}
+
+footer {
+  background: #ffab62;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: normal 16px sans-serif;
+
+	padding: 10px 50px;
+	margin-top: 0px;
+}
+
+.footer-distributed .footer-left p{
+	color:  #8f9296;
+	font-size: 14px;
+	margin: 0;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links{
+	font-size:18px;
+	font-weight: bold;
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed p.footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-right{
+	float: right;
+	margin-top: 6px;
+	max-width: 180px;
+}
+
+.footer-distributed .footer-right a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-left: 3px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 600px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		text-align: center;
+	}
+
+	.footer-distributed .footer-right{
+		float: none;
+		margin: 0 auto 20px;
+	}
+
+	.footer-distributed .footer-left p.footer-links{
+		line-height: 1.8;
+	}
+}
+
+
+/******************** login **************************/
+
+
+.footer-container {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+
+#login {
+    /*    background-image: url(/img/personView.jpg);*/
+    /*background-image: linear-gradient(rgba(178, 219, 178, 0.3), rgba(178, 219, 178, 0.3)), url('/Images/Home/phone.jpg');*/
+    background-size: cover;
+    background-position: center;
+    /*height: 100vh;*/
+    /*background-attachment: fixed;*/
+}
+
+.loginCards {
+    padding-top: 10px;
+}
+
+
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+.card img{
+    max-width:100%;
+}
+
+.note h6{
+    padding-top: 4%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 150%;
+    color: black;
+    text-align: center;
+
+}
+
+/*------Card Overlays ----*/
+
+a {
+    -webkit-transition: .25s all;
+    transition: .25s all;
+}
+.card {
+    overflow: hidden;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.16), 0 12px 20px 0 rgba(0, 0, 0, 0.12);
+    -webkit-transition: .25s box-shadow;
+    transition: .25s box-shadow;
+}
+.card:focus, .card:hover {
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.38), 0 4px 15px 0 rgba(0, 0, 0, 0.35);
+}
+.card-inverse .card-img-overlay {
+    background-color: rgba(51, 51, 51, 0.85);
+    border-color: rgba(51, 51, 51, 0.85);
+}
+
+
+/*****************************************************/
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+   /*max-width: 95%;*/
+   margin:auto;
+}
+
+
+
+/***********************   Login/SignUp    ********************************/
+
+.text-color {
+	color:#73ac96;
+}
+
+.login-wrap{
+	width:100%;
+	margin:auto;
+	max-width:525px;
+	min-height:770px;
+	position:relative;
+	/*background:url(https://raw.githubusercontent.com/khadkamhn/day-01-login-form/master/img/bg.jpg) no-repeat center;*/
+	background: rgba(19, 35, 47, 0.9);
+}
+
+.login-wrap li a{
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    background: rgba(160, 179, 176, 0.25);
+    color: #a0b3b0;
+    font-size: 20px;
+    float: left;
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+}
+}
+.login-html{
+	width:100%;
+	height:100%;
+	position:absolute;
+	padding:90px 70px 50px 70px;
+	background:rgba(40,57,101,.9);
+	/*background-color: #101010 !important;*/
+	/*background-color: rgba(33, 28, 28, 0.44) !important;*/
+	/*background-color: transparent;*/
+}
+.login-html .sign-in-htm,
+.login-html .sign-up-htm{
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	position:absolute;
+	transform:rotateY(180deg);
+	backface-visibility:hidden;
+	transition:all .4s linear;
+}
+.login-html .sign-in,
+.login-html .sign-up,
+.login-form .group .check{
+	display:none;
+}
+.login-html .tab,
+.login-form .group .label,
+.login-form .group .button{
+	text-transform:uppercase;
+}
+.login-html .tab{
+	font-size:22px;
+	margin-right:15px;
+	padding-bottom:5px;
+	margin:0 15px 10px 0;
+	display:inline-block;
+	border-bottom:2px solid transparent;
+}
+.login-html .sign-in:checked + .tab,
+.login-html .sign-up:checked + .tab{
+	color:#fff;
+	border-color:#1161ee;
+}
+.login-form{
+	min-height:345px;
+	position:relative;
+	perspective:1000px;
+	transform-style:preserve-3d;
+}
+.login-form .group{
+	margin-bottom:15px;
+}
+.login-form .group .label,
+.login-form .group .input,
+.login-form .group .button{
+	width:100%;
+	color:#fff;
+	display:block;
+	outline:none;
+}
+.login-form .group .input,
+.login-form .group .button{
+	border:none;
+	padding:15px 20px;
+	border-radius:25px;
+	background:rgba(255,255,255,.1);
+}
+.login-form .group input[data-type="password"]{
+	text-security:circle;
+	-webkit-text-security:circle;
+}
+.login-form .group .label{
+	color:#aaa;
+	font-size:12px;
+}
+.login-form .group .button{
+	background:#1161ee;
+}
+.login-form .group label .icon{
+	width:15px;
+	height:15px;
+	border-radius:2px;
+	position:relative;
+	display:inline-block;
+	background:rgba(255,255,255,.1);
+}
+.login-form .group label .icon:before,
+.login-form .group label .icon:after{
+	content:'';
+	width:10px;
+	height:2px;
+	background:#fff;
+	position:absolute;
+	transition:all .2s ease-in-out 0s;
+}
+.login-form .group label .icon:before{
+	left:3px;
+	width:5px;
+	bottom:6px;
+	transform:scale(0) rotate(0);
+}
+.login-form .group label .icon:after{
+	top:6px;
+	right:0;
+	transform:scale(0) rotate(0);
+}
+.login-form .group .check:checked + label{
+	color:#fff;
+}
+.login-form .group .check:checked + label .icon{
+	background:#1161ee;
+}
+.login-form .group .check:checked + label .icon:before{
+	transform:scale(1) rotate(45deg);
+}
+.login-form .group .check:checked + label .icon:after{
+	transform:scale(1) rotate(-45deg);
+}
+.login-html .sign-in:checked + .tab + .sign-up + .tab + .login-form .sign-in-htm{
+	transform:rotate(0);
+}
+.login-html .sign-up:checked + .tab + .login-form .sign-up-htm{
+	transform:rotate(0);
+}
+
+.hr{
+	height:2px;
+	margin:60px 0 50px 0;
+	background:rgba(255,255,255,.2);
+}
+.foot-lnk{
+	text-align:center;
+}
+
+/*********************  Profile Page  **********************/
+
+#personalHeader {
+    height: 40vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/Images/Home/stone.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.personme {
+    height: 200px !important;
+    width: auto;
+    margin-top: 5vh;
+}
+
+.profilepagePhoto {
+    text-align: center;
+    height: 40vh;
+}
+
+.thumbnail {
+    background: #000 !important;
+}
+
+.img-thumbnail {
+    background-color: black;
+    border: 0px solid #ddd;
+    background-size:cover;
+    background-position:50% 50%;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css");
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font: 14px/1 'Open Sans', sans-serif;
+    color: #555;
+    background: #eee;
+}
+
+h1 {
+    padding: 50px 0;
+    font-weight: 400;
+    text-align: center;
+}
+
+p {
+    margin: 0 0 20px;
+    line-height: 1.5;
+}
+
+main {
+    min-width: 320px;
+    /*    max-width: 800px;*/
+    padding: 50px;
+    margin: 0 auto;
+    background: #fff;
+    text-align: center;
+}
+
+.tab-content {
+	
+	width: 80%;
+	margin: auto;
+}
+
+.tab-pane {
+	margin-top: 20px;
+	margin-bottom: 60px;
+}
+.post-card {
+    height: 450px;
+    border-radius: 10px;
+    border-color: #b0c6bb;
+}
+.post-photo {
+    height: 225px;
+}
+.post-caption {
+	height: 70px;
+}
+/***************                inbox **********************/
+
+.inbox-message-item {
+
+	list-style: none;
+	background-color: white;
+}
+.inbox-message-item img {
+        width: 80px;
+        height: 72px;
+        padding:5px;
+    }
+
+
+
+/********                       REVIEWS/CREATE             **************/
+.createReviewRow{
+    margin-top: 50px !important;
+}
+
+#stars-container {
+	height:35px;
+}
+
+
+
+#bImage {
+    object-fit: cover;
+    width: 100%;
+    height: 600px;
+    height: 100%;
+    position: page;
+    position: fixed;
+    background-size: auto;
+}
+#card-block .card-block{
+	height: 750px;
+}
+body {
+    padding-bottom: 0px;
+}
+
+.review-container {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+/***************Review/Index********************/
+
+.searchLocalsTitle {
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.localsTitle {
+    text-align: center !important;
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 30px !important;
+    word-spacing: 2px !important;
+    letter-spacing: 1px !important;
+    color: black !important;
+}
+
+.Content
+{
+  height:224px;
+   overflow:auto;
+    background:#fff;
+}
+
+/***********************Login***************************************/
+
+.footer-container {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+
+
+
+#nav-picture {
+	margin: 5px;
+	width: 35px;
+	height: 35px;
+	border-radius: 22.5px;
+	object-fit: cover;
+}
+
+.loginCards {
+    padding-top: 10px;
+}
+
+
+
+.loginCards .card {
+    /*margin-bottom: 20px;*/
+	margin: 20px;
+
+}
+
+
+
+
+#login .input-group {
+	width: 80% !important;
+	margin: auto;
+	display:block !important;
+	margin-bottom:20px !important;
+	border-radius:5px;
+	}
+#login .form-control {
+	width: 80% !important;
+	margin: auto;
+	display:block !important;
+	margin-bottom:20px !important;
+	border-radius:2px;
+	}
+
+#login p {
+	/*text-align: center;*/
+	margin-top:15px;
+}
+
+.card-title {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+.card img{
+    max-width:100%;
+}
+
+.note h6{
+    padding-top: 4%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 150%;
+    color: black;
+    text-align: center;
+
+}
+
+/*------Card Overlays ----*/
+
+a {
+    -webkit-transition: .25s all;
+    transition: .25s all;
+}
+.card {
+    overflow: hidden;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.16), 0 12px 20px 0 rgba(0, 0, 0, 0.12);
+    -webkit-transition: .25s box-shadow;
+    transition: .25s box-shadow;
+}
+.card:focus, .card:hover {
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.38), 0 4px 15px 0 rgba(0, 0, 0, 0.35);
+}
+.card-inverse .card-img-overlay {
+    background-color: rgba(51, 51, 51, 0.85);
+    border-color: rgba(51, 51, 51, 0.85);
+}
+
+
+
+#CreateReview {
+    margin-top: 0px; /*Reduced margin so the Write a Review form is more centered on screen-Corey D */
+}
+
+    #CreateReview h2 {
+        margin-top: 0px;
+        color: aliceblue;
+    }
+
+    #CreateReview #create-review-form {
+        border-radius: 0px;
+        padding: 10px;
+        height: 100%;
+        background-color: rgba(134, 168, 151, 0.65);
+        color: #FFF;
+    }
+
+        #CreateReview #create-review-form .form-control {
+            background-color: rgba(159, 201, 181, 0.6);
+            color: #FFF;
+        }
+
+        #CreateReview #create-review-form #btn {
+            background-color: #fff;
+            color: black;
+        }
+
+        #CreateReview #create-review-form .col-xs-4 {
+            z-index: 1;
+        }
+
+        #CreateReview #create-review-form .unset-max-width {
+            max-width: unset;
+        }
+
+        #CreateReview #create-review-form #create-review-btn {
+            margin-top: 12px;
+        }
+
+@media (min-width: 768px) {
+    #CreateReview #create-review-form {
+        margin: 20px auto;
+        padding: 15px;
+    }
+
+        #CreateReview #create-review-form #Body {
+            height: 100px;
+        }
+
+        #CreateReview #create-review-form .row {
+            margin-top: unset;
+            padding: 0 10px;
+        }
+
+        #CreateReview #create-review-form .col-sm-3 {
+            margin: unset;
+            padding: 0 5px;
+        }
+
+        #CreateReview #create-review-form #create-review-btn {
+            width: 100%;
+            margin: unset;
+        }
+
+        #CreateReview #create-review-form #create-review-form {
+            width: 100%;
+        }
+}
+
+@media (min-width: 992px) {
+    #CreateReview #create-review-form {
+        width: 70%;
+    }
+
+        #CreateReview #create-review-form #Body {
+            height: 130px;
+        }
+
+        #CreateReview #create-review-form #CreateReview {
+            margin-top: 75px;
+        }
+}
+
+@media (min-width: 1200px) {
+    #CreateReview #create-review-form {
+        width: 60%;
+    }
+}
+
+#CreateReview #stars-container {
+   margin-bottom: 10px;
+	 height: 35px;
+}
+
+    #CreateReview #stars-container #msg2 {
+        width: 250px;
+        margin: 0 0 0 30px;
+    }
+
+    #CreateReview #stars-container div {
+        padding: 0;
+        font-size: 2.5em;
+        color: #fced64;
+    }
+
+    #CreateReview #stars-container .stars div:nth-child(1) {
+        position: absolute;
+        width: 50%;
+        height: 100%;
+        top: 0;
+    }
+
+    #CreateReview #stars-container .stars div:nth-child(2) {
+        position: absolute;
+        width: 50%;
+        height: 100%;
+        right: 0;
+        top: 0;
+    }
+
+@media (min-width: 768px) {
+    #CreateReview #stars-container div {
+        font-size: 5em;
+    }
+}
+
+@media (min-width: 992px) {
+    #CreateReview #stars-container div {
+        font-size: 6em;
+    }
+}
+
+@media (min-width: 1200px) {
+    #CreateReview #stars-container div {
+        font-size: 4em;
+    }
+}
+
+#revConfirmed {
+    color: #0040ff;
+    text-emphasis: sesame;
+}
+
+@media only screen and (min-width: 320px) {
+    #create-review-form {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    #create-review-form {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #create-review-form {
+        width: 100%;
+    }
+}
+
+/***********************NEW LOGIN********************************/
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/*html {
+  overflow-y: scroll;
+}*/
+
+.new-login {
+  background: #222222;
+  font-family: 'Raleway', sans-serif;
+  color:#B2DBB2 !important;
+}
+
+.new-login a {
+  text-decoration: none;
+  /*color: #1ab188;*/
+  color:#B2DBB2 !important;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+.new-login a:hover {
+  color: #179b77;
+}
+
+.form {
+  /*background: rgba(19, 35, 47, 0.9);*/
+  background: #222222;
+  padding: 40px;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+.new-login .tab-content {
+	width: 100%;
+	}
+.new-login .tab-group {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+.new-login .tab-group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.new-login .tab-group li a {
+  display: block;
+  text-decoration: none;
+  padding: 15px;
+  background: rgba(160, 179, 176, 0.25);
+  color: #a0b3b0;
+  font-size: 20px;
+  float: left;
+  width: 50%;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+.new-login .tab-group li a:hover {
+  background: #179b77;
+  color: #ffffff;
+}
+.new-login .tab-group .active a {
+  background: #1ab188;
+  color: #ffffff;
+}
+
+.new-login .tab-content > div:last-child {
+  display: none;
+}
+
+.new-login h1 {
+  text-align: center;
+  color:#B2DBB2 !important;
+  /*color: #ffffff;*/
+  font-weight: 300;
+  margin: 0 0 40px;
+}
+
+.new-login .check {
+	height: 20px;
+    width: 35px;
+    float: left;
+     margin-top: -3px;
+}
+
+.new-login .signup-check {
+	height: 20px;
+    width: 35px;
+    float: left;
+    margin-top: -3px;
+   
+}
+.new-login label {
+  /*position: absolute;*/
+  -webkit-transform: translateY(6px);
+          transform: translateY(6px);
+  
+  margin: 14px 2px;
+  left: 13px;
+  color: rgba(255, 255, 255, 0.5);
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  -webkit-backface-visibility: hidden;
+  pointer-events: none;
+  font-size: 22px;
+}
+.new-login label .req {
+  margin: 2px;
+  color: #1ab188;
+}
+
+.new-login label.active {
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
+  left: 2px;
+  font-size: 14px;
+}
+.new-login label.active .req {
+  opacity: 0;
+}
+
+.new-login label.highlight {
+  color: #ffffff;
+}
+
+.new-login input, textarea {
+  font-size: 22px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 5px 10px;
+  background: none;
+  background-image: none;
+  border: 1px solid #a0b3b0;
+  color: #ffffff;
+  border-radius: 0;
+  -webkit-transition: border-color .25s ease, box-shadow .25s ease;
+  transition: border-color .25s ease, box-shadow .25s ease;
+}
+.new-login input:focus, textarea:focus {
+  outline: 0;
+  border-color: #1ab188;
+}
+
+.new-login textarea {
+  border: 2px solid #a0b3b0;
+  resize: vertical;
+}
+
+.new-login .field-wrap {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.new-login .top-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.new-login .top-row > div {
+  float: left;
+  width: 48%;
+  margin-right: 4%;
+}
+.new-login .top-row > div:last-child {
+  margin: 0;
+}
+
+.new-login .button {
+  border: 0;
+  outline: none;
+  border-radius: 0;
+  padding: 15px 0;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  background: #1ab188;
+  color: #ffffff;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-appearance: none;
+}
+.new-login .button:hover, .button:focus {
+  background: #179b77;
+}
+
+.new-login .button-block {
+  display: block;
+  width: 100%;
+}
+
+.new-login .forgot {
+  margin-top: -20px;
+  text-align: right;
+}
+
+
+

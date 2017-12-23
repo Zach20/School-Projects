@@ -1,0 +1,237 @@
+﻿@model Bewander.ViewModels.ReviewViewModel
+
+@{
+    ViewBag.Title = "Create Review -";
+}
+</div>
+<img id="bImage" src="~/Images/Home/menu-cafe.jpg">
+
+<div class="container">
+    <div class="row createReviewRow">
+        @using (Html.BeginForm("Create", "Reviews", FormMethod.Post, new { @id = "create-review-form", enctype = "multipart/form-data" }))
+        {
+
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+					<!-- PlaceID (hidden) -->
+            @Html.HiddenFor(model => model.PlaceID, new { id = "PlaceID" })
+
+					<!-- Place Name (hidden) -->
+            @Html.HiddenFor(model => model.PlaceName, new { id = "PlaceName" })
+
+					<!-- Stars (hidden) -->
+            @Html.HiddenFor(model => model.StarRating)
+
+        <!-- Map Card -->
+            <div class="col-12 col-md-6">
+                <div class="card card-outline-success mb-3 text-center">
+                    <div id="card-block " class="card-block">
+                        <div id="pac-container" class="row">
+                            <div class="col-8">
+                                <input id="pac-inputReview" class="controls" type="text" placeholder="Enter a location" size="30" style="width:50%">
+                            </div>
+                            <div id="map-distance-tab" class="controls">
+                                <select id="Radius" class="radiusDDL">
+                                    <option>1</option>
+                                    <option>5</option>
+                                    <option>10</option>
+                                    <option>25</option>
+                                    <option selected="selected">50</option>
+                                    <option>100</option>
+                                    <option>300</option>
+                                </select>
+                                <!--Distance field within map-->
+
+                                <input type="radio" value="miles" name="distance" checked />
+                                <span> Miles </span>
+
+                                <input type="radio" value="kilometers" name="distance" />
+                                <span> km </span>
+
+                            </div>                            
+                        </div>
+                        <div id="map" style="height: 560px; width: 100%;"></div>
+                        <div id="infowindow-content" class="hide-before-location-selection">
+                            <img src="" width="16" height="16" id="place-icon">
+                            <span id="place-name" class="title"></span><br>
+                            <span id="place-address"></span>
+                            <span id="place-id"></span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        <!-- Selections Card -->
+            <div class="col-12 col-md-6">
+                <div class="card card-outline-success mb-3">
+                    <div class="card-block" id="CreateReview">
+                        <h3 id="review-location">
+                            <img src="" width="22px" height="22px" class="hide-before-location-selection" id="review-location-icon">
+                            <span id="review-location-name"></span>
+                            <i class="fa fa-arrow-left create-review-arrow hide-after-location-selection desktop-review-arrow pull-left" aria-hidden="true"></i>
+                            <i class="fa fa-arrow-up create-review-arrow hide-after-location-selection pull-left tablet-review-arrow" aria-hidden="true"></i>
+                            <span class="hide-after-location-selection">Please enter a location to review</span>
+                        </h3>
+
+                        <!-- STARS CONTAINER -->
+                        <div class="row text-center hide-before-location-selection" id="rating-container">
+                            <div class="col-xs-12 col-sm-3 center-on-mobile">
+                                <span class="rating-question">What did you think? </span>
+                            </div>
+                            <div id="stars-container" class="col-xs-12 col-sm-6 center-on-mobile">
+                                <div class="row no-gutters">
+                                    <div class="col-xs-2 stars fa fa-star-o" id="star0">
+                                        <div id="zero-star" onclick="StarClick(0)" onmouseover="StarHovering(0)" onmouseout="mouseOffHover()"></div>
+                                    </div>
+                                    <div class="col-xs-2 stars fa fa-star-o" id="star1">
+                                        <div id="half-star" onclick="StarClick(1)" onmouseover="StarHovering(1)" onmouseout="mouseOffHover()"></div>
+                                        <div id="one-star" onclick="StarClick(2)" onmouseover="StarHovering(2)" onmouseout="mouseOffHover()"></div>
+                                    </div>
+                                    <div class="col-xs-2 stars fa fa-star-o" id="star2">
+                                        <div id="two-half-star" onclick="StarClick(3)" onmouseover="StarHovering(3)" onmouseout="mouseOffHover()"></div>
+                                        <div id="two-star" onclick="StarClick(4)" onmouseover="StarHovering(4)" onmouseout="mouseOffHover()"></div>
+                                    </div>
+                                    <div class="col-xs-2 stars fa fa-star-o" id="star3">
+                                        <div id="three-half-star" onclick="StarClick(5)" onmouseover="StarHovering(5)" onmouseout="mouseOffHover()"></div>
+                                        <div id="three-star" onclick="StarClick(6)" onmouseover="StarHovering(6)" onmouseout="mouseOffHover()"></div>
+                                    </div>
+                                    <div class="col-xs-2 stars fa fa-star-o" id="star4">
+                                        <div id="four-half-star" onclick="StarClick(7)" onmouseover="StarHovering(7)" onmouseout="mouseOffHover()"></div>
+                                        <div id="four-star" onclick="StarClick(8)" onmouseover="StarHovering(8)" onmouseout="mouseOffHover()"></div>
+                                    </div>
+                                    <div class="col-xs-2 stars fa fa-star-o" id="star5">
+                                        <div id="five-half-star" onclick="StarClick(9)" onmouseover="StarHovering(9)" onmouseout="mouseOffHover()"></div>
+                                        <div id="five-star" onclick="StarClick(10)" onmouseover="StarHovering(10)" onmouseout="mouseOffHover()"></div>
+                                    </div>                                      
+                                </div>
+                            </div>
+                            <div id="msg" class="col-xs-12 col-sm-3 hide-before-location-selection center-on-mobile">
+                                <h6 id="starMessage">No rating given yet.</h6>
+                            </div>                            
+                        </div>
+
+                        <div class="row text-left hide-before-location-selection">
+
+                            <form>
+                                <div class="col-xs-12">
+                                    <div class="form-group review-input-container">
+                                        @Html.EditorFor(model => model.Title, new { htmlAttributes = new { @class = "form-control unset-max-width", id = "text", placeholder = "Headline", autocomplete = "off" } })
+                                        @Html.ValidationMessageFor(model => model.Title, "", new { @class = "text-danger review-input-error" })
+                                    </div>
+                                </div>
+                                <div class="col-xs-12">
+                                    <div class="form-group review-input-container">
+                                        @Html.EditorFor(model => model.Body, new { htmlAttributes = new { @class = "form-control unset-max-width disable-resize", style = "height: 240px", id = "text", placeholder = "Tell the world..." } })
+                                        @Html.ValidationMessageFor(model => model.Body, "", new { @class = "text-danger review-input-error" })
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6">
+                                    <div class="form-group review-input-container">
+                                        <!--Dropdowns-->
+                                        <!-- Added id tags for all dropdowns to allow separate styling-->
+                                        <!--"I am a..." Dropdown-->
+                                        <div id="dropdown">
+                                            @Html.EnumDropDownListFor(model => model.ResidentType, htmlAttributes: new { @class = "form-control", @id = "btn" })
+                                            @Html.ValidationMessageFor(model => model.ResidentType, "", new { @class = "text-danger review-input-error" })
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6">
+                                    <div class="form-group review-input-container">
+                                        <!--"Come here for..." Dropdown-->
+                                        <div id="dropdown">
+                                            @Html.EnumDropDownListFor(model => model.SubjectType, htmlAttributes: new { @class = "form-control", @id = "btn" })
+                                            @Html.ValidationMessageFor(model => model.SubjectType, "", new { @class = "text-danger review-input-error" })
+                                        </div>
+                                    </div>                                    
+                                </div>
+                                <div class="col-xs-12 col-sm-6">
+                                    <div class="form-group review-input-container">
+                                        <!--"Cost" Dropdown-->
+                                        @{
+                                            var listCostRating = new List<Object> {
+                                            new { Text = "Free", Value=0},
+                                            new { Text = "$", Value=1},
+                                            new { Text = "$$", Value=2},
+                                            new { Text = "$$$", Value=3},
+                                            new { Text = "$$$$", Value=4},
+                                            new { Text = "$$$$$", Value=5}
+                                            };
+                                        }
+                                        <div id="dropdown">
+                                            @Html.DropDownListFor(model => model.CostRating, new SelectList(listCostRating, "Value", "Text"), "Price Range", new { @class = "form-control", @id = "btn" })
+                                            @Html.ValidationMessageFor(model => model.CostRating, "", new { @class = "text-danger review-input-error" })
+                                        </div>
+                                    </div>                                
+                                </div>                                     
+
+                                <div class="col-xs-12 col-sm-6">
+                                    <!--Image Field-->
+                                    <div class="text-left" id="imageField">
+                                        <input type="file" id="postPhoto" class="input-file" name="Image" accept="image/*" data-multiple-caption="{count} Photos " />
+                                        <label class="text-center" for="postPhoto"><span>Add a photo...</span><i class="fa fa-picture-o"></i></label>
+                                    </div>
+                                </div>
+                                <div class="text-center" style="display: inline-block; width: 100%">
+                                    <!--Create (submit) button-->
+                                    <div style="max-width: 310px; display: inline-block;">
+                                        <input type="submit" value="Submit Review" class="btn btn-default" id="create-review-btn"/>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+                                        }
+    </div>
+</div>
+
+
+@* End of HTML layout *@
+
+@* Start of script section *@
+
+
+
+
+<script src="~/Scripts/Custom/starHover.js"></script>
+@*<script src="~/scripts/custom/SearchBar.js"></script>*@
+<script src="~/Scripts/Custom/CreateReviewsMap.js"></script>
+
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAuQaBzbJrduma-UhUFoWNyLWfJFoR3vac&libraries=places&callback=initMap">
+</script>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+<script>
+    var inputs = document.querySelectorAll('.input-file');
+    Array.prototype.forEach.call(inputs, function (input) {
+        var label = input.nextElementSibling,
+            labelVal = label.innerHTML;
+
+        input.addEventListener('change', function (e) {
+            var fileName = '';
+            if (this.files && this.files.length > 1)
+                fileName = (this.getAttribute('data-multiple-caption') || '').replace('{count}', this.files.length);
+            else
+                fileName = e.target.value.split('\\').pop();
+
+            if (fileName)
+                label.querySelector('span').innerHTML = fileName;
+            else
+                label.innerHTML = labelVal;
+        });
+    });
+</script>
+
+
+@*Removed a lot of commented out unused code below*@
+

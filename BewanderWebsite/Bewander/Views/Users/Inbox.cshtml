@@ -1,0 +1,56 @@
+﻿@model Bewander.ViewModels.MessageNotificationViewModel
+@{
+    ViewBag.Title = "Inbox";
+}
+<div id="inbox" class="tab-pane" role="tabpanel">
+
+
+<div class="col-sm-12">
+	
+
+	<ul id="message-list">
+		
+		@if (Model.Messages.Count() != 0)
+			{
+				foreach (var item in Model.Messages.OrderByDescending(i => i.DateTime))
+				{
+				<li class="inbox-message-item" relID="@item.RelationshipID" onclick="SelectUser('@item.RelationshipID')">
+					<div class="row">
+						<div class="col-sm-2">
+							<img src=@Model.getProfilePic(item) class ="img-circle" />
+						</div>
+						<div class="col-sm-10">
+							<div>
+								@if (@item.DateTime.Day == DateTime.Today.Day)
+								{
+									String time = @item.DateTime.ToString("hh:mm tt");
+
+									<p class="text-left"><strong>@Model.getSenderName(item)</strong> <span class="message-time">@time</span></p>
+								}
+								else
+								{
+									String time = @item.DateTime.ToString("MM/dd/yyyy");
+
+									<p class="text-left"><strong>@Model.getSenderName(item)</strong> <span class="message-time">@time</span></p>
+
+
+								}
+
+							</div>
+
+							<p class="text-left">@item.Content </p>
+							<hr />
+						</div>
+					</div>
+				</li>
+			}
+		}
+		
+	</ul>
+
+	
+
+
+        
+</div>
+</div>

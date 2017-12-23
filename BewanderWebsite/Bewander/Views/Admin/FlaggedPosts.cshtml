@@ -1,0 +1,89 @@
+﻿@model PagedList.IPagedList<Bewander.ViewModels.FlaggedViewModel>
+@using PagedList.Mvc;
+
+@{
+    ViewBag.Title = "FlaggedPosts";
+}
+
+<script>
+    // Trigger button click when enter key is pressed in textbox
+    $(function () {
+        $("#searchString").on("keydown", function (event) {
+                if (event.keyCode == 13) {
+                    event.preventDefault();
+                    document.getElementById("searchButton").click();
+                }
+            });
+        return false;
+        });
+</script>
+
+<h2>Flagged Posts</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+@using (Html.BeginForm("Index", "Admin"))
+{
+    <p>
+        Find by name: @Html.TextBox("searchString", ViewBag.CurrentFilter as string)
+        <input id="searchButton" type="submit" value="Search" />
+    </p>
+}
+<table class="table">
+    <tr>
+        <th>
+            Post ID
+        </th>
+     
+        <th>
+            User ID
+        </th>
+        <th>
+            Email
+        </th>
+        <th>
+            Delete Post
+        </th>
+        <th>
+            Lockout User
+        </th>
+        <th>
+            Remove Flag
+        </th>
+    </tr>
+    @for (int i = 0; i < Model.Count; i++)
+    {
+        <tr>
+            <td>
+                @*Need to make a view for individual posts and then an action result that will display is - Alex *@
+                <a href="@Url.Action("Posts", new { })">@Html.DisplayFor(item => item[i].ID)</a>
+            </td>
+            <td>
+                @Html.DisplayFor(item => item[i].UserID)
+            </td>
+            <td>
+                @Html.DisplayFor(item => item[i].Email)
+            </td>
+            <td>
+                @Html.ActionLink("Yes", "Posts", "RemovePost", new { Id = Model[i].ID }) 
+            </td>
+            <td>
+                @Html.ActionLink("Yes", "Users", "EnableLockout", new { Id = Model[i].UserID }) 
+            </td>
+        </tr>
+
+    }
+
+</table>
+<br />
+@*Adding Paged List*@
+Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+@Html.PagedListPager(Model, page => Url.Action("Index",
+    new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))
+<br />
+<br />
+<br />
+<br />
+
+

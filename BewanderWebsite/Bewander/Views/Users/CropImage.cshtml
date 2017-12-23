@@ -1,0 +1,123 @@
+﻿@model Bewander.ViewModels.CropImageViewModel 
+@{
+    ViewBag.Title = "Crop Image";
+}
+
+@Scripts.Render("~/Scripts/Custom/jquery.Jcrop.min.js")
+
+</div>
+    <div class="container container-fluid">
+        <div class="row">
+            <div class="col-sm-4 col-sm-offset-3" style="text-align:center;padding-top:10%;padding-bottom:10%">
+                <div id="image-container">
+                    <p><a href="#" id="hl-crop-image">Crop Image</a></p>
+                    @{ string path = Model.UserID + "/" + Model.ImageToCrop.Path;}
+                    <img id="image-to-crop" style="max-width:100%;" src="~/Images/@path" />
+                </div>
+
+                <div id="image-properties">
+                    <label><input type="text" name="x" id="x" size="4" />x</label>
+                    <label><input type="text" name="y" id="y" size="4" />y</label>
+                    <label><input type="text" name="x2" id="x2" size="4" />x2</label>
+                    <label><input type="text" name="y2" id="y2" size="4" />y2</label>
+                    <label><input type="text" name="w" id="w" size="4" />w</label>
+                    <label><input type="text" name="h" id="h" size="4" />h</label>
+                </div>
+
+                <p>
+                    <img id="my-cropped-image" src="#" style="display:none;" />
+                </p>
+            </div>
+    </div>
+</div>
+
+
+<script>
+    
+    $(function () {
+        $('#image-to-crop').Jcrop({
+            onChange: showCoords,
+            onSelect: showCoords
+        });
+    });
+
+
+    function showCoords(c)
+    {
+        $('#x').val(c.x);
+        $('#y').val(c.y);
+        $('#x2').val(c.x2);
+        $('#y2').val(c.y2);
+        $('#w').val(c.w);
+        $('#h').val(c.h);
+
+    };
+
+    @*
+
+    var imageCropWidth = 0;
+    var imageCropHeight = 0;
+    var cropPointX = 0;
+    var cropPointY = 0;
+
+    $(document).ready(function () {
+        initCrop();
+    });
+
+    $("#hl-crop-image").on("click", function (e) {
+        e.preventDefault();
+        cropImage();
+    });
+
+    function initCrop() {
+        $('#image-to-crop').Jcrop({
+            onChange: setCoordsAndImgSize,
+            aspectRatio: 1
+        });
+    }
+
+    function setCoordsAndImgSize(e) {
+
+        imageCropWidth = e.w;
+        imageCropHeight = e.h;
+
+        cropPointX = e.x;
+        cropPointY = e.y;
+    }
+
+
+    function cropImage() {
+
+        var cropPointX = val(c.x);
+        var cropPointY = val(c.y);
+        var imageCropWidth = val(c.h);
+        var imageCropHeight = val(c.w);
+
+        if (imageCropWidth == 0 && imageCropHeight == 0) {
+            alert("Please select crop area.");
+            return;
+        }
+
+
+          //  I think we need a controller to take in the data and manipulate it and save it into a file
+        $.ajax({
+            url: '/Images/CropImage',
+            type: 'POST',
+            data: {
+                imagePath: $("#image-to-crop").attr("src"),
+                cropPointX: cropPointX,
+                cropPointY: cropPointY,
+                imageCropWidth: imageCropWidth,
+                imageCropHeight: imageCropHeight
+            },
+            success: function (data) {
+                $("#my-cropped-image")
+                .attr("src", data.photoPath + "?t=" + new Date().getTime())
+                .show();
+            },
+            error: function (data) { }
+        });
+
+    }
+        *@
+</script>

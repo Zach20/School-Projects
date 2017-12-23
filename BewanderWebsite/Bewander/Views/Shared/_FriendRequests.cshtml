@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Bewander.ViewModels.RelationshipViewModel>
+@if (Model.Count() != 0)
+{
+    <li id="friend-request-icon" rel="toggle" role="button" class="navbar-item-container navbar-icon-container dropdown"> @*Friend request icon is controlled using bootstrap.js dropdown- Corey D*@
+        <a class="dropdown-toggle" data-toggle="dropdown" role="button"> @*The friend request icon displays only when friend request is pending- Corey D*@
+            <i class="fa fa-user-plus navbar-icon"></i>
+            <div id="friend-request-notification" class="navbar-notification" role="button"> @Model.Count() </div>
+        </a>
+
+
+        @if (Model.Count() != 0)
+        {
+            <ul id="friend-request-list" class="dropdown-menu nav-list">
+                <li><h5 class="nav-dropdown-header"> Wanderer Requests </h5></li>
+                @foreach (var item in Model)
+                {
+                    <li class="friend-request-item" relID="@item.RelationshipID">
+                        <img src="../Images/@item.ProfilePicture" onclick="ViewProfile('@item.UserID')" />
+                        <a onclick="ViewProfile('@item.UserID')" class="wanderer-name">@item.FirstName @item.LastName</a>
+                        <div class="friend-btn-container">
+                            <a class="friend-request-btn" onclick="ConfirmFriend(this)">Confirm</a>
+                            <a class="friend-request-btn" onclick="DenyFriend(this)">Deny</a>
+                        </div>
+
+                    </li>
+                }
+            
+            </ul>
+        }
+    </li>
+}

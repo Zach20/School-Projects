@@ -1,0 +1,69 @@
+﻿@model Bewander.Models.ExternalLoginListViewModel
+@using Microsoft.Owin.Security
+
+
+@*<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1553593784971508',
+      xfbml      : true,
+      version    : 'v2.6'
+    });
+  };
+  FB.AppEvents.logPageView();
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<div id="fb-root"></div>
+<script>
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<fb:login-button scope="public_profile,email"
+                 onlogin="checkLoginState();">
+</fb:login-button>*@
+
+
+
+
+<h4>Log in with Facebook.</h4>
+
+@{
+    var loginProviders = Context.GetOwinContext().Authentication.GetExternalAuthenticationTypes();
+    if (loginProviders.Count() == 0) {
+        <div>
+            <p>
+                There are no external authentication services configured. See <a href="http://go.microsoft.com/fwlink/?LinkId=403804">this article</a>
+                for details on setting up this ASP.NET application to support logging in via external services.
+            </p>
+        </div>
+    }
+    else {
+        using (Html.BeginForm("ExternalLogin", "Account", new { ReturnUrl = Model.ReturnUrl })) {
+            @Html.AntiForgeryToken()
+            <div id="socialLoginList">
+                <p>
+                    @foreach (AuthenticationDescription p in loginProviders) {
+                        <button type="submit" class="btn btn-default" id="@p.AuthenticationType" name="provider" value="@p.AuthenticationType" title="Log in using your @p.Caption account">@p.AuthenticationType</button>
+                        @*<div class="fb-login-button" data-max-rows="1" data-size="xlarge" data-show-faces="false" data-auto-logout-link="false"></div>
+                        <div class="fb-login-button" data-max-rows="1" data-size="large" data-show-faces="false" data-auto-logout-link="false"></div>
+                        <div class="fb-login-button" data-max-rows="1" data-size="large" data-show-faces="false" data-auto-logout-link="false"></div>*@
+                    }
+                </p>
+            </div>
+        }
+    }
+}

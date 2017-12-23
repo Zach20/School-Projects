@@ -1,0 +1,20 @@
+﻿@model IEnumerable<String>
+
+<!--Reviews-->
+@if (Model.Count() != 0)
+{
+
+    <h3>Photos</h3>
+    <div class="container review-photos col-sm-12" style="display:inline-block; height: 100%; padding-bottom: 5px;">
+        <div class="row">
+           @foreach (var item in Model)
+            {
+                <div class="col-sm-6">
+                    <article>
+                        <img class="img-responsive" src="@item.ToString()">
+                    </article>
+                </div>
+            }
+        </div>
+    </div>
+}

@@ -1,0 +1,32 @@
+﻿@model Bewander.ViewModels.ImageViewModel
+@using Microsoft.AspNet.Identity
+
+@helper profilePhotos()
+{
+int i = 0;
+foreach (var item in Model.Images)
+{
+
+
+        <div class="user-photo-container">
+            <a href="@Url.Action("MakeProfilePicture", "Images", new { id = item.ID, type = "profile" })">
+                <img src="~/Images/@item.UserID/@item.Path" class="user-photos" alt="@item.FileName" />
+            </a>
+        </div>
+
+}
+
+}<!--End Helper-->
+
+
+
+<div class="modal fade and carousel slide album-modal" id="profilePicBox">
+    <div class="modal-dialog">
+        <div class="modal-content" id="profilePicBox-body">
+            <div class="modal-body">
+                @profilePhotos()
+            </div><!-- /.modal-body -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+

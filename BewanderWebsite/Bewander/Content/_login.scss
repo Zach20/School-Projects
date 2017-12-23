@@ -1,0 +1,325 @@
+﻿$tablet: "(min-width: 768px)";
+$desktopMed: "(min-width: 992px)";
+$desktopLg: "(min-width: 1200px)";
+
+#AuthScreen {
+    width:100%;
+    height:100%;
+    #slideshow {
+        max-width:100%;
+        margin: 0 auto;
+        position: relative; 
+        padding:0px;
+        width:100%;
+        box-shadow:80px 8px 8px rgba(0,0,0,.4) inset;
+        .img-cover {
+            object-fit:cover;
+            width:100%;
+            height:600px;
+            height:100%;
+            position: fixed; 
+        }
+
+        .img-caption {
+            position:absolute;
+            color:rgba(0,0,0,.4);
+            padding:1%;
+            border-top-right-radius:20px;
+            border-bottom-right-radius:20px;
+            top:100px;
+            left:-1000px;
+            margin-left:auto;
+            margin-right:auto;
+            width:1000px;
+            max-width:100%;
+            font-size:5em;
+            opacity:0;
+            animation:leftn1000to0 3.2s;
+            animation-fill-mode:forwards;
+            transition: transform 5s;
+            p {
+            padding-top:5px;
+            color:black;
+            font-size:16px;
+            width:50%;
+            margin-left:50%;
+            float:right;
+            font-weight:bold;
+            background-color:rgba(255,255,255,.5);
+            padding:5px;
+            opacity:0;
+            transition: opacity 2s;
+        }
+
+            h3 {
+                text-align:right;
+                float:right;
+                background-color:rgba(255,255,255,.5);
+                color:#114536;
+                margin:0px;
+            }
+
+            img {
+                height:80%;
+                float:right;
+            }
+            
+        }
+
+        /*.img-caption:hover {
+            transform:scale(1.2);
+        }*/
+
+        .img-caption:hover > p {
+            display:inherit;
+            opacity:1;
+            cursor:context-menu;
+        }
+
+        
+    }
+
+    .mission {
+        position:relative;
+        background-color:rgba(255,255,255,.5);
+        text-align:center;
+        top:600px;
+        color:#114536;
+        margin-bottom:150px;
+        padding-bottom:2%;  
+        box-shadow: 0 -35px 35px -35px #333;
+        
+        a {
+            text-decoration:none;
+            color:#114536;
+        }
+
+        section {
+            border:5px solid;
+            border-radius:2%;
+            border-color:rgba(0,0,0,0);
+            transition: border-color 1s, background-color 1s, color 1s;
+        }
+
+        section:hover {
+            border-color:rgba(0,0,0,.6);
+            color:#98c8ba;
+            background-color:rgba(0,0,0,.9);
+            cursor:pointer;
+        }
+
+        article {
+            width:80%;
+            margin:auto;
+            font-size:20px;
+            text-align:justify;
+            padding:2%;
+        }
+    }
+    @keyframes leftn1000to0 {
+        from {left: -1000px; opacity:0; color:none;}
+        to {left: 0px; opacity:1; color:#98c8ba;}
+    }
+
+    #slideshow:hover > .img-caption {
+        cursor:default;
+    }
+
+
+    #feature-cities.row, #feature-cities.container-fluid {
+        margin:0px;
+        margin-bottom:150px;
+        padding:0;
+        padding-bottom:25px;
+        box-shadow: 0 -35px 35px -35px #333;
+    }
+
+    .container-fluid {
+        padding-left:0;
+        padding-right:0;
+    }
+   
+
+    #feature-cities {
+        width:100%;
+        position:relative;
+        box-shadow: 2px 5px 5px rgba(0,0,0,.4);
+        background-color:rgba(255,255,255,.5);
+        margin-bottom:100px;
+        top:350px;
+        .row {
+            padding-top:0px;
+        }
+        h4{
+            font-size:32px;
+            width:30%;
+            margin:auto;
+            text-align:center;
+            font-family:bold;
+        }
+        h4:hover{
+            cursor:default;
+        }
+        div{
+            cursor:pointer;
+            padding-top:2%;
+        }
+
+        article {
+            width:80%;
+            margin:auto;
+            overflow:hidden;
+            border-radius:5px;
+        }
+
+        img {
+            margin-left:auto;
+            margin-right:auto;
+            object-fit:cover;
+            -webkit-transition: transform 1s, display 1s; /* For Safari 3.1 to 6.0 */
+            transition: transform 5s, opacity 3s, background 3s;
+            box-shadow:0px 3px 3px 3px #444;
+            width:95%;
+            border-radius:5px;
+        }
+
+        article:hover > img {
+            transform:scale(1.5);
+            opacity: 1;
+        }
+
+        .img-caption {
+            position:absolute;
+            background:rgba(0,0,0,.8);
+            color:#98c8ba;
+            padding:5%;
+            border-radius:6px;
+            top:40%;
+            left:0;
+            right:0;
+            margin-left:auto;
+            margin-right:auto;
+            width:60%;
+            text-align:center;
+        }
+
+        article > .img-caption {
+            visibility: hidden;
+            opacity: 0;
+            transition: visibility 0.5s, opacity 1s linear;
+        }
+
+        article:hover > .img-caption {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .img-caption:hover > #feature-cities.img-circle {
+            transform:inherit;
+        }
+        
+}
+  
+}
+@media only screen and (min-width: 768px) {
+    #loginTitle, #registerTitle, #resetTitle, #resetConfir, #sendCode, #verifyCode, #createTitle {
+        margin-top: 80px;
+    }
+    #rememberBox, #lockout {
+        margin-left: 30px;
+    }
+    #forgotPassword {
+        margin-bottom: 50px;
+    }
+    
+    #registerImg {
+        margin-bottom:30px;
+    }
+    #forgotPassTitle, #confirmPassTitle, #confirmEmailTitle, #externalLogin, #externalFailureTitle {
+        margin-top: 80px;
+    }
+    #deleteTitle, #detailsTitle, editTitle {
+        margin-top: 80px;
+    }
+    }
+
+@media only screen and (min-width: 480px) {
+    #loginTitle, #externalLogin, #resetTitle, #resetConfirm, #sendCode, #verifyCode, #createTitle {
+        margin-top: 80px;
+    }
+    #rememberBox, #lockout {
+        margin-left: 30px;
+    }
+    #forgotPassword {
+        margin-bottom: 50px;
+    }
+    #registerTitle, #forgotPassTitle, #confirmPassTitle, #confirmEmailTitle, #externalFailureTitle {
+        margin-top:80px;
+    }
+    #registerImg {
+        margin-bottom:30px;
+    }
+    #deleteTitle, #detailsTitle, editTitle {
+        margin-top: 80px;
+    }
+    }
+
+@media only screen and (min-width: 320px) {
+    #loginTitle, #externalLogin, #resetTitle, #resetConfirm, #sendCode, #verifyCode, #createTitle {
+        margin-top: 80px;
+    }
+    #rememberBox, #lockout {
+        margin-left: 30px;
+    }
+    #forgotPassword {
+        margin-bottom: 50px;
+    }
+    #registerTitle, #forgotPassTitle, #confirmPassTitle, #confirmEmailTitle, #externalFailureTitle {
+        margin-top:80px;
+    }
+    #registerImg {
+        margin-bottom:30px;
+    } 
+    #deleteTitle, #detailsTitle, editTitle {
+        margin-top: 80px;
+    }
+    }
+#outerContainer {
+    width: 100%;
+    //display:block;
+}
+
+#innerContainer {
+    display:inline;
+    position:relative;
+    margin-top: 75px;
+    float:right;
+    width: 50%;
+    min-width: 360px;
+    min-height:380px;
+    height: 66%;
+    overflow:auto;
+    align-content:center;
+    text-align:center;
+    border-radius: 0px;
+    padding: 30px 40px 50px 40px;    
+    background-color: rgba(134, 168, 151, 0.65);
+    color:#FFF; 
+}
+#innerContainerReg {
+    display:inline;
+    position:relative;
+    margin-top: 75px;
+    float:left;
+    width: 50%;
+    min-width: 360px;
+    min-height:380px;
+    height: 66%;
+    overflow:auto;
+    //align-content:center;
+    //text-align:center;
+    border-radius: 0px;
+    padding: 30px 40px 50px 40px;    
+    background-color: rgba(134, 168, 151, 0.65);
+    color:#FFF;
+}

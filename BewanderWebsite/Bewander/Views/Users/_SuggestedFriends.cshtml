@@ -1,0 +1,48 @@
+﻿@model IEnumerable<Bewander.ViewModels.RelationshipViewModel>
+
+
+
+<br /><br />
+<div id="suggested-wanderers-container" class="container-fluid">
+    <div class="row" style="text-align:center; align-content:inherit; align-items:center;">
+        <h5 class="nav-dropdown-header">Suggested Wanderers</h5>
+
+        <div style="width:100%">
+            <div style="margin-left:2%; margin-right:50%;">
+            
+                @* Situate images and apply hover effect *@
+                @foreach (var item in Model)
+                {
+
+                    <div id="sugg-root" style="width:150px" class="col-lg-4 col-md-4 col-sm-6 col-xs-friends">
+                        <div id="hoverdiv" class="hovereffect " data-toggle="tooltip" data-placement="bottom" data-trigger="hover" title="@item.SuggestionReason">
+                            <img id="SuggestedWanderersImg" class="img-thumbnail img-responsive img-circle" style="margin:auto; display:block; background-size:cover;
+                        background-position: 50% 50%; max-height:5em; max-width:5em; min-height:5em; min-width:5em" ; src="../Images/@item.ProfilePicture" alt="Profile Image" />
+
+                            @* Link to user profile w/ tooltip explaining suggestion*@
+                            <div id="friend-suggestion" class="overlay">
+                                <div onclick="ViewProfile('@item.UserID')">
+                                    <h3><a>@item.FirstName</a></h3>
+                                    @* Get user location *@
+                                    <a href=""><i class="fa fa-plus-circle fa-2x" aria-hidden="true" style="z-index:10"></i></a>
+                                    <p>
+                                        @item.HomeTown
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                }
+            </div>
+        </div>
+    </div>
+</div>
+<br />
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
+

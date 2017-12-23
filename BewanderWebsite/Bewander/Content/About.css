@@ -1,0 +1,45 @@
+﻿body {
+}
+#prof-img{
+    object-fit:scale-down;  
+    max-height:500px;
+    max-width:400px;
+    
+}
+#add-more {
+    /*margin-left:300px;
+    margin-right:300px;*/
+    margin-top: 15px;
+    height: 50px;
+    width: 200px;
+    float: inherit;
+    position: inherit;
+    display: block;
+    background-color: #000000;
+}
+
+#add-more-hyperlink {
+    color: #b2dbb2;
+}
+
+#add-more:hover {
+    background-color: #ffffff;
+}
+
+#past-info{
+    width:75%;
+    margin:auto;
+}
+#hometown{
+    word-wrap:break-word;
+}
+#about-intro{
+    align-content:center;
+    align-items:center;
+    align-self:center;
+}
+#about {
+    width: 90%;
+    margin: 0,auto;
+   
+}

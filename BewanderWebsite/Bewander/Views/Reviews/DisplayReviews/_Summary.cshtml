@@ -1,0 +1,90 @@
+﻿@model IEnumerable<Bewander.ViewModels.ReviewViewModel>
+
+<!--Reviews-->
+    <div>
+        @if (Model.Count() != 0)
+        {
+            foreach (var item in Model.OrderByDescending(i => i.DatePosted))
+            {
+                <div class="review-container">
+                    <div class="row">
+						<div class="col-sm-2">
+							<img src="~/Images/@item.ProfilePicturePath" id="profile-picture" alt="" class="img-circle" />
+						</div>
+                        <div class="col-sm-7 place-details">
+                            <h3>@Html.DisplayFor(model => item.Title)</h3>
+                            <h3 class="place-name"></h3>
+            @*<h4 style="margin-top:-1%;">
+                    <span class="glyphicon glyphicon-map-marker"></span>@item.City, @item.State @item.Country
+                </h4>*@
+            <div class="review-body">
+                <p>
+                    <span class="fa fa-quote-left" style="padding-right:5%;"></span>
+                    @Html.DisplayFor(modelItem => item.Body)
+                    <span class="fa fa-quote-right" style="padding-left:5%"></span>
+                </p>
+            </div>
+
+                            <h5>@Html.DisplayFor(modelItem => item.DatePosted)</h5>
+                        </div>
+                            <div class="col-sm-3 text-right" id="review-icons">
+                                @Stars(item.StarRating)
+                                <br />
+                                @for (int i = 0; i < item.CostRating; i++)
+                                {
+                                    <i class="fa fa-usd dollar-icon"></i>
+                                }
+                                <br />
+                                <h5 class="profile-link" onclick="ViewProfile('@item.UserID')">@Html.DisplayFor(modelItem => item.UsersFullName) is a @Html.DisplayFor(i => item.ResidentType)</h5>
+                                
+                            </div>
+                    </div>
+                </div>
+            }
+
+        }
+        else
+        {
+            <h1>There are no reviews for this place. Would you like to leave one?</h1>
+        }
+    </div>
+
+    <!-- C# Methods -->
+    @helper Stars(int? StarRating)
+    {
+switch (StarRating)
+{
+    case 1:
+            <i class="fa fa-star-half-o star-icon"></i>
+        break;
+    case 3:
+            @StarCount(StarRating);
+        break;
+    case 5:
+            @StarCount(StarRating);
+        break;
+    case 7:
+            @StarCount(StarRating);
+        break;
+    case 9:
+            @StarCount(StarRating);
+        break;
+    default:
+        for (int i = 0; i < StarRating; i += 2)
+        {
+                <i class="fa fa-star star-icon"></i>
+        }
+        break;
+}
+
+}
+
+    @helper StarCount(int? StarRating)
+    {
+for (int i = 0; i < StarRating - 1; i += 2)
+{
+        <i class="fa fa-star star-icon"></i>
+}
+    <i class="fa fa-star-half-o star-icon"></i>
+}
+

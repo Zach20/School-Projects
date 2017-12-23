@@ -1,0 +1,34 @@
+﻿@model IEnumerable<Bewander.ViewModels.NewsFeedViewModel>
+
+<div id="posts" class="tab-pane fade in active" role="tabpanel">
+    <div class="row">
+            <ul id="post-list">
+                @Html.Partial("_Newsfeed", Model)
+			</ul>
+	</div>
+	@*<div class="row">
+		@if ((string)(Session["Reviews"]) == "self")
+		{
+
+
+			<div id="newsfeedd-container">
+				<div class="form-horizontal" id="user-post-container">
+					<div class="form-group">
+						<input type="file" id="postPhoto" class="input-file" name="postPhoto" accept="image/*" data-multiple-caption="{count} Photos " multiple />
+						<label class="text-center" for="postPhoto"><span>Photo </span></label>
+					</div>
+					<div class="form-group">
+						<textarea class="form-control" id="post-textarea" placeholder="Write a new post." rows="4"></textarea>
+						<input type="button" onclick="SubmitPost()" value="Post" class="btn btn-default" id="user-newsfeed-btn" />
+					</div>
+				</div>
+			</div>
+		}
+
+
+	</div>*@
+
+</div>
+
+
+@Scripts.Render("~/bundles/postInteractions")

@@ -1,0 +1,236 @@
+﻿.navbar-toggle {
+  margin-top: 13px;
+}
+
+.navbar-item-container {
+  padding: 18px 15px 9px;
+  display: inline-block;
+}
+
+.navbar-brand-container {
+  padding: 10px 15px 9px;
+  display: inline-block;
+}
+
+.navbar-sign-in-user-container {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.navbar-brand {
+  margin-top: 0;
+}
+
+.navbar-icon-container {
+  padding-top: 13px;
+}
+
+.navbar-icon {
+  font-size: 30px;
+}
+
+.navbar-nav > li > a {
+  padding: 0 !important;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+  color: #fff !important;
+  background-color: transparent !important;
+}
+
+#nav-picture {
+  margin: 0;
+  margin-right: 5px;
+}
+
+#messages-nav-icon {
+  margin-top: 0;
+}
+
+#friend-icon {
+  margin-top: 0;
+}
+
+#friend-request-icon {
+  margin-top: 0;
+}
+
+.navbar-notification {
+    background-color: #ff0000;
+    position: absolute;
+    border-radius: 100%;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+    color: #fff;
+    top: -6px;
+    text-align: center;
+}
+
+#friend-request-notification {
+  left: 29px;
+}
+
+#notifications-notification {
+  left: 12px;
+}
+
+#messages-notification {
+  left: 29px;
+}
+
+.navbar-nav > li > .nav-dropdown-list {
+  margin-top: 1px !important;
+  padding: 0 20px 10px;
+  overflow-y: auto;
+  border: 1px solid #080808;
+  border-top: none;
+}
+
+.nav-dropdown-header {
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  border-bottom: 1px solid #b2dbb2 !important;
+  padding: 5px;
+  margin-bottom: 10px !important;
+}
+
+.messages-dropdown-header {
+  margin-bottom: 0 !important;
+}
+
+.no-nav-dropdown-items {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.message-divider {
+  margin: 0;
+}
+
+.message-item {
+  padding: 10px 0 5px;
+}
+
+.message-time {
+  padding-right: 5px;
+}
+
+.message-user-info {
+  margin-bottom: 5px;
+}
+
+.message-content {
+  margin-bottom: 10px;
+}
+
+.notifications-dropdown-header {
+  margin-bottom: 0 !important;
+}
+
+.notification-list-item  {
+  padding: 15px;
+  color: #333;
+}
+
+.notification-list-item:hover {
+  background-color: #fff;
+  cursor: pointer;
+  color: #B2DBB2;
+}
+
+.notification-divider {
+  margin: 0;
+}
+
+#navbar-friend-list {
+  height: auto;
+}
+
+#friendSearch-results {
+  list-style: none;
+}
+
+#friend-Search {
+  max-width: 300px !important;
+}
+
+#friend-Search1 {
+    max-width: 300px !important;
+}
+
+#friendSearch-results li {
+  padding: 10px 0;
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+#friendSearch-results1 li {
+    padding: 10px 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+#friendSearch-results1 {
+    list-style: none;
+}
+
+
+.friend-btn-container a {
+    padding: 5px 10px;
+    border: 1px solid #999;
+    background-color: #91D0B2;
+    border-radius: 3px;
+    color: #fff !important;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu > li > .wanderer-name {
+  color: #333 !important;
+  font-weight: bold;
+}
+
+.dropdown-menu > li > .wanderer-name:hover {
+  color: #B2DBB2 !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-item-container,
+  .navbar-icon-container,
+  .navbar-sign-in-user-container {
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .navbar-nav .open .dropdown-menu {
+    background-color: #fff !important;
+  }
+
+  .navbar-nav {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  #friend-request-notification {
+    left: 54%;
+  }
+  
+  #notifications-notification {
+    left: 52%;
+  }
+
+  #messages-notification {
+    left: 55%;
+  }
+
+  #navbar-friend-list {
+    width: 100%;
+  }
+}

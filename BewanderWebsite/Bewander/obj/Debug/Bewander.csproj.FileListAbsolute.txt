@@ -1,0 +1,1512 @@
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\roslyn\csc.exe
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\roslyn\csc.exe.config
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\roslyn\csc.rsp
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\roslyn\csi.exe
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\roslyn\csi.rsp
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\roslyn\System.AppContext.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\roslyn\vbc.exe
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\roslyn\vbc.exe.config
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\roslyn\vbc.rsp
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\roslyn\VBCSCompiler.exe
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Bewander.dll.config
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Bewander.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Bewander.pdb
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Antlr3.Runtime.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\EntityFramework.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\EntityFramework.SqlServer.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Facebook.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Mailgun.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.AspNetCore.Authentication.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.AspNetCore.Authentication.Facebook.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.AspNetCore.Authentication.OAuth.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.AspNetCore.DataProtection.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.AspNetCore.Http.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.Extensions.ObjectPool.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.Extensions.Options.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.Extensions.WebEncoders.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.Owin.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.Owin.Security.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Newtonsoft.Json.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Owin.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\PagedList.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\PagedList.Mvc.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\RestSharp.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\System.Buffers.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\System.Net.Http.Extensions.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\System.Net.Http.Formatting.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\System.Net.Http.Primitives.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\System.Text.Encodings.Web.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\System.Web.Helpers.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\System.Web.Http.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\System.Web.Http.WebHost.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\System.Web.Mvc.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\System.Web.Optimization.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\System.Web.Razor.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\System.Web.WebPages.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\System.Web.WebPages.Razor.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\WebGrease.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Antlr3.Runtime.pdb
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Facebook.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Mailgun.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.AspNetCore.Authentication.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.AspNetCore.Authentication.Facebook.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.AspNetCore.Authentication.OAuth.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.AspNetCore.DataProtection.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.AspNetCore.Http.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.Extensions.ObjectPool.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.Extensions.Options.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.Extensions.WebEncoders.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Newtonsoft.Json.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\PagedList.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\PagedList.Mvc.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\RestSharp.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\System.Net.Http.Extensions.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\System.Net.Http.Formatting.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\System.Net.Http.Primitives.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\System.Text.Encodings.Web.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\System.Web.Http.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\System.Web.Http.WebHost.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\System.Web.Helpers.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\System.Web.Mvc.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\System.Web.Optimization.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\System.Web.Razor.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\System.Web.WebPages.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\System.Web.WebPages.Razor.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\EntityFramework.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\EntityFramework.SqlServer.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.Owin.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.Owin.Security.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\obj\Debug\Bewander.csproj.App.config
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\obj\Debug\Bewander.csprojResolveAssemblyReference.cache
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\obj\Debug\Bewander.Migrations.initialize.resources
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\obj\Debug\Bewander.Migrations.ReviewPlace.resources
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\obj\Debug\Bewander.Migrations.City.resources
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\obj\Debug\Bewander.Migrations.City1.resources
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\obj\Debug\Bewander.Migrations.ReviewCostStar.resources
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\obj\Debug\Bewander.Migrations.DropLocations.resources
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\obj\Debug\Bewander.Migrations.Geolocations.resources
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\obj\Debug\Bewander.Migrations.ReviewPlaceIDFK.resources
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\obj\Debug\Bewander.Migrations.ReviewNullPlaceID.resources
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\obj\Debug\Bewander.Migrations.DropGeoLocations.resources
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\obj\Debug\Bewander.Migrations.UserSP.resources
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\obj\Debug\Bewander.Migrations.UserProfileSP.resources
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\obj\Debug\Bewander.Migrations.StoredProcedures.resources
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\obj\Debug\Bewander.Migrations.PhotoSelectSP.resources
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\obj\Debug\Bewander.Migrations.PlaceLatLng.resources
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\obj\Debug\Bewander.Migrations.PastLocalETC.resources
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\obj\Debug\Bewander.Migrations.PlaceInsert.resources
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\obj\Debug\Bewander.Migrations.RemoveDateCover.resources
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\obj\Debug\Bewander.Migrations.PrivateProfile.resources
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\obj\Debug\Bewander.Migrations.Messages.resources
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\obj\Debug\Bewander.Migrations.RelationshipSP.resources
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\obj\Debug\Bewander.Migrations.addFlaggedImages.resources
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\obj\Debug\Bewander.Migrations.facebookPlaces.resources
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\obj\Debug\Bewander.Migrations.WallpaperEnumType.resources
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\obj\Debug\Bewander.Migrations.Notifications.resources
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\obj\Debug\Bewander.Migrations.isreadNotificationsFlag.resources
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\obj\Debug\Bewander.Migrations.NotificationDataFlag.resources
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\obj\Debug\Bewander.Migrations.ImageLike.resources
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\obj\Debug\Bewander.csproj.GenerateResource.Cache
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\obj\Debug\Bewander.csproj.CoreCompileInputs.cache
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\obj\Debug\Bewander.dll
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\obj\Debug\Bewander.pdb
+C:\Users\Student\Source\Workspaces\NewBewander\Bewander\obj\Debug\Bewander.Migrations.AddImageLikeFixLocal.resources
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\roslyn\csc.exe
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\roslyn\csc.exe.config
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\roslyn\csc.rsp
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\roslyn\csi.exe
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\roslyn\csi.rsp
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\roslyn\System.AppContext.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\roslyn\vbc.exe
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\roslyn\vbc.exe.config
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\roslyn\vbc.rsp
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\roslyn\VBCSCompiler.exe
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Bewander.dll.config
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Bewander.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Bewander.pdb
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Antlr3.Runtime.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\EntityFramework.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\EntityFramework.SqlServer.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Facebook.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Mailgun.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.AspNetCore.Authentication.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.AspNetCore.Authentication.Facebook.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.AspNetCore.Authentication.OAuth.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.AspNetCore.DataProtection.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.Extensions.ObjectPool.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.Extensions.Options.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.Extensions.WebEncoders.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.Owin.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.Owin.Security.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Newtonsoft.Json.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Owin.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\PagedList.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\PagedList.Mvc.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\RestSharp.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\System.Buffers.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\System.Net.Http.Extensions.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\System.Net.Http.Formatting.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\System.Net.Http.Primitives.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\System.Text.Encodings.Web.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\System.Web.Helpers.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\System.Web.Http.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\System.Web.Http.WebHost.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\System.Web.Mvc.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\System.Web.Optimization.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\System.Web.Razor.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\System.Web.WebPages.Deployment.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\System.Web.WebPages.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\System.Web.WebPages.Razor.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\WebGrease.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Antlr3.Runtime.pdb
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Facebook.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Mailgun.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.AspNetCore.Authentication.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.AspNetCore.Authentication.Facebook.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.AspNetCore.Authentication.OAuth.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.AspNetCore.DataProtection.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.Extensions.ObjectPool.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.Extensions.Options.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.Extensions.WebEncoders.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Newtonsoft.Json.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\PagedList.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\PagedList.Mvc.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\RestSharp.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\System.Net.Http.Extensions.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\System.Net.Http.Formatting.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\System.Net.Http.Primitives.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\System.Text.Encodings.Web.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\System.Web.Http.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\System.Web.Http.WebHost.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\System.Web.Helpers.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\System.Web.Mvc.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\System.Web.Optimization.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\System.Web.Razor.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\System.Web.WebPages.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\System.Web.WebPages.Deployment.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\System.Web.WebPages.Razor.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\EntityFramework.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\EntityFramework.SqlServer.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.Owin.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.Owin.Security.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\obj\Debug\Bewander.csproj.App.config
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\obj\Debug\Bewander.csprojResolveAssemblyReference.cache
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\obj\Debug\Bewander.Migrations.initialize.resources
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\obj\Debug\Bewander.Migrations.ReviewPlace.resources
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\obj\Debug\Bewander.Migrations.City.resources
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\obj\Debug\Bewander.Migrations.City1.resources
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\obj\Debug\Bewander.Migrations.ReviewCostStar.resources
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\obj\Debug\Bewander.Migrations.DropLocations.resources
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\obj\Debug\Bewander.Migrations.Geolocations.resources
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\obj\Debug\Bewander.Migrations.ReviewPlaceIDFK.resources
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\obj\Debug\Bewander.Migrations.ReviewNullPlaceID.resources
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\obj\Debug\Bewander.Migrations.DropGeoLocations.resources
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\obj\Debug\Bewander.Migrations.UserSP.resources
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\obj\Debug\Bewander.Migrations.UserProfileSP.resources
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\obj\Debug\Bewander.Migrations.StoredProcedures.resources
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\obj\Debug\Bewander.Migrations.PhotoSelectSP.resources
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\obj\Debug\Bewander.Migrations.PlaceLatLng.resources
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\obj\Debug\Bewander.Migrations.PastLocalETC.resources
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\obj\Debug\Bewander.Migrations.PlaceInsert.resources
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\obj\Debug\Bewander.Migrations.RemoveDateCover.resources
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\obj\Debug\Bewander.Migrations.PrivateProfile.resources
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\obj\Debug\Bewander.Migrations.Messages.resources
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\obj\Debug\Bewander.Migrations.RelationshipSP.resources
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\obj\Debug\Bewander.Migrations.addFlaggedImages.resources
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\obj\Debug\Bewander.Migrations.facebookPlaces.resources
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\obj\Debug\Bewander.Migrations.WallpaperEnumType.resources
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\obj\Debug\Bewander.Migrations.Notifications.resources
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\obj\Debug\Bewander.Migrations.isreadNotificationsFlag.resources
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\obj\Debug\Bewander.Migrations.NotificationDataFlag.resources
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\obj\Debug\Bewander.Migrations.ImageLike.resources
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\obj\Debug\Bewander.Migrations.AddImageLikeFixLocal.resources
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\obj\Debug\Bewander.csproj.GenerateResource.Cache
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\obj\Debug\Bewander.dll
+C:\Users\mtjac\Desktop\final-project\Bewander\Bewander\obj\Debug\Bewander.pdb
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\roslyn\csc.exe
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\roslyn\csc.exe.config
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\roslyn\csc.rsp
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\roslyn\csi.exe
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\roslyn\csi.rsp
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\roslyn\System.AppContext.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\roslyn\vbc.exe
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\roslyn\vbc.exe.config
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\roslyn\vbc.rsp
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\roslyn\VBCSCompiler.exe
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Bewander.dll.config
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Bewander.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Bewander.pdb
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Antlr3.Runtime.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\EntityFramework.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\EntityFramework.SqlServer.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Facebook.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Mailgun.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.AspNetCore.Authentication.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.AspNetCore.Authentication.Facebook.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.AspNetCore.Authentication.OAuth.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.AspNetCore.DataProtection.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.Extensions.ObjectPool.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.Extensions.Options.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.Extensions.WebEncoders.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.Owin.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.Owin.Security.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Newtonsoft.Json.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Owin.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\PagedList.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\PagedList.Mvc.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\RestSharp.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\System.Buffers.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\System.Net.Http.Extensions.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\System.Net.Http.Formatting.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\System.Net.Http.Primitives.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\System.Text.Encodings.Web.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\System.Web.Helpers.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\System.Web.Http.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\System.Web.Http.WebHost.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\System.Web.Mvc.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\System.Web.Optimization.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\System.Web.Razor.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\System.Web.WebPages.Deployment.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\System.Web.WebPages.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\System.Web.WebPages.Razor.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\WebGrease.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Antlr3.Runtime.pdb
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Facebook.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Mailgun.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.AspNetCore.Authentication.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.AspNetCore.Authentication.Facebook.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.AspNetCore.Authentication.OAuth.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.AspNetCore.DataProtection.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.Extensions.ObjectPool.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.Extensions.Options.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.Extensions.WebEncoders.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Newtonsoft.Json.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\PagedList.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\PagedList.Mvc.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\RestSharp.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\System.Net.Http.Extensions.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\System.Net.Http.Formatting.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\System.Net.Http.Primitives.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\System.Text.Encodings.Web.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\System.Web.Http.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\System.Web.Http.WebHost.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\System.Web.Helpers.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\System.Web.Mvc.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\System.Web.Optimization.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\System.Web.Razor.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\System.Web.WebPages.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\System.Web.WebPages.Deployment.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\System.Web.WebPages.Razor.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\EntityFramework.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\EntityFramework.SqlServer.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.Owin.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.Owin.Security.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\obj\Debug\Bewander.csproj.App.config
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\obj\Debug\Bewander.csprojResolveAssemblyReference.cache
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\obj\Debug\Bewander.Migrations.initialize.resources
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\obj\Debug\Bewander.Migrations.ReviewPlace.resources
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\obj\Debug\Bewander.Migrations.City.resources
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\obj\Debug\Bewander.Migrations.City1.resources
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\obj\Debug\Bewander.Migrations.ReviewCostStar.resources
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\obj\Debug\Bewander.Migrations.DropLocations.resources
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\obj\Debug\Bewander.Migrations.Geolocations.resources
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\obj\Debug\Bewander.Migrations.ReviewPlaceIDFK.resources
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\obj\Debug\Bewander.Migrations.ReviewNullPlaceID.resources
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\obj\Debug\Bewander.Migrations.DropGeoLocations.resources
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\obj\Debug\Bewander.Migrations.UserSP.resources
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\obj\Debug\Bewander.Migrations.UserProfileSP.resources
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\obj\Debug\Bewander.Migrations.StoredProcedures.resources
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\obj\Debug\Bewander.Migrations.PhotoSelectSP.resources
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\obj\Debug\Bewander.Migrations.PlaceLatLng.resources
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\obj\Debug\Bewander.Migrations.PastLocalETC.resources
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\obj\Debug\Bewander.Migrations.PlaceInsert.resources
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\obj\Debug\Bewander.Migrations.RemoveDateCover.resources
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\obj\Debug\Bewander.Migrations.PrivateProfile.resources
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\obj\Debug\Bewander.Migrations.Messages.resources
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\obj\Debug\Bewander.Migrations.RelationshipSP.resources
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\obj\Debug\Bewander.Migrations.addFlaggedImages.resources
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\obj\Debug\Bewander.Migrations.facebookPlaces.resources
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\obj\Debug\Bewander.Migrations.WallpaperEnumType.resources
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\obj\Debug\Bewander.Migrations.Notifications.resources
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\obj\Debug\Bewander.Migrations.isreadNotificationsFlag.resources
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\obj\Debug\Bewander.Migrations.NotificationDataFlag.resources
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\obj\Debug\Bewander.Migrations.ImageLike.resources
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\obj\Debug\Bewander.Migrations.AddImageLikeFixLocal.resources
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\obj\Debug\Bewander.csproj.GenerateResource.Cache
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\obj\Debug\Bewander.csproj.CoreCompileInputs.cache
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\obj\Debug\Bewander.dll
+C:\Users\PJ\Source\Workspaces\Workspace\Bewander\Bewander\obj\Debug\Bewander.pdb
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\roslyn\csc.exe
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\roslyn\csc.exe.config
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\roslyn\csc.rsp
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\roslyn\csi.exe
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\roslyn\csi.rsp
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\roslyn\System.AppContext.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\roslyn\vbc.exe
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\roslyn\vbc.exe.config
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\roslyn\vbc.rsp
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\roslyn\VBCSCompiler.exe
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Bewander.dll.config
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Bewander.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Bewander.pdb
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Antlr3.Runtime.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\EntityFramework.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\EntityFramework.SqlServer.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Facebook.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Mailgun.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.Authentication.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.Authentication.Facebook.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.Authentication.OAuth.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.DataProtection.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Extensions.ObjectPool.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Extensions.Options.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Extensions.WebEncoders.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Owin.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Owin.Security.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Newtonsoft.Json.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Owin.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\PagedList.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\PagedList.Mvc.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\RestSharp.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\System.Buffers.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\System.Net.Http.Extensions.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\System.Net.Http.Formatting.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\System.Net.Http.Primitives.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\System.Text.Encodings.Web.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\System.Web.Helpers.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\System.Web.Http.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\System.Web.Http.WebHost.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\System.Web.Mvc.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\System.Web.Optimization.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\System.Web.Razor.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\System.Web.WebPages.Deployment.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\System.Web.WebPages.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\System.Web.WebPages.Razor.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\WebGrease.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Antlr3.Runtime.pdb
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Facebook.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Mailgun.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.Authentication.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.Authentication.Facebook.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.Authentication.OAuth.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.DataProtection.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Extensions.ObjectPool.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Extensions.Options.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Extensions.WebEncoders.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Newtonsoft.Json.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\PagedList.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\PagedList.Mvc.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\RestSharp.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\System.Net.Http.Extensions.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\System.Net.Http.Formatting.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\System.Net.Http.Primitives.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\System.Text.Encodings.Web.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\System.Web.Http.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\System.Web.Http.WebHost.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\System.Web.Helpers.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\System.Web.Mvc.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\System.Web.Optimization.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\System.Web.Razor.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\System.Web.WebPages.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\System.Web.WebPages.Deployment.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\System.Web.WebPages.Razor.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\EntityFramework.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\EntityFramework.SqlServer.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Owin.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Owin.Security.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.csproj.App.config
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.csprojResolveAssemblyReference.cache
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.initialize.resources
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.ReviewPlace.resources
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.City.resources
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.City1.resources
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.ReviewCostStar.resources
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.DropLocations.resources
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.Geolocations.resources
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.ReviewPlaceIDFK.resources
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.ReviewNullPlaceID.resources
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.DropGeoLocations.resources
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.UserSP.resources
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.UserProfileSP.resources
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.StoredProcedures.resources
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.PhotoSelectSP.resources
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.PlaceLatLng.resources
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.PastLocalETC.resources
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.PlaceInsert.resources
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.RemoveDateCover.resources
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.PrivateProfile.resources
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.Messages.resources
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.RelationshipSP.resources
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.addFlaggedImages.resources
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.facebookPlaces.resources
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.WallpaperEnumType.resources
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.Notifications.resources
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.isreadNotificationsFlag.resources
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.NotificationDataFlag.resources
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.ImageLike.resources
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.AddImageLikeFixLocal.resources
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.csproj.GenerateResource.Cache
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.csproj.CoreCompileInputs.cache
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.dll
+C:\Users\bigch\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.pdb
+F:\LiveProject\Bewander\bin\roslyn\csc.exe
+F:\LiveProject\Bewander\bin\roslyn\csc.exe.config
+F:\LiveProject\Bewander\bin\roslyn\csc.rsp
+F:\LiveProject\Bewander\bin\roslyn\csi.exe
+F:\LiveProject\Bewander\bin\roslyn\csi.rsp
+F:\LiveProject\Bewander\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\LiveProject\Bewander\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\LiveProject\Bewander\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\LiveProject\Bewander\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\LiveProject\Bewander\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\LiveProject\Bewander\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\LiveProject\Bewander\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\LiveProject\Bewander\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\LiveProject\Bewander\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\LiveProject\Bewander\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\LiveProject\Bewander\bin\roslyn\System.AppContext.dll
+F:\LiveProject\Bewander\bin\roslyn\System.Collections.Immutable.dll
+F:\LiveProject\Bewander\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\LiveProject\Bewander\bin\roslyn\System.IO.FileSystem.dll
+F:\LiveProject\Bewander\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\LiveProject\Bewander\bin\roslyn\System.Reflection.Metadata.dll
+F:\LiveProject\Bewander\bin\roslyn\vbc.exe
+F:\LiveProject\Bewander\bin\roslyn\vbc.exe.config
+F:\LiveProject\Bewander\bin\roslyn\vbc.rsp
+F:\LiveProject\Bewander\bin\roslyn\VBCSCompiler.exe
+F:\LiveProject\Bewander\bin\roslyn\VBCSCompiler.exe.config
+F:\LiveProject\Bewander\bin\Bewander.dll.config
+F:\LiveProject\Bewander\bin\Bewander.dll
+F:\LiveProject\Bewander\bin\Bewander.pdb
+F:\LiveProject\Bewander\bin\Antlr3.Runtime.dll
+F:\LiveProject\Bewander\bin\EntityFramework.dll
+F:\LiveProject\Bewander\bin\EntityFramework.SqlServer.dll
+F:\LiveProject\Bewander\bin\Facebook.dll
+F:\LiveProject\Bewander\bin\Mailgun.dll
+F:\LiveProject\Bewander\bin\Microsoft.AspNet.Identity.Core.dll
+F:\LiveProject\Bewander\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\LiveProject\Bewander\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\LiveProject\Bewander\bin\Microsoft.AspNet.SignalR.Core.dll
+F:\LiveProject\Bewander\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+F:\LiveProject\Bewander\bin\Microsoft.AspNetCore.Authentication.dll
+F:\LiveProject\Bewander\bin\Microsoft.AspNetCore.Authentication.Facebook.dll
+F:\LiveProject\Bewander\bin\Microsoft.AspNetCore.Authentication.OAuth.dll
+F:\LiveProject\Bewander\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
+F:\LiveProject\Bewander\bin\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+F:\LiveProject\Bewander\bin\Microsoft.AspNetCore.DataProtection.dll
+F:\LiveProject\Bewander\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+F:\LiveProject\Bewander\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+F:\LiveProject\Bewander\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+F:\LiveProject\Bewander\bin\Microsoft.AspNetCore.Http.dll
+F:\LiveProject\Bewander\bin\Microsoft.AspNetCore.Http.Extensions.dll
+F:\LiveProject\Bewander\bin\Microsoft.AspNetCore.Http.Features.dll
+F:\LiveProject\Bewander\bin\Microsoft.AspNetCore.WebUtilities.dll
+F:\LiveProject\Bewander\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\LiveProject\Bewander\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\LiveProject\Bewander\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\LiveProject\Bewander\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+F:\LiveProject\Bewander\bin\Microsoft.Extensions.Logging.Abstractions.dll
+F:\LiveProject\Bewander\bin\Microsoft.Extensions.ObjectPool.dll
+F:\LiveProject\Bewander\bin\Microsoft.Extensions.Options.dll
+F:\LiveProject\Bewander\bin\Microsoft.Extensions.Primitives.dll
+F:\LiveProject\Bewander\bin\Microsoft.Extensions.WebEncoders.dll
+F:\LiveProject\Bewander\bin\Microsoft.Net.Http.Headers.dll
+F:\LiveProject\Bewander\bin\Microsoft.Owin.dll
+F:\LiveProject\Bewander\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\LiveProject\Bewander\bin\Microsoft.Owin.Security.Cookies.dll
+F:\LiveProject\Bewander\bin\Microsoft.Owin.Security.dll
+F:\LiveProject\Bewander\bin\Microsoft.Owin.Security.Facebook.dll
+F:\LiveProject\Bewander\bin\Microsoft.Owin.Security.Google.dll
+F:\LiveProject\Bewander\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\LiveProject\Bewander\bin\Microsoft.Owin.Security.OAuth.dll
+F:\LiveProject\Bewander\bin\Microsoft.Owin.Security.Twitter.dll
+F:\LiveProject\Bewander\bin\Microsoft.Web.Infrastructure.dll
+F:\LiveProject\Bewander\bin\Newtonsoft.Json.dll
+F:\LiveProject\Bewander\bin\Owin.dll
+F:\LiveProject\Bewander\bin\PagedList.dll
+F:\LiveProject\Bewander\bin\PagedList.Mvc.dll
+F:\LiveProject\Bewander\bin\RestSharp.dll
+F:\LiveProject\Bewander\bin\System.Buffers.dll
+F:\LiveProject\Bewander\bin\System.Net.Http.Extensions.dll
+F:\LiveProject\Bewander\bin\System.Net.Http.Formatting.dll
+F:\LiveProject\Bewander\bin\System.Net.Http.Primitives.dll
+F:\LiveProject\Bewander\bin\System.Runtime.CompilerServices.Unsafe.dll
+F:\LiveProject\Bewander\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\LiveProject\Bewander\bin\System.Text.Encodings.Web.dll
+F:\LiveProject\Bewander\bin\System.Web.Helpers.dll
+F:\LiveProject\Bewander\bin\System.Web.Http.dll
+F:\LiveProject\Bewander\bin\System.Web.Http.WebHost.dll
+F:\LiveProject\Bewander\bin\System.Web.Mvc.dll
+F:\LiveProject\Bewander\bin\System.Web.Optimization.dll
+F:\LiveProject\Bewander\bin\System.Web.Razor.dll
+F:\LiveProject\Bewander\bin\System.Web.WebPages.Deployment.dll
+F:\LiveProject\Bewander\bin\System.Web.WebPages.dll
+F:\LiveProject\Bewander\bin\System.Web.WebPages.Razor.dll
+F:\LiveProject\Bewander\bin\WebGrease.dll
+F:\LiveProject\Bewander\bin\Antlr3.Runtime.pdb
+F:\LiveProject\Bewander\bin\Facebook.xml
+F:\LiveProject\Bewander\bin\Mailgun.xml
+F:\LiveProject\Bewander\bin\Microsoft.AspNet.SignalR.Core.xml
+F:\LiveProject\Bewander\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+F:\LiveProject\Bewander\bin\Microsoft.AspNetCore.Authentication.xml
+F:\LiveProject\Bewander\bin\Microsoft.AspNetCore.Authentication.Facebook.xml
+F:\LiveProject\Bewander\bin\Microsoft.AspNetCore.Authentication.OAuth.xml
+F:\LiveProject\Bewander\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
+F:\LiveProject\Bewander\bin\Microsoft.AspNetCore.DataProtection.xml
+F:\LiveProject\Bewander\bin\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+F:\LiveProject\Bewander\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+F:\LiveProject\Bewander\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+F:\LiveProject\Bewander\bin\Microsoft.AspNetCore.Http.xml
+F:\LiveProject\Bewander\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+F:\LiveProject\Bewander\bin\Microsoft.AspNetCore.Http.Extensions.xml
+F:\LiveProject\Bewander\bin\Microsoft.AspNetCore.Http.Features.xml
+F:\LiveProject\Bewander\bin\Microsoft.AspNetCore.WebUtilities.xml
+F:\LiveProject\Bewander\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\LiveProject\Bewander\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+F:\LiveProject\Bewander\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+F:\LiveProject\Bewander\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+F:\LiveProject\Bewander\bin\Microsoft.Extensions.Logging.Abstractions.xml
+F:\LiveProject\Bewander\bin\Microsoft.Extensions.ObjectPool.xml
+F:\LiveProject\Bewander\bin\Microsoft.Extensions.Options.xml
+F:\LiveProject\Bewander\bin\Microsoft.Extensions.Primitives.xml
+F:\LiveProject\Bewander\bin\Microsoft.Extensions.WebEncoders.xml
+F:\LiveProject\Bewander\bin\Microsoft.Net.Http.Headers.xml
+F:\LiveProject\Bewander\bin\Newtonsoft.Json.xml
+F:\LiveProject\Bewander\bin\PagedList.xml
+F:\LiveProject\Bewander\bin\PagedList.Mvc.xml
+F:\LiveProject\Bewander\bin\RestSharp.xml
+F:\LiveProject\Bewander\bin\System.Net.Http.Extensions.xml
+F:\LiveProject\Bewander\bin\System.Net.Http.Formatting.xml
+F:\LiveProject\Bewander\bin\System.Net.Http.Primitives.xml
+F:\LiveProject\Bewander\bin\System.Runtime.CompilerServices.Unsafe.xml
+F:\LiveProject\Bewander\bin\System.Text.Encodings.Web.xml
+F:\LiveProject\Bewander\bin\System.Web.Http.xml
+F:\LiveProject\Bewander\bin\System.Web.Http.WebHost.xml
+F:\LiveProject\Bewander\bin\System.Web.Helpers.xml
+F:\LiveProject\Bewander\bin\System.Web.Mvc.xml
+F:\LiveProject\Bewander\bin\System.Web.Optimization.xml
+F:\LiveProject\Bewander\bin\System.Web.Razor.xml
+F:\LiveProject\Bewander\bin\System.Web.WebPages.xml
+F:\LiveProject\Bewander\bin\System.Web.WebPages.Deployment.xml
+F:\LiveProject\Bewander\bin\System.Web.WebPages.Razor.xml
+F:\LiveProject\Bewander\bin\EntityFramework.xml
+F:\LiveProject\Bewander\bin\EntityFramework.SqlServer.xml
+F:\LiveProject\Bewander\bin\Microsoft.AspNet.Identity.Core.xml
+F:\LiveProject\Bewander\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\LiveProject\Bewander\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\LiveProject\Bewander\bin\Microsoft.Owin.xml
+F:\LiveProject\Bewander\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\LiveProject\Bewander\bin\Microsoft.Owin.Security.xml
+F:\LiveProject\Bewander\bin\Microsoft.Owin.Security.Facebook.xml
+F:\LiveProject\Bewander\bin\Microsoft.Owin.Security.Cookies.xml
+F:\LiveProject\Bewander\bin\Microsoft.Owin.Security.OAuth.xml
+F:\LiveProject\Bewander\bin\Microsoft.Owin.Security.Google.xml
+F:\LiveProject\Bewander\bin\Microsoft.Owin.Security.Twitter.xml
+F:\LiveProject\Bewander\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\LiveProject\Bewander\obj\Debug\Bewander.csproj.App.config
+F:\LiveProject\Bewander\obj\Debug\Bewander.csprojResolveAssemblyReference.cache
+F:\LiveProject\Bewander\obj\Debug\Bewander.Migrations.initialize.resources
+F:\LiveProject\Bewander\obj\Debug\Bewander.Migrations.ReviewPlace.resources
+F:\LiveProject\Bewander\obj\Debug\Bewander.Migrations.City.resources
+F:\LiveProject\Bewander\obj\Debug\Bewander.Migrations.City1.resources
+F:\LiveProject\Bewander\obj\Debug\Bewander.Migrations.ReviewCostStar.resources
+F:\LiveProject\Bewander\obj\Debug\Bewander.Migrations.DropLocations.resources
+F:\LiveProject\Bewander\obj\Debug\Bewander.Migrations.Geolocations.resources
+F:\LiveProject\Bewander\obj\Debug\Bewander.Migrations.ReviewPlaceIDFK.resources
+F:\LiveProject\Bewander\obj\Debug\Bewander.Migrations.ReviewNullPlaceID.resources
+F:\LiveProject\Bewander\obj\Debug\Bewander.Migrations.DropGeoLocations.resources
+F:\LiveProject\Bewander\obj\Debug\Bewander.Migrations.UserSP.resources
+F:\LiveProject\Bewander\obj\Debug\Bewander.Migrations.UserProfileSP.resources
+F:\LiveProject\Bewander\obj\Debug\Bewander.Migrations.StoredProcedures.resources
+F:\LiveProject\Bewander\obj\Debug\Bewander.Migrations.PhotoSelectSP.resources
+F:\LiveProject\Bewander\obj\Debug\Bewander.Migrations.PlaceLatLng.resources
+F:\LiveProject\Bewander\obj\Debug\Bewander.Migrations.PastLocalETC.resources
+F:\LiveProject\Bewander\obj\Debug\Bewander.Migrations.PlaceInsert.resources
+F:\LiveProject\Bewander\obj\Debug\Bewander.Migrations.RemoveDateCover.resources
+F:\LiveProject\Bewander\obj\Debug\Bewander.Migrations.PrivateProfile.resources
+F:\LiveProject\Bewander\obj\Debug\Bewander.Migrations.Messages.resources
+F:\LiveProject\Bewander\obj\Debug\Bewander.Migrations.RelationshipSP.resources
+F:\LiveProject\Bewander\obj\Debug\Bewander.Migrations.addFlaggedImages.resources
+F:\LiveProject\Bewander\obj\Debug\Bewander.Migrations.facebookPlaces.resources
+F:\LiveProject\Bewander\obj\Debug\Bewander.Migrations.WallpaperEnumType.resources
+F:\LiveProject\Bewander\obj\Debug\Bewander.Migrations.Notifications.resources
+F:\LiveProject\Bewander\obj\Debug\Bewander.Migrations.isreadNotificationsFlag.resources
+F:\LiveProject\Bewander\obj\Debug\Bewander.Migrations.NotificationDataFlag.resources
+F:\LiveProject\Bewander\obj\Debug\Bewander.Migrations.ImageLike.resources
+F:\LiveProject\Bewander\obj\Debug\Bewander.Migrations.AddImageLikeFixLocal.resources
+F:\LiveProject\Bewander\obj\Debug\Bewander.csproj.GenerateResource.Cache
+F:\LiveProject\Bewander\obj\Debug\Bewander.csproj.CoreCompileInputs.cache
+F:\LiveProject\Bewander\obj\Debug\Bewander.dll
+F:\LiveProject\Bewander\obj\Debug\Bewander.pdb
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\roslyn\csc.exe
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\roslyn\csc.exe.config
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\roslyn\csc.rsp
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\roslyn\csi.exe
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\roslyn\csi.rsp
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\roslyn\System.AppContext.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\roslyn\vbc.exe
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\roslyn\vbc.exe.config
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\roslyn\vbc.rsp
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\roslyn\VBCSCompiler.exe
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Bewander.dll.config
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Bewander.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Bewander.pdb
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Antlr3.Runtime.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\EntityFramework.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\EntityFramework.SqlServer.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Facebook.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Mailgun.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.AspNetCore.Authentication.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.AspNetCore.Authentication.Facebook.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.AspNetCore.Authentication.OAuth.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.AspNetCore.DataProtection.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.Extensions.ObjectPool.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.Extensions.Options.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.Extensions.WebEncoders.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.Owin.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.Owin.Security.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Newtonsoft.Json.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Owin.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\PagedList.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\PagedList.Mvc.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\RestSharp.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\System.Buffers.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\System.Net.Http.Extensions.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\System.Net.Http.Formatting.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\System.Net.Http.Primitives.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\System.Text.Encodings.Web.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\System.Web.Helpers.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\System.Web.Http.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\System.Web.Http.WebHost.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\System.Web.Mvc.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\System.Web.Optimization.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\System.Web.Razor.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\System.Web.WebPages.Deployment.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\System.Web.WebPages.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\System.Web.WebPages.Razor.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\WebGrease.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Antlr3.Runtime.pdb
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Facebook.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Mailgun.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.AspNetCore.Authentication.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.AspNetCore.Authentication.Facebook.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.AspNetCore.Authentication.OAuth.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.AspNetCore.DataProtection.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.Extensions.ObjectPool.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.Extensions.Options.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.Extensions.WebEncoders.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Newtonsoft.Json.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\PagedList.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\PagedList.Mvc.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\RestSharp.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\System.Net.Http.Extensions.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\System.Net.Http.Formatting.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\System.Net.Http.Primitives.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\System.Text.Encodings.Web.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\System.Web.Http.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\System.Web.Http.WebHost.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\System.Web.Helpers.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\System.Web.Mvc.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\System.Web.Optimization.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\System.Web.Razor.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\System.Web.WebPages.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\System.Web.WebPages.Deployment.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\System.Web.WebPages.Razor.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\EntityFramework.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\EntityFramework.SqlServer.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.Owin.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.Owin.Security.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\obj\Debug\Bewander.csproj.App.config
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\obj\Debug\Bewander.csprojResolveAssemblyReference.cache
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\obj\Debug\Bewander.Migrations.initialize.resources
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\obj\Debug\Bewander.Migrations.ReviewPlace.resources
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\obj\Debug\Bewander.Migrations.City.resources
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\obj\Debug\Bewander.Migrations.City1.resources
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\obj\Debug\Bewander.Migrations.ReviewCostStar.resources
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\obj\Debug\Bewander.Migrations.DropLocations.resources
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\obj\Debug\Bewander.Migrations.Geolocations.resources
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\obj\Debug\Bewander.Migrations.ReviewPlaceIDFK.resources
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\obj\Debug\Bewander.Migrations.ReviewNullPlaceID.resources
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\obj\Debug\Bewander.Migrations.DropGeoLocations.resources
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\obj\Debug\Bewander.Migrations.UserSP.resources
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\obj\Debug\Bewander.Migrations.UserProfileSP.resources
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\obj\Debug\Bewander.Migrations.StoredProcedures.resources
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\obj\Debug\Bewander.Migrations.PhotoSelectSP.resources
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\obj\Debug\Bewander.Migrations.PlaceLatLng.resources
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\obj\Debug\Bewander.Migrations.PastLocalETC.resources
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\obj\Debug\Bewander.Migrations.PlaceInsert.resources
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\obj\Debug\Bewander.Migrations.RemoveDateCover.resources
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\obj\Debug\Bewander.Migrations.PrivateProfile.resources
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\obj\Debug\Bewander.Migrations.Messages.resources
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\obj\Debug\Bewander.Migrations.RelationshipSP.resources
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\obj\Debug\Bewander.Migrations.addFlaggedImages.resources
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\obj\Debug\Bewander.Migrations.facebookPlaces.resources
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\obj\Debug\Bewander.Migrations.WallpaperEnumType.resources
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\obj\Debug\Bewander.Migrations.Notifications.resources
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\obj\Debug\Bewander.Migrations.isreadNotificationsFlag.resources
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\obj\Debug\Bewander.Migrations.NotificationDataFlag.resources
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\obj\Debug\Bewander.Migrations.ImageLike.resources
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\obj\Debug\Bewander.Migrations.AddImageLikeFixLocal.resources
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\obj\Debug\Bewander.csproj.GenerateResource.Cache
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\obj\Debug\Bewander.csproj.CoreCompileInputs.cache
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\obj\Debug\Bewander.dll
+C:\Users\shell\Documents\Visual Studio 2017\Bewander\Bewander\obj\Debug\Bewander.pdb
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\roslyn\csc.exe
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\roslyn\csc.exe.config
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\roslyn\csc.rsp
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\roslyn\csi.exe
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\roslyn\csi.rsp
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\roslyn\System.AppContext.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\roslyn\vbc.exe
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\roslyn\vbc.exe.config
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\roslyn\vbc.rsp
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\roslyn\VBCSCompiler.exe
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Bewander.dll.config
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Bewander.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Bewander.pdb
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Antlr3.Runtime.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\EntityFramework.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\EntityFramework.SqlServer.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Facebook.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Mailgun.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.AspNetCore.Authentication.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.AspNetCore.Authentication.Facebook.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.AspNetCore.Authentication.OAuth.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.AspNetCore.DataProtection.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.Extensions.ObjectPool.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.Extensions.Options.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.Extensions.WebEncoders.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.Owin.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.Owin.Security.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Newtonsoft.Json.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Owin.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\PagedList.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\PagedList.Mvc.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\RestSharp.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\System.Buffers.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\System.Net.Http.Extensions.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\System.Net.Http.Formatting.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\System.Net.Http.Primitives.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\System.Text.Encodings.Web.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\System.Web.Helpers.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\System.Web.Http.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\System.Web.Http.WebHost.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\System.Web.Mvc.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\System.Web.Optimization.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\System.Web.Razor.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\System.Web.WebPages.Deployment.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\System.Web.WebPages.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\System.Web.WebPages.Razor.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\WebGrease.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Antlr3.Runtime.pdb
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Facebook.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Mailgun.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.AspNetCore.Authentication.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.AspNetCore.Authentication.Facebook.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.AspNetCore.Authentication.OAuth.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.AspNetCore.DataProtection.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.Extensions.ObjectPool.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.Extensions.Options.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.Extensions.WebEncoders.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Newtonsoft.Json.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\PagedList.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\PagedList.Mvc.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\RestSharp.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\System.Net.Http.Extensions.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\System.Net.Http.Formatting.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\System.Net.Http.Primitives.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\System.Text.Encodings.Web.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\System.Web.Http.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\System.Web.Http.WebHost.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\System.Web.Helpers.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\System.Web.Mvc.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\System.Web.Optimization.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\System.Web.Razor.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\System.Web.WebPages.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\System.Web.WebPages.Deployment.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\System.Web.WebPages.Razor.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\EntityFramework.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\EntityFramework.SqlServer.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.Owin.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.Owin.Security.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\obj\Debug\Bewander.csproj.App.config
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\obj\Debug\Bewander.csprojResolveAssemblyReference.cache
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\obj\Debug\Bewander.Migrations.initialize.resources
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\obj\Debug\Bewander.Migrations.ReviewPlace.resources
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\obj\Debug\Bewander.Migrations.City.resources
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\obj\Debug\Bewander.Migrations.City1.resources
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\obj\Debug\Bewander.Migrations.ReviewCostStar.resources
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\obj\Debug\Bewander.Migrations.DropLocations.resources
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\obj\Debug\Bewander.Migrations.Geolocations.resources
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\obj\Debug\Bewander.Migrations.ReviewPlaceIDFK.resources
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\obj\Debug\Bewander.Migrations.ReviewNullPlaceID.resources
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\obj\Debug\Bewander.Migrations.DropGeoLocations.resources
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\obj\Debug\Bewander.Migrations.UserSP.resources
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\obj\Debug\Bewander.Migrations.UserProfileSP.resources
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\obj\Debug\Bewander.Migrations.StoredProcedures.resources
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\obj\Debug\Bewander.Migrations.PhotoSelectSP.resources
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\obj\Debug\Bewander.Migrations.PlaceLatLng.resources
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\obj\Debug\Bewander.Migrations.PastLocalETC.resources
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\obj\Debug\Bewander.Migrations.PlaceInsert.resources
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\obj\Debug\Bewander.Migrations.RemoveDateCover.resources
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\obj\Debug\Bewander.Migrations.PrivateProfile.resources
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\obj\Debug\Bewander.Migrations.Messages.resources
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\obj\Debug\Bewander.Migrations.RelationshipSP.resources
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\obj\Debug\Bewander.Migrations.addFlaggedImages.resources
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\obj\Debug\Bewander.Migrations.facebookPlaces.resources
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\obj\Debug\Bewander.Migrations.WallpaperEnumType.resources
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\obj\Debug\Bewander.Migrations.Notifications.resources
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\obj\Debug\Bewander.Migrations.isreadNotificationsFlag.resources
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\obj\Debug\Bewander.Migrations.NotificationDataFlag.resources
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\obj\Debug\Bewander.Migrations.ImageLike.resources
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\obj\Debug\Bewander.Migrations.AddImageLikeFixLocal.resources
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\obj\Debug\Bewander.csproj.GenerateResource.Cache
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\obj\Debug\Bewander.csproj.CoreCompileInputs.cache
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\obj\Debug\Bewander.dll
+C:\Users\isaiah goodrich\Desktop\projects\Bewander\Bewander\obj\Debug\Bewander.pdb
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\roslyn\csc.exe
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\roslyn\csc.exe.config
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\roslyn\csc.rsp
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\roslyn\csi.exe
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\roslyn\csi.rsp
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\roslyn\System.AppContext.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\roslyn\vbc.exe
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\roslyn\vbc.exe.config
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\roslyn\vbc.rsp
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\roslyn\VBCSCompiler.exe
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Bewander.dll.config
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Bewander.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Bewander.pdb
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Antlr3.Runtime.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\EntityFramework.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\EntityFramework.SqlServer.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Facebook.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Mailgun.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.Authentication.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.Authentication.Facebook.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.Authentication.OAuth.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.DataProtection.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Extensions.ObjectPool.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Extensions.Options.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Extensions.WebEncoders.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Owin.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Owin.Security.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Newtonsoft.Json.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Owin.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\PagedList.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\PagedList.Mvc.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\RestSharp.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\System.Buffers.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\System.Net.Http.Extensions.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\System.Net.Http.Formatting.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\System.Net.Http.Primitives.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\System.Text.Encodings.Web.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\System.Web.Helpers.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\System.Web.Http.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\System.Web.Http.WebHost.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\System.Web.Mvc.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\System.Web.Optimization.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\System.Web.Razor.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\System.Web.WebPages.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\System.Web.WebPages.Razor.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\WebGrease.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Antlr3.Runtime.pdb
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Facebook.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Mailgun.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.Authentication.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.Authentication.Facebook.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.Authentication.OAuth.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.DataProtection.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Extensions.ObjectPool.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Extensions.Options.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Extensions.WebEncoders.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Newtonsoft.Json.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\PagedList.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\PagedList.Mvc.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\RestSharp.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\System.Net.Http.Extensions.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\System.Net.Http.Formatting.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\System.Net.Http.Primitives.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\System.Text.Encodings.Web.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\System.Web.Http.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\System.Web.Http.WebHost.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\System.Web.Helpers.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\System.Web.Mvc.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\System.Web.Optimization.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\System.Web.Razor.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\System.Web.WebPages.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\System.Web.WebPages.Razor.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\EntityFramework.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\EntityFramework.SqlServer.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Owin.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Owin.Security.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.csproj.App.config
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.csprojResolveAssemblyReference.cache
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.initialize.resources
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.ReviewPlace.resources
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.City.resources
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.City1.resources
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.ReviewCostStar.resources
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.DropLocations.resources
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.Geolocations.resources
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.ReviewPlaceIDFK.resources
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.ReviewNullPlaceID.resources
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.DropGeoLocations.resources
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.UserSP.resources
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.UserProfileSP.resources
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.StoredProcedures.resources
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.PhotoSelectSP.resources
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.PlaceLatLng.resources
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.PastLocalETC.resources
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.PlaceInsert.resources
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.RemoveDateCover.resources
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.PrivateProfile.resources
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.Messages.resources
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.RelationshipSP.resources
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.addFlaggedImages.resources
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.facebookPlaces.resources
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.WallpaperEnumType.resources
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.Notifications.resources
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.isreadNotificationsFlag.resources
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.NotificationDataFlag.resources
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.ImageLike.resources
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.AddImageLikeFixLocal.resources
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.Migrations.NewFix.resources
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.csproj.GenerateResource.Cache
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.csproj.CoreCompileInputs.cache
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.dll
+C:\Users\Zach\Source\Workspaces\Bewander\Bewander\obj\Debug\Bewander.pdb

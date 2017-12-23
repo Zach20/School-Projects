@@ -1,0 +1,140 @@
+﻿@model IEnumerable<Bewander.ViewModels.ReviewViewModel>
+
+@if ((string)(Session["Reviews"]) == "self")
+{
+<div class="tab-pane " id="reviews" role="tabpanel">	
+
+		<div class="row">
+			<div class="col-12 newReviewButton">
+				@if ((string)(Session["Reviews"]) == "self")
+				{
+					@Html.ActionLink("Write A Review", "Create", "Reviews", null, new {@class="btn btn-default newReviewButton"})
+				}
+			</div>
+
+			<div class="col-12">
+
+				@foreach (var item in Model)
+				{
+					<div class="card card-outline-success mb-3">
+                        <div class="card-header">
+                            <img class="publicImages img-thumbnail user-photos" src="~/Images/@item.ReviewPicturePath" alt="Posted_Picture" />
+                            <h3 class="poop">@Html.ActionLink(item.PlaceName, "DisplayReviews", "Reviews", new { item.PlaceID }, null)</h3>
+                            <p>@Stars(item.StarRating)</p>
+                            <p class="paddingMoney">
+                                @for (int i = 0; i < item.CostRating; i++)
+        {
+                        <i class="fa fa-usd dollar-icon"></i>
+}
+                            </p>
+
+
+
+                            <p class="card-header"><i class="fa fa-map-marker" aria-hidden="true"></i> @item.City, @item.State, @item.Country</p>
+                        </div>
+						<div class="card-block">
+							<h4 class="card-title"><span><i class="fa fa-quote-left" aria-hidden="true"></i></span> @Html.DisplayFor(modelItem => item.Title)<span><i class="fa fa-quote-right" aria-hidden="true"></i></span></h4>
+							<p class="card-text">@Html.DisplayFor(modelItem => item.Body) </p>
+						</div>
+						<div class="card-footer text-muted">
+							<p>@Html.DisplayFor(modelItem => item.DatePosted)</p>
+						</div>
+					</div>
+				}
+			</div>
+
+		</div>
+	</div>
+}
+else
+{
+
+	<div class="tab-pane" id="reviews" role="tabpanel">
+
+		<div class="row">
+			<div class="col-12 newReviewButton">
+				@if ((string)(Session["Reviews"]) == "self")
+				{
+					<a href="#" class="btn btn-outline-success">@Html.ActionLink("Write A Review", "Create", "Reviews")</a>
+				}
+			</div>
+
+			<div class="col-12">
+
+				@foreach (var item in Model)
+				{
+					<div class="card card-outline-success mb-3">
+                        <div class="card-header">
+                            <img class="publicImages img-thumbnail user-photos" src="~/Images/@item.ReviewPicturePath" alt="Posted_Picture" />
+                            <h3 class="poop">@Html.ActionLink(item.PlaceName, "DisplayReviews", "Reviews", new { item.PlaceID }, null)</h3>
+                            <p>@Stars(item.StarRating)</p>
+                            <p class="paddingMoney">
+                                @for (int i = 0; i < item.CostRating; i++)
+        {
+                        <i class="fa fa-usd dollar-icon"></i>
+}
+                            </p>
+
+
+
+                            <p class="card-header"><i class="fa fa-map-marker" aria-hidden="true"></i> @item.City, @item.State, @item.Country</p>
+                        </div>
+						<div class="card-block">
+							<h4 class="card-title"><span><i class="fa fa-quote-left" aria-hidden="true"></i></span> @Html.DisplayFor(modelItem => item.Title)<span><i class="fa fa-quote-right" aria-hidden="true"></i></span></h4>
+							<p class="card-text">@Html.DisplayFor(modelItem => item.Body) </p>
+						</div>
+						<div class="card-footer text-muted">
+							<p>@Html.DisplayFor(modelItem => item.DatePosted)</p>
+						</div>
+					</div>
+				}
+			</div>
+
+		</div>
+	</div>
+}
+
+
+
+
+
+
+
+<!-- C# Methods -->
+@helper Stars(int? StarRating)
+		{
+switch (StarRating)
+{
+	case 1:
+			<i class="fa fa-star-half-o star-icon"></i>
+		break;
+	case 3:
+			@StarCount(StarRating);
+		break;
+	case 5:
+			@StarCount(StarRating);
+		break;
+	case 7:
+			@StarCount(StarRating);
+		break;
+	case 9:
+			@StarCount(StarRating);
+		break;
+	default:
+		for (int i = 0; i < StarRating; i += 2)
+		{
+				<i class="fa fa-star star-icon"></i>
+		}
+		break;
+}
+
+}
+
+@helper StarCount(int? StarRating)
+		{
+for (int i = 0; i < StarRating - 1; i += 2)
+{
+		<i class="fa fa-star star-icon"></i>
+}
+	<i class="fa fa-star-half-o star-icon"></i>
+}

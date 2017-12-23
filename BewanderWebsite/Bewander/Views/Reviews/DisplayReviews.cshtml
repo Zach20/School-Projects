@@ -1,0 +1,193 @@
+﻿@model Bewander.Models.Place
+@{
+    ViewBag.Title = Model.Name.ToString() + "Reviews";
+    var sortList = new List<SelectListItem>
+    {
+        new SelectListItem {Text = "Most Recent", Value = "new", Selected = true },
+        new SelectListItem {Text = "Best Rated", Value = "best" },
+        new SelectListItem {Text = "Oldest", Value = "old" },
+        new SelectListItem {Text = "Worst Rated", Value = "worst" }
+    };
+}
+<br/>
+<br/>
+<div id="review-container" class="container">
+    <div class="row">
+        <div class="col-md-12 text-center review-header">
+            <header>@Model.Name.ToString()</header>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 place-details-container" id="details-container" style="display: inline-block; height:100%;">
+            @{
+                Html.RenderAction("PlaceDetails", "Reviews", Model.PlaceID);
+            }
+        </div>
+        <div class="col-md-8 summary" style="display:inline-block;">
+            <nav>
+                @{
+                @Html.ActionLink("Create New", "Create", null, new { @class="CreateNewBtn" })
+                @Html.DropDownList("sortOrder", sortList,null,new { @id = "most-recent" } )
+                    <h4 style="color: rgb(71,71,71);">See reviews from:</h4>
+                    
+                    @Html.RadioButton("userType", "local") @:Local
+                    @Html.RadioButton("userType", "traveler") @:Traveler
+                    @Html.RadioButton("userType", "both", true) @:Both
+                }
+            </nav>
+            <section id="reviewSum">
+                @{
+                        string selected = sortList.Where(x => x.Selected == true).FirstOrDefault().Value;
+                        string userType = selected;
+                        Html.RenderAction("_Summary", "Reviews", new { Model.PlaceID, selected, userType });
+                }
+            </section>
+        </div>
+    </div>
+</div>
+<script>
+    function reloadSummary() {
+        var selectedOrder = document.getElementById("sortOrder").val();
+        var selectedUserType = $('input[name=userType]:checked').val();
+        $.ajax({
+            type: "GET",
+            url: "/Reviews/_Summary?PlaceID=@Model.PlaceID" + "&selected=" + selectedOrder + "&userType=" + selectedUserType,
+            success: function (html) {
+                $("#reviewSum").html('').show();
+                $("#reviewSum").html(html).show();
+            }
+
+        });
+    }
+
+    $("#sortOrder").change(function () { reloadSummary() });
+    $('input[name=userType]').change(function () { reloadSummary() });
+</script>
+
+@*@foreach (var item in Model)
+{
+    <p>@item.Place</p>
+    <p>@item.Country</p>
+    <p>@item.State</p>
+    <p>@item.City</p>
+    <p>@item.Review.Title</p>
+    <p>@item.Review.Body</p>
+    <p>@item.Review.CostRating</p>
+    <p>@item.Review.StarRating</p>
+    <p>@item.Review.DatePosted</p>
+    <p>@item.Review.Local</p>
+    <p>@item.Review.SubjectID</p>
+    <p>@item.Review.Flag</p>
+    <p>@item.FirstName</p>
+    <p>@item.LastName</p>
+}*@
+
+
+
+
+
+ @*API Script 
+<script>
+// GET: googleID
+function getGoogleID() {
+    var googleID = document.getElementById("GoogleID").value;
+}
+
+var placeSearch, autocomplete;
+
+var componentForm = {
+    street_number: 'short_name',
+    route: 'long_name',
+    locality: 'long_name',
+    administrative_area_level_1: 'short_name',
+    country: 'long_name',
+    postal_code: 'short_name'
+};
+
+function fillInAddress() {
+    // Get the place details from the autocomplete object.
+    var place = autocomplete.getPlace();
+
+    // Get ID of the chosen place. This value will be saved into the Place Table as PlaceID.
+    var placeID = place.place_id;
+    document.getElementById("placeID").value = placeID;
+
+    // Get each component of the address from the place details
+    // and fill the corresponding field on the form.
+    for (var i = 0; i < place.address_components.length; i++) {
+        var addressType = place.address_components[i].types[0];
+        if (componentForm[addressType]) {
+            var val = place.address_components[i][componentForm[addressType]];
+            document.getElementById(addressType).value = val;
+        }
+    }
+}
+
+
+// Bias the autocomplete object to the user's geographical location,
+// as supplied by the browser's 'navigator.geolocation' object.
+function geolocate() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(function (position) {
+            var geolocation = {
+                lat: position.coords.latitude,
+                lng: position.coords.longitude
+            };
+            var circle = new google.maps.Circle({
+                center: geolocation,
+                radius: position.coords.accuracy
+            });
+            autocomplete.setBounds(circle.getBounds());
+        });
+    }
+}
+window.onload = getGoogleID();
+</script>*@
+
+<!--  'Review Successfully Submitted' pop-up box -->
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4>Success!</h4>
+            </div>
+            <div class="modal-body">
+                <img src="~/Images/Global/logo.png" style="width:200px" />
+                <h4> You sucessfully created a review. Thank you! </h4>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">What's the matter?</h4>
+                            </div>
+                            <div class="modal-body">
+                                <form action="">
+                                    <input type="radio" name="flagValue" value="1">This is offensive.<br>
+                                    <input type="radio" name="flagValue" value="2">This is spam.<br>
+                                    <input type="radio" name="flagValue" value="3"> Other
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Code to display the Success popup is inserted here by the controller -->
+@Html.Raw(ViewBag.showSuccess1)
+@Html.Raw(ViewBag.showSuccess2)
+ 

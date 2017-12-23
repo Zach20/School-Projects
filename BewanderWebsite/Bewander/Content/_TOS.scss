@@ -1,0 +1,15 @@
+#TOSviolations {
+    padding-bottom : 50px;
+}
+
+//prevent URL from breaking out of container
+.hyphenate {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+
+    /* Adds a hyphen where the word breaks, if supported */
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;   
+}
